@@ -1,0 +1,7 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+av. echenique con carlos ossandon s/n;metropolitana;La Reina;-3.344.196;-7.054.344;22;AC;7,4;4
+av. jorge alessandri 1347;metropolitana;La Reina;-3.346.254;-7.054.487;22;AC;22;2
+av. principe de gales 9200;metropolitana;La Reina;-3.344.154;-7.053.489;70;DC;60;3
+av. principe de gales con aguas claras s/n;metropolitana;La Reina;-3.343.937;-7.055.639;22;AC;7,4;4
+principe de gales 6803;metropolitana;La Reina;-3.343.876;-7.056.181;7,4;AC;7,4;1
+principe de gales 9140;metropolitana;La Reina;-3.344.127;-7.053.553;24;DC;24;4

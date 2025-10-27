@@ -1,0 +1,6 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+av. chamisero 10410;metropolitana;Colina;-3.330.688;-7.066.335;43,56;AC;22;2
+av. chicureo 2300;metropolitana;Colina;-332.855;-7.067.739;70;DC;60;3
+chicureo 99;metropolitana;Colina;-3.328.431;-7.068.088;7,4;AC;7,4;1
+colina sur 14600;metropolitana;Colina;-3.327.782;-706.278;70;DC;30;2
+ruta 5 norte km 27.5 s/n;metropolitana;Colina;-3.321.605;-7.076.698;72;AC;43;3

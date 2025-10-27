@@ -1,0 +1,5 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+"avda. libertador bernardo o""higgins frente al 4620";metropolitana;Estación Central;-3.345.627;-7.069.906;44;AC;22;2
+avenida libertador bernardo o´higgins 3470;metropolitana;Estación Central;-3.345.273;-7.068.224;7,4;AC;7,4;2
+ecuador 5140;metropolitana;Estación Central;-3.345.606;-7.070.501;70;DC;60;2
+enrique kirberg frente al 4;metropolitana;Estación Central;-3.345.024;-7.068.283;44;AC;22;2

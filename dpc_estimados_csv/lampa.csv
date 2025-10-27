@@ -1,0 +1,67 @@
+name,amenity,shop,building,leisure,comuna,lon,lat,tipo_osm,Zcap
+Carabineros,parking,,,,Lampa,-70.7611213,-33.2327638,parking,25
+Copec,fuel,,,,Lampa,-70.8534094,-33.30420089999999,fuel,10
+,parking,,,,Lampa,-70.758739,-33.28511309999998,parking,25
+Estacionamiento Club House Laguna Norte,parking,,,,Lampa,-70.7608444,-33.3280823,parking,25
+Shell,fuel,,,,Lampa,-70.8672117,-33.2938148,fuel,10
+Santa Isabel,,supermarket,,,Lampa,-70.746201,-33.323032100000006,supermarket,10
+Lider Express,,supermarket,,,Lampa,-70.7452562,-33.322985499999994,supermarket,10
+Enel X,charging_station,,,,Lampa,-70.7587981,-33.23683719999999,charging_station,30
+Club de Campo Lampa,,,,stadium,Lampa,-70.86708257128899,-33.29636115949397,stadium,20
+Privado,parking,,,,Lampa,-70.75921322290559,-33.3245866904151,parking,25
+,parking,,,,Lampa,-70.88915799075119,-33.27428147851939,parking,25
+Patio Valle Grande,,,retail,,Lampa,-70.7462294780305,-33.32305316884587,retail,6
+,parking,,,,Lampa,-70.74644662308619,-33.32354057698555,parking,25
+,,,commercial,,Lampa,-70.8071524718699,-33.234389455521445,commercial,10
+,,,commercial,,Lampa,-70.80712700000227,-33.23479220003015,commercial,10
+Supermercado Erbi,,supermarket,yes,,Lampa,-70.8071570201773,-33.234656852140105,supermarket,10
+,parking,,,,Lampa,-70.74144884050912,-33.32456041078973,parking,25
+Supermercado La Vuelta,,supermarket,yes,,Lampa,-70.76600663650322,-33.24317125545193,supermarket,10
+Ruta 5 Norte,fuel,,roof,,Lampa,-70.76735782559717,-33.240317164112994,fuel,10
+,,,commercial,,Lampa,-70.768534618646,-33.23819960611765,commercial,10
+,,,commercial,,Lampa,-70.811114068553,-33.238878611843354,commercial,10
+Supermercado Fancy,,supermarket,yes,,Lampa,-70.81354685000447,-33.227557250023985,supermarket,10
+Carnes Batuco Abarrotes Verduras,,,commercial,,Lampa,-70.80715825001374,-33.23243779998421,commercial,10
+El Nuevo Gringo,,supermarket,yes,,Lampa,-70.80686832286406,-33.23399971143508,supermarket,10
+,,,commercial,,Lampa,-70.77066778003085,-33.23221039446231,commercial,10
+,,,commercial,,Lampa,-70.77085972414402,-33.23188883671149,commercial,10
+,,,commercial,,Lampa,-70.77097345985804,-33.23148762999112,commercial,10
+,,,commercial,,Lampa,-70.77095899974323,-33.23164227654073,commercial,10
+,,,commercial,,Lampa,-70.80797794999846,-33.229248100011894,commercial,10
+Unimarc,,supermarket,yes,,Lampa,-70.80765320002047,-33.23178514999546,supermarket,10
+,,,commercial,,Lampa,-70.80760629071335,-33.23213663801334,commercial,10
+Copec,fuel,,roof,,Lampa,-70.74731135008243,-33.32391679991091,fuel,10
+Unimarc,,supermarket,yes,,Lampa,-70.86811347188613,-33.29383392250362,supermarket,10
+,parking,,,,Lampa,-70.76337860001273,-33.33089204999575,parking,25
+,parking,,,,Lampa,-70.85432891256362,-33.36701792996111,parking,25
+,parking,,,,Lampa,-70.85357169990162,-33.367024200004096,parking,25
+IKA Industrial,,,commercial,,Lampa,-70.7510885572627,-33.25954209383167,commercial,10
+,,,retail,,Lampa,-70.87689154387347,-33.28432092009661,retail,6
+SuperBodega aCuenta,,supermarket,yes,,Lampa,-70.87965394986286,-33.28416910030792,supermarket,10
+Super10,,supermarket,yes,,Lampa,-70.88096417701433,-33.28679231817515,supermarket,10
+,,,retail,,Lampa,-70.72527919932226,-33.31317030063951,retail,6
+Consultorio Doctor José Bauza Frau,hospital,,,,Lampa,-70.87536501648472,-33.27743525101307,hospital,6
+,parking,,,,Lampa,-70.73613781699586,-33.303677317802965,parking,25
+,parking,,,,Lampa,-70.73992779949064,-33.327258912498635,parking,25
+,parking,,,,Lampa,-70.74522766907344,-33.32389077731022,parking,25
+,,shopping_centre,retail,,Lampa,-70.87250474658269,-33.28412739497935,shopping_centre,13
+Aramco,fuel,,roof,,Lampa,-70.74423623930771,-33.323890206621655,fuel,10
+Espacio Valle Grande,,shopping_centre,retail,,Lampa,-70.74519687251487,-33.32325542356196,shopping_centre,13
+,,,retail,,Lampa,-70.878201899123,-33.283418126136375,retail,6
+,,,retail,,Lampa,-70.87842747969738,-33.283559539309195,retail,6
+,parking,,,,Lampa,-70.87912215085719,-33.28397932902675,parking,25
+,,,retail,,Lampa,-70.87713357191683,-33.28429211199363,retail,6
+,,,retail,,Lampa,-70.87713125827791,-33.28472364066949,retail,6
+,parking,,,,Lampa,-70.87689383300113,-33.28433214056282,parking,25
+Estacionamiento Restaurant Dragon City,parking,,,,Lampa,-70.74792471914995,-33.32381005407922,parking,25
+,,,office,,Lampa,-70.74750235003572,-33.32343730745041,office,8
+Centro Comercial Los Arrayanes,,,retail,,Lampa,-70.77004149998623,-33.33361145003091,retail,6
+,parking,,,,Lampa,-70.8722953536643,-33.2840608453944,parking,25
+,parking,,,,Lampa,-70.87535391995273,-33.286350047884014,parking,25
+Copec,fuel,,roof,,Lampa,-70.87039427297408,-33.282473258373265,fuel,10
+,parking,,,,Lampa,-70.74460809528422,-33.323492011925595,parking,25
+,parking,,,,Lampa,-70.7452928133438,-33.328964947405204,parking,25
+,,,office,,Lampa,-70.7327579537928,-33.30303109077094,office,8
+Copec,fuel,,,,Lampa,-70.80791101419155,-33.23822336774816,fuel,10
+,parking,,,,Lampa,-70.75605253439353,-33.32669796205776,parking,25
+,parking,,,,Lampa,-70.75521241319134,-33.32609592397114,parking,25

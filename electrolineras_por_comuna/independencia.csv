@@ -1,0 +1,6 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+av. fermin vivaceta 1030;metropolitana;Independencia;-334.187;-7.066.372;70;DC;60;2
+avenida independencia 397;metropolitana;Independencia;-3.342.653;-706.542;7,4;AC;7,4;2
+enrique soros 1070;metropolitana;Independencia;-3.341.796;-7.067.166;44;AC;22;2
+independencia 565;metropolitana;Independencia;-3.342.463;-7.065.481;14;AC;7;2
+profesor zanartu 1130;metropolitana;Independencia;-3.341.782;-7.065.446;44;AC;22;2

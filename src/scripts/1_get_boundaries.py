@@ -47,11 +47,24 @@ gdf_comunas_final = gpd.sjoin(gdf_comunas_limpias, gdf_region[['geometry']], how
 
 # Limpiamos columnas finales
 gdf_comunas_final = gdf_comunas_final[["name", "geometry"]].drop_duplicates(subset=["name"])
+import os
+import unicodedata
+def normalizar_nombre(nombre):
+    base, ext = os.path.splitext(nombre)
+    base = base.lower()
+    base = base.replace('ñ', 'n')
+    base = ''.join((c for c in unicodedata.normalize('NFD', base) if unicodedata.category(c) != 'Mn'))
+    base = base.replace(' ', '_').replace('-', '_')
+    while '__' in base:
+        base = base.replace('__', '_')
+    base = base.strip('_')
+    return base + ext
 print(f"Filtro final: {len(gdf_comunas_final)} comunas limpias encontradas DENTRO de la RM.")
 
 # --- 5. Guardar ---
 if not gdf_comunas_final.empty:
-    gdf_comunas_final.to_file(output_file, driver="GPKG")
-    print(f"\n¡Éxito! Molde de comunas limpias guardado en '{output_file}'")
+    output_file_norm = normalizar_nombre(output_file)
+    gdf_comunas_final.to_file(output_file_norm, driver="GPKG")
+    print(f"\n¡Éxito! Molde de comunas limpias guardado en '{output_file_norm}'")
 else:
     print("\nError: No se encontró ninguna comuna. Revisa los filtros.")

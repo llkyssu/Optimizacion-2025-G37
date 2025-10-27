@@ -1,0 +1,91 @@
+name,amenity,shop,building,leisure,comuna,lon,lat,tipo_osm,Zcap
+Santa Isabel,,supermarket,,,Pedro Aguirre Cerda,-70.6683298,-33.50076310000001,supermarket,10
+Shell,fuel,,,,Pedro Aguirre Cerda,-70.6724824,-33.49764759999999,fuel,10
+Almacen el Lucho,,supermarket,,,Pedro Aguirre Cerda,-70.6741577,-33.50795260000001,supermarket,10
+Copec,fuel,,,,Pedro Aguirre Cerda,-70.6714084,-33.4783673,fuel,10
+Gasolinera JQL,fuel,,,,Pedro Aguirre Cerda,-70.6880354,-33.49843160000001,fuel,10
+Supermercados Erbi Núcleo Ochagavía,,supermarket,,,Pedro Aguirre Cerda,-70.6675059,-33.4915634,supermarket,10
+Shell,fuel,,,,Pedro Aguirre Cerda,-70.6932503,-33.4987806,fuel,10
+,parking,,,,Pedro Aguirre Cerda,-70.6666575,-33.491001099999984,parking,25
+,car_wash,,,,Pedro Aguirre Cerda,-70.6868529,-33.4950896,car_wash,2
+Aparcadero Municipal de Pedro Aguirre Cerda,parking,,,,Pedro Aguirre Cerda,-70.67708618545088,-33.50711246238393,parking,25
+Estadio Corvi,,,,stadium,Pedro Aguirre Cerda,-70.67216725031092,-33.482604972959855,stadium,20
+Santa Isabel,,supermarket,,,Pedro Aguirre Cerda,-70.6629983982552,-33.47934942386541,supermarket,10
+,parking,,,,Pedro Aguirre Cerda,-70.68147100243651,-33.50392797066284,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68094763285741,-33.502882571919315,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67966469383404,-33.500445699085255,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67881961846155,-33.49891429517355,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67820522943515,-33.49762434383998,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67667138644781,-33.49471421212948,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67618312885138,-33.49371237439395,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67579589191449,-33.492889336138795,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67519468326836,-33.49170970502447,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67483602053014,-33.49100039901881,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67455348280858,-33.49038914878552,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67422171770903,-33.48974243850656,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67379339053475,-33.48889647182419,parking,25
+Lider Express,,supermarket,yes,,Pedro Aguirre Cerda,-70.68758194873509,-33.49797180903236,supermarket,10
+ERBI,,supermarket,,,Pedro Aguirre Cerda,-70.67602127773868,-33.47988510296163,supermarket,10
+,parking,,,,Pedro Aguirre Cerda,-70.67429561006035,-33.48091575166568,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67422393898603,-33.48076693807057,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67795395010012,-33.49801190007372,parking,25
+Centro de Salud Familiar/SAPU: Edgardo Enríquez Froedden,parking,,,,Pedro Aguirre Cerda,-70.6694349941203,-33.48002676745133,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.663470650102,-33.48736485008781,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67634962848389,-33.503963957977895,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67614706929854,-33.504057060052084,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67595667338381,-33.50396821185756,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.65649689828732,-33.47914407666444,parking,25
+Carnes RV,parking,,,,Pedro Aguirre Cerda,-70.6613454154859,-33.48934790034809,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67042979167644,-33.49256078808514,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67026156501018,-33.49262196485875,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.6782649773123,-33.49721637104899,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68053045024514,-33.496780950207395,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67000018919802,-33.49597221990437,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67080707446355,-33.49662689605699,parking,25
+Shell,parking,,,,Pedro Aguirre Cerda,-70.67273567025222,-33.497574987365105,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66965849018837,-33.49514147048712,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66867941032508,-33.49406644359731,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68554394945491,-33.48606599839958,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68631679979785,-33.4857393993869,parking,25
+Privado,parking,,,,Pedro Aguirre Cerda,-70.67299234762406,-33.50162053252129,parking,25
+,,,commercial,,Pedro Aguirre Cerda,-70.67602369286885,-33.47988948030626,commercial,10
+,,,office,,Pedro Aguirre Cerda,-70.66767589994012,-33.492232700116,office,8
+,,,office,,Pedro Aguirre Cerda,-70.66716501506231,-33.49157270865896,office,8
+,parking,,,,Pedro Aguirre Cerda,-70.68304866565931,-33.48555047055923,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68270016289935,-33.483244675334475,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68357573132717,-33.48092487999237,parking,25
+Copec,fuel,,roof,,Pedro Aguirre Cerda,-70.67114265812164,-33.47876316503567,fuel,10
+,parking,,,,Pedro Aguirre Cerda,-70.68223485314098,-33.49757981930463,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.6817933500052,-33.50172215006794,parking,25
+Copec,fuel,,roof,,Pedro Aguirre Cerda,-70.66319010351584,-33.47643123736902,fuel,10
+,parking,,,,Pedro Aguirre Cerda,-70.67470819319104,-33.50245096100681,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68476560475078,-33.4941768321546,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68439711093086,-33.49411121741185,parking,25
+Super Vecino,,supermarket,commercial,,Pedro Aguirre Cerda,-70.67788999868189,-33.4978116130551,supermarket,10
+Portal Ochagavía,,mall,,,Pedro Aguirre Cerda,-70.66797901506088,-33.501096178862284,mall,20
+Mall Portal Ochagavía,parking,,,,Pedro Aguirre Cerda,-70.66751359482356,-33.500899380406494,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68090199782499,-33.50124272897569,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.68234029921419,-33.47885878698456,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.6719826417383,-33.485380933151994,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67397589997775,-33.50869390000491,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.67686001015042,-33.50252585914345,parking,25
+CESFAM - Centro de Salud Familiar Lo Valledor Norte,hospital,,,,Pedro Aguirre Cerda,-70.68346998428869,-33.49524509093103,hospital,6
+,parking,,,,Pedro Aguirre Cerda,-70.68315804776171,-33.497327175966575,parking,25
+,,,commercial,,Pedro Aguirre Cerda,-70.66300204210965,-33.47941808376258,commercial,10
+,parking,,,,Pedro Aguirre Cerda,-70.6630164293095,-33.478956257960775,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66970249500669,-33.48851584938371,parking,25
+Sede Central Servicio Médico Legal,hospital,,,,Pedro Aguirre Cerda,-70.65865956114433,-33.4768033806748,hospital,6
+,parking,,,,Pedro Aguirre Cerda,-70.66766024993329,-33.49173335000413,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66435650095264,-33.48821778796315,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66665886472293,-33.49067732263957,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66367364992337,-33.487170099990976,parking,25
+Copec,fuel,,,,Pedro Aguirre Cerda,-70.66699047841728,-33.50058066994236,fuel,10
+,parking,,,,Pedro Aguirre Cerda,-70.66299267352434,-33.48442074836152,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66295175015978,-33.48431430017565,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66306052691286,-33.48457375354515,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66347230001045,-33.48447005001309,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.6627237999732,-33.484568899991295,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66254077016315,-33.48445727568542,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66248498392439,-33.4862439297446,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66183320838532,-33.48645742845256,parking,25
+,parking,,,,Pedro Aguirre Cerda,-70.66073120961416,-33.48682453823066,parking,25

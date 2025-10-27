@@ -1,0 +1,10 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+americo vespucio 400;metropolitana;Pudahuel;-3.345.607;-7.076.757;44;AC;22;2
+av. americo vespucio 1289;metropolitana;Pudahuel;-3.342.819;-7.078.205;22;AC;22;23
+costanera norte km 34;metropolitana;Pudahuel;-3.343.393;-7.081.048;50;DC;50;3
+jean mermoz 2101;metropolitana;Pudahuel;-3.339.934;-7.079.489;22;AC;22;6
+los ediles 747;metropolitana;Pudahuel;-3.344.625;-7.074.481;44;AC;22;2
+puerto madero 9710;metropolitana;Pudahuel;-3.345.277;-7.078.616;44;AC;22;2
+ruta 68 18501;metropolitana;Pudahuel;-3.343.693;-7.083.869;44;AC;22;2
+ruta 68 sur km 18.5;metropolitana;Pudahuel;-334.398;-7.084.116;50;DC;50;3
+san pablo 8444;metropolitana;Pudahuel;-3.344.567;-7.074.401;44;AC;22;1

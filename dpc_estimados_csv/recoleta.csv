@@ -1,0 +1,120 @@
+name,amenity,shop,building,leisure,comuna,lon,lat,tipo_osm,Zcap
+,parking,,,,Recoleta,-70.6343779,-33.3986053,parking,25
+Pio Nono 040,parking,,,,Recoleta,-70.6357389,-33.434198,parking,25
+Universidad San Sebastián,parking,,,,Recoleta,-70.6364705,-33.4345415,parking,25
+Lider Express,,supermarket,,,Recoleta,-70.6443244,-33.421979699999994,supermarket,10
+AriMarket,,supermarket,,,Recoleta,-70.6442518,-33.4317137,supermarket,10
+Lotte Mart,,supermarket,,,Recoleta,-70.644935,-33.429166200000004,supermarket,10
+China House Market,,supermarket,,,Recoleta,-70.6441558,-33.4317217,supermarket,10
+JCD,fuel,,,,Recoleta,-70.6258714,-33.3949878,fuel,10
+,parking,,,,Recoleta,-70.6201525,-33.41228230000001,parking,25
+Lider Express,,supermarket,,,Recoleta,-70.6434785,-33.4054857,supermarket,10
+,,supermarket,,,Recoleta,-70.6435461,-33.431146299999995,supermarket,10
+Minimercado,,supermarket,,,Recoleta,-70.6370905,-33.4315633,supermarket,10
+Jardín Ermitaño Bajo,parking,,,,Recoleta,-70.6356216,-33.41903820000001,parking,25
+Shell,fuel,,,,Recoleta,-70.6403209,-33.42682609999999,fuel,10
+,car_wash,,,,Recoleta,-70.6404377,-33.426599,car_wash,2
+,parking,,,,Recoleta,-70.6442427,-33.424892199999995,parking,25
+Instituto Profesional de Artes Escénicas Karen Connolly,university,,,,Recoleta,-70.6396378,-33.4325166,university,10
+,parking,,,,Recoleta,-70.6478435,-33.4030137,parking,25
+Lider,,supermarket,supermarket,,Recoleta,-70.64121853084862,-33.3934523335389,supermarket,10
+Universidad San Sebastián,university,,yes,,Recoleta,-70.63605711047724,-33.43416587094223,university,10
+Cementerio General,parking,,,,Recoleta,-70.64814618687167,-33.417410813740204,parking,25
+Clinica Psiquiatrica Universitaria,parking,,,,Recoleta,-70.64907221445742,-33.41934045342975,parking,25
+Clínica Dávila,hospital,,,,Recoleta,-70.64827838173392,-33.42740261047337,hospital,6
+,parking,,,,Recoleta,-70.61314704191247,-33.40857642683685,parking,25
+,parking,,,,Recoleta,-70.64995632297966,-33.43180763822884,parking,25
+Municipalidad Recoleta,parking,,,,Recoleta,-70.64341206118557,-33.40244017370843,parking,25
+,,,commercial,,Recoleta,-70.64351936892649,-33.402442641953684,commercial,10
+Petrobras,fuel,,roof,,Recoleta,-70.64003950502588,-33.43405744859345,fuel,10
+Shell,fuel,,roof,,Recoleta,-70.64082541703992,-33.433768153211176,fuel,10
+,,,commercial,,Recoleta,-70.63884401418714,-33.432167570811856,commercial,10
+Copec,fuel,,roof,,Recoleta,-70.64359568590498,-33.417843243434426,fuel,10
+Viva Combustible,fuel,,roof,,Recoleta,-70.64388337784763,-33.41954630574913,fuel,10
+,,shopping_centre,retail,,Recoleta,-70.64437565806735,-33.42182282150216,shopping_centre,13
+Copec,fuel,,roof,,Recoleta,-70.64543829884549,-33.42501485670084,fuel,10
+Paseo Recoleta,,mall,commercial,,Recoleta,-70.64640036350292,-33.42941296015983,mall,20
+Plaza Recoleta,,,commercial,,Recoleta,-70.64708143584056,-33.430306263581606,commercial,10
+,,,commercial,,Recoleta,-70.64708820735189,-33.430447594844864,commercial,10
+Tottus Express,,supermarket,yes,,Recoleta,-70.64552979498126,-33.42243396492504,supermarket,10
+Arauco Express,,,retail,,Recoleta,-70.64549800116046,-33.42282663680462,retail,6
+Sinhel,fuel,,roof,,Recoleta,-70.62779710000873,-33.398576500002555,fuel,10
+Patio El Salto,,,retail,,Recoleta,-70.63217655259184,-33.40364203957581,retail,6
+Mayorista 10,,supermarket,yes,,Recoleta,-70.63259068124454,-33.40371669222739,supermarket,10
+Copec,fuel,,roof,,Recoleta,-70.63522089203379,-33.4081174181388,fuel,10
+J'Allel,fuel,,roof,,Recoleta,-70.64297892650221,-33.39511916039695,fuel,10
+,,,retail,,Recoleta,-70.64286176937911,-33.391157747056475,retail,6
+Lavamax,car_wash,,yes,,Recoleta,-70.64178570000044,-33.39075000000544,car_wash,2
+Copec,fuel,,roof,,Recoleta,-70.64218405000308,-33.39067255002667,fuel,10
+,,,retail,,Recoleta,-70.63690644591874,-33.40642839735968,retail,6
+,,,commercial,,Recoleta,-70.64039955362874,-33.406134979660784,commercial,10
+,,,commercial,,Recoleta,-70.64298910001507,-33.39449520009587,commercial,10
+,,,retail,,Recoleta,-70.6435216085973,-33.4059428179184,retail,6
+,,,commercial,,Recoleta,-70.63969973923109,-33.42375036838999,commercial,10
+,,,commercial,,Recoleta,-70.64130244996011,-33.4264605500342,commercial,10
+Lider Express,,supermarket,yes,,Recoleta,-70.64329219720396,-33.43297678996686,supermarket,10
+,parking,,,,Recoleta,-70.6490590346851,-33.43111850265012,parking,25
+,parking,,,,Recoleta,-70.64869886776732,-33.430012372931394,parking,25
+,parking,,,,Recoleta,-70.64958866321723,-33.429693880095215,parking,25
+,parking,,,,Recoleta,-70.64968104164622,-33.42845117573078,parking,25
+,parking,,,,Recoleta,-70.64880891267933,-33.42827938292343,parking,25
+La Vega Chica,,,retail,,Recoleta,-70.64992767425642,-33.43112319707285,retail,6
+,parking,,,,Recoleta,-70.64181626180168,-33.42976650997481,parking,25
+Gilu Centro Comercial,,mall,yes,,Recoleta,-70.64556310987636,-33.43183334689929,mall,20
+Plaza de las Naciones y las Artes,parking,,,,Recoleta,-70.61009688113543,-33.40405594888897,parking,25
+,parking,,,,Recoleta,-70.62243749680802,-33.41410308639286,parking,25
+,parking,,,,Recoleta,-70.63231753472519,-33.40823305453888,parking,25
+Alvi,,supermarket,yes,,Recoleta,-70.6442675000706,-33.41234885053221,supermarket,10
+Petrobras,fuel,,,,Recoleta,-70.63893422104555,-33.413904149837,fuel,10
+,parking,,,,Recoleta,-70.64353293943633,-33.40126808235795,parking,25
+,parking,,,,Recoleta,-70.6433545840846,-33.40014285026275,parking,25
+,parking,,,,Recoleta,-70.63273153521341,-33.423869000324686,parking,25
+Universidad de Chile (Campus Norte),university,,,,Recoleta,-70.64946941954534,-33.41975120865248,university,10
+,parking,,,,Recoleta,-70.63933980534598,-33.41854372680864,parking,25
+madsupport,,,commercial,,Recoleta,-70.6353365230471,-33.39298624254148,commercial,10
+,parking,,,,Recoleta,-70.64747706184912,-33.42370053501336,parking,25
+,parking,,,,Recoleta,-70.64796994808812,-33.42398407596618,parking,25
+,parking,,,,Recoleta,-70.62398719077085,-33.41638396144031,parking,25
+,parking,,,,Recoleta,-70.64941944155397,-33.41790157158388,parking,25
+,parking,,,,Recoleta,-70.62052831902288,-33.41218909889951,parking,25
+,parking,,,,Recoleta,-70.62056446724444,-33.41167475712742,parking,25
+,,,commercial,,Recoleta,-70.63384723905047,-33.42620990912637,commercial,10
+,parking,,,,Recoleta,-70.63812114986719,-33.428910200028334,parking,25
+Paseo Río de Janeiro,,,retail,,Recoleta,-70.64233283609099,-33.42913680622913,retail,6
+,,,commercial,,Recoleta,-70.64035805261942,-33.42659617062187,commercial,10
+,parking,,,,Recoleta,-70.63934499999958,-33.425967450009296,parking,25
+,parking,,,,Recoleta,-70.63954589999497,-33.42353550004737,parking,25
+,parking,,yes,,Recoleta,-70.64790361847561,-33.42635596497331,parking,25
+Pits Núcleo Bellavista,,,office,,Recoleta,-70.63830178333251,-33.434349067181444,office,8
+Estadio Chacabuco,,,,stadium,Recoleta,-70.65657197150077,-33.385072851626745,stadium,20
+Mall Recoleta Center,,mall,yes,,Recoleta,-70.64740775829,-33.42940753139322,mall,20
+,parking,,,,Recoleta,-70.65014739639746,-33.41790475162666,parking,25
+Campus Creativo UNAB,university,,,,Recoleta,-70.63780034064678,-33.431662229691774,university,10
+,parking,,,,Recoleta,-70.64716263474799,-33.42877919335929,parking,25
+Portal Recoleta,,mall,yes,,Recoleta,-70.64701472539521,-33.431525890239186,mall,20
+Comercial Centrecoleta,,mall,yes,,Recoleta,-70.64693483125691,-33.430837563941246,mall,20
+,parking,,,,Recoleta,-70.64629974768637,-33.430294691274405,parking,25
+China House Market,,supermarket,yes,,Recoleta,-70.64334570430258,-33.43156032675766,supermarket,10
+,parking,,,,Recoleta,-70.64335566378755,-33.43227903480894,parking,25
+,parking,,,,Recoleta,-70.64424038251659,-33.43277683219144,parking,25
+,parking,,,,Recoleta,-70.64312657815378,-33.432965480588045,parking,25
+,parking,,,,Recoleta,-70.64620764675009,-33.432390026400114,parking,25
+,parking,,,,Recoleta,-70.6456739560127,-33.431050068328055,parking,25
+Galería Antonia López de Bello,,mall,yes,,Recoleta,-70.64393854336147,-33.43137733264825,mall,20
+,parking,,,,Recoleta,-70.64643651381189,-33.43003481848042,parking,25
+Mall Paseo Santa Filomena,,mall,,,Recoleta,-70.64477120014435,-33.42926570467219,mall,20
+,parking,,,,Recoleta,-70.6476981236291,-33.42991670864573,parking,25
+Parque Dominica,,shopping_centre,retail,,Recoleta,-70.6416837695148,-33.42613597407156,shopping_centre,13
+,parking,,,,Recoleta,-70.64163567486045,-33.42629021174756,parking,25
+,parking,,yes,,Recoleta,-70.6410685321718,-33.43313917228591,parking,25
+,parking,,,,Recoleta,-70.63737753084901,-33.43169650644818,parking,25
+,parking,,,,Recoleta,-70.63381237803962,-33.40784052271782,parking,25
+,parking,,,,Recoleta,-70.64111021506749,-33.413666753795674,parking,25
+,parking,,,,Recoleta,-70.63912370283562,-33.43391459572999,parking,25
+,parking,,,,Recoleta,-70.63922628234357,-33.43372948745973,parking,25
+,parking,,,,Recoleta,-70.63952661876961,-33.434159811540646,parking,25
+,parking,,,,Recoleta,-70.64230037218718,-33.430435730381184,parking,25
+,parking,,,,Recoleta,-70.64058307832921,-33.43007513692883,parking,25
+Ahorra Food Depot,,supermarket,yes,,Recoleta,-70.62586130465672,-33.39519128621539,supermarket,10
+Santa Isabel,,supermarket,industrial,,Recoleta,-70.64390278949209,-33.402364746285244,supermarket,10
+,parking,,,,Recoleta,-70.64206474819883,-33.393510662619164,parking,25

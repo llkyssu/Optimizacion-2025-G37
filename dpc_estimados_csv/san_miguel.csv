@@ -1,0 +1,92 @@
+name,amenity,shop,building,leisure,comuna,lon,lat,tipo_osm,Zcap
+Lider,parking,,,,San Miguel,-70.6571346,-33.51238969999999,parking,25
+Copec,fuel,,,,San Miguel,-70.6390328,-33.50666529999999,fuel,10
+Shell,fuel,,,,San Miguel,-70.65656970000002,-33.510097,fuel,10
+Jumbo,,supermarket,,,San Miguel,-70.6516023,-33.48584770000001,supermarket,10
+,parking,,,,San Miguel,-70.6492116,-33.478186599999994,parking,25
+,parking,,,,San Miguel,-70.6538358,-33.4772313,parking,25
+Elite Car Service SpA,car_wash,,,,San Miguel,-70.6491933,-33.49302730000001,car_wash,2
+,,,commercial,,San Miguel,-70.6538687,-33.5016596,commercial,10
+Enel X,charging_station,,,,San Miguel,-70.6569316,-33.512128,charging_station,30
+Copec Voltex,charging_station,,,,San Miguel,-70.6508008,-33.4867246,charging_station,30
+,parking,,,,San Miguel,-70.6472484,-33.4790021,parking,25
+,parking,,,,San Miguel,-70.647756,-33.480635799999995,parking,25
+,parking,,,,San Miguel,-70.6537465,-33.48385549999998,parking,25
+,parking,,,,San Miguel,-70.6641188,-33.5060562,parking,25
+,parking,,,,San Miguel,-70.6535301,-33.4806674,parking,25
+,parking,,,,San Miguel,-70.6526081,-33.4776044,parking,25
+,parking,,,,San Miguel,-70.6523822,-33.47724869999999,parking,25
+,parking,,,,San Miguel,-70.6534101,-33.4793478,parking,25
+,parking,,,,San Miguel,-70.6552856,-33.48362800000001,parking,25
+,parking,,,,San Miguel,-70.6500238,-33.47726660000001,parking,25
+Copec Voltex,charging_station,,,,San Miguel,-70.651244,-33.4884702,charging_station,30
+Hospital Barros Luco - Trudeau,hospital,,,,San Miguel,-70.64414495112575,-33.485155414042055,hospital,6
+Estadio El Llano,,,,stadium,San Miguel,-70.65340710749186,-33.48273369232326,stadium,20
+Universidad Autónoma de Chile - Sede El Llano Subercaseaux,university,,,,San Miguel,-70.65366132383949,-33.48557102765083,university,10
+,parking,,,,San Miguel,-70.65322447051103,-33.485206539524775,parking,25
+Unimarc,,supermarket,yes,,San Miguel,-70.65567583392878,-33.50372663964665,supermarket,10
+Lider Express,,supermarket,yes,,San Miguel,-70.65028621331449,-33.4911936969826,supermarket,10
+Espacio Urbano Gran Avenida,,mall,yes,,San Miguel,-70.65602183516818,-33.51229670895166,mall,20
+Cenco El Llano,,mall,retail,,San Miguel,-70.65145950305163,-33.48587091090294,mall,20
+Centro de Reparto Chilexpress,,,commercial,,San Miguel,-70.6531979872487,-33.496420429819544,commercial,10
+,parking,,,,San Miguel,-70.6453127504698,-33.48445315071702,parking,25
+,parking,,,,San Miguel,-70.64409735310234,-33.48576243747801,parking,25
+,parking,,,,San Miguel,-70.64547069484226,-33.48490907024933,parking,25
+,parking,,,,San Miguel,-70.64640876269483,-33.485131285665695,parking,25
+Supermercado Mayorista 10,,supermarket,yes,,San Miguel,-70.65576882548338,-33.510678141249954,supermarket,10
+Lider,,supermarket,yes,,San Miguel,-70.6567253392893,-33.51251795767035,supermarket,10
+Auto Gasco,fuel,,roof,,San Miguel,-70.6486276816888,-33.48168082728737,fuel,10
+Universidad de Chile Facultad de Medicina Sur,university,,university,,San Miguel,-70.64824536663154,-33.48340846038383,university,10
+,,,commercial,,San Miguel,-70.65249547383253,-33.493277942537254,commercial,10
+,,,commercial,,San Miguel,-70.65233343298932,-33.49314958090555,commercial,10
+,,,commercial,,San Miguel,-70.65257129433041,-33.49440351128581,commercial,10
+,,,commercial,,San Miguel,-70.6525779204913,-33.494208194615176,commercial,10
+,,,commercial,,San Miguel,-70.65286081563666,-33.495438070050966,commercial,10
+,car_wash,,yes,,San Miguel,-70.65320684640733,-33.4959454949147,car_wash,2
+,,,commercial,,San Miguel,-70.65384469556015,-33.49885860015854,commercial,10
+,,,retail,,San Miguel,-70.65501527701812,-33.50271823631374,retail,6
+,,,retail,,San Miguel,-70.65709439991055,-33.5088250000141,retail,6
+,,,retail,,San Miguel,-70.65693521321661,-33.50986700212608,retail,6
+,,,retail,,San Miguel,-70.65731796246324,-33.51005520612131,retail,6
+Ahorra Food Depot,,supermarket,commercial,,San Miguel,-70.6582817746048,-33.51326950805974,supermarket,10
+Universidad Tecnológica Metropolitana,university,,yes,,San Miguel,-70.65062835288931,-33.49032606267592,university,10
+Universidad de Valparaíso Campus Santiago,university,,,,San Miguel,-70.65109648197883,-33.492161894539166,university,10
+,,,commercial,,San Miguel,-70.66401086030723,-33.51083350194331,commercial,10
+Ekono,,supermarket,yes,,San Miguel,-70.66464009991476,-33.512390099984195,supermarket,10
+Petrobras,fuel,,roof,,San Miguel,-70.63759870698131,-33.51330152178773,fuel,10
+,,,commercial,,San Miguel,-70.66242585006731,-33.501681400079825,commercial,10
+,,,commercial,,San Miguel,-70.6436738410618,-33.50625272733595,commercial,10
+Copec,fuel,,roof,,San Miguel,-70.64596179049131,-33.51689437834072,fuel,10
+,,,commercial,,San Miguel,-70.63843978469504,-33.50965363253953,commercial,10
+El Cafetero,car_wash,,yes,,San Miguel,-70.65540937259281,-33.497936460771605,car_wash,2
+,parking,,,,San Miguel,-70.65038170952853,-33.481162782184384,parking,25
+,parking,,,,San Miguel,-70.65427122009059,-33.48304678548421,parking,25
+,parking,,,,San Miguel,-70.64689094800579,-33.48903454965013,parking,25
+,parking,,,,San Miguel,-70.64684265008779,-33.48870985015374,parking,25
+,parking,,,,San Miguel,-70.64700191945958,-33.48931749854151,parking,25
+Edificio Llano Subercaseaux,,,office,,San Miguel,-70.6522321273406,-33.490550772523505,office,8
+,parking,,,,San Miguel,-70.64230024997644,-33.50369840001793,parking,25
+Shell,fuel,,yes,,San Miguel,-70.65358240000026,-33.477148250008625,fuel,10
+Locales comerciales,,,retail,,San Miguel,-70.64513834411646,-33.50529804738234,retail,6
+,,,office,,San Miguel,-70.65171730499789,-33.488822493666206,office,8
+,parking,,,,San Miguel,-70.65467002428119,-33.50667251508376,parking,25
+,parking,,,,San Miguel,-70.6602650303547,-33.48944931494587,parking,25
+Universidad Autónoma de Chile,university,,,,San Miguel,-70.64965520904343,-33.480415817142486,university,10
+Almacén y Panadería Bianca,,convenience,commercial,,San Miguel,-70.6498146499846,-33.510559049992885,convenience,13
+Aramco,fuel,,,,San Miguel,-70.6531357857402,-33.496105529302675,fuel,10
+Shell,fuel,,,,San Miguel,-70.64089951353638,-33.49017206108329,fuel,10
+Hospital de Enfermedades Infecciosas Lucio Córdova,hospital,,,,San Miguel,-70.64529682136359,-33.485240520284016,hospital,6
+Hospital de Niños Doctor Exequiel González Cortés,hospital,,,,San Miguel,-70.64812783118938,-33.48485377459627,hospital,6
+,university,,,,San Miguel,-70.64818495008228,-33.48340574528599,university,10
+,parking,,,,San Miguel,-70.64165100016137,-33.486503700210584,parking,25
+,parking,,,,San Miguel,-70.6420757424773,-33.48639314634183,parking,25
+,parking,,,,San Miguel,-70.65339052240012,-33.490752854647525,parking,25
+,parking,,,,San Miguel,-70.65289596857797,-33.49052135264021,parking,25
+,parking,,,,San Miguel,-70.65093440179099,-33.491069772537244,parking,25
+,parking,,,,San Miguel,-70.65629744985844,-33.48613854995518,parking,25
+,parking,,,,San Miguel,-70.65367679120425,-33.48926019519351,parking,25
+,parking,,,,San Miguel,-70.65255905430467,-33.49048669285975,parking,25
+Autoplanet,parking,,,,San Miguel,-70.64446213398486,-33.476777448537455,parking,25
+,parking,,,,San Miguel,-70.64341390843472,-33.47688916575337,parking,25
+,parking,,,,San Miguel,-70.6541910921191,-33.49948915891513,parking,25
+,parking,,,,San Miguel,-70.66057147224443,-33.490022732730324,parking,25

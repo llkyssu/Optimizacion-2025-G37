@@ -63,7 +63,18 @@ for index, comuna in gdf_comunas.iterrows():
     comuna_gdf["comuna"] = comuna_name
     
     # Genera un nombre de archivo seguro
-    safe_name = str(comuna_name).replace(" ", "_").replace(".", "").lower()
+    import unicodedata
+    def normalizar_nombre(nombre):
+        base, ext = os.path.splitext(nombre)
+        base = base.lower()
+        base = base.replace('ñ', 'n')
+        base = ''.join((c for c in unicodedata.normalize('NFD', base) if unicodedata.category(c) != 'Mn'))
+        base = base.replace(' ', '_').replace('-', '_')
+        while '__' in base:
+            base = base.replace('__', '_')
+        base = base.strip('_')
+        return base + ext
+    safe_name = normalizar_nombre(str(comuna_name))
     filename = os.path.join(output_folder, f"{safe_name}.gpkg")
     
     # Guarda el archivo GPKG (Corregí EPSG:4G326 a EPSG:4326, asumiendo WGS84)

@@ -1,0 +1,107 @@
+name,amenity,shop,building,leisure,comuna,lon,lat
+,parking,,,,Estación Central,-70.7294726,-33.4680053
+Terminal San Borja,parking,,,,Estación Central,-70.6803205,-33.45430950000001
+,parking,,,,Estación Central,-70.681395,-33.4508201
+Universidad de Santiago de Chile,parking,,,,Estación Central,-70.6810837,-33.4497032
+,parking,,,,Estación Central,-70.6823792,-33.45048649999999
+Terpel,fuel,,,,Estación Central,-70.6789823,-33.464398599999996
+Ekono,,supermarket,,,Estación Central,-70.6929931,-33.4683603
+Tottus,,supermarket,,,Estación Central,-70.6826325,-33.4526539
+Monserrat,,supermarket,,,Estación Central,-70.7261154,-33.4681353
+Lider Express,,supermarket,,,Estación Central,-70.7053616,-33.456691500000005
+Copec,fuel,,,,Estación Central,-70.6877023,-33.46640219999998
+,charging_station,,,,Estación Central,-70.6827737,-33.4743188
+Santa Isabel,,supermarket,,,Estación Central,-70.680086,-33.4516965
+Shell,fuel,,,,Estación Central,-70.7014242,-33.4545464
+Shell,fuel,,,,Estación Central,-70.6974788,-33.4557455
+Copec,fuel,,,,Estación Central,-70.6983452,-33.4528923
+Shell,fuel,,,,Estación Central,-70.6794142,-33.44814319999999
+Copec,fuel,,,,Estación Central,-70.7186815,-33.4706809
+Romerelli,recycling,,commercial,,Estación Central,-70.6908863,-33.466242699999995
+Clínica RedSalud Santiago,hospital,,,,Estación Central,-70.7018142,-33.45711899999999
+,parking,,,,Estación Central,-70.7018173,-33.456835899999994
+Shell,fuel,,,,Estación Central,-70.6875882,-33.452647799999994
+,parking,,,,Estación Central,-70.6820651,-33.4457466
+Terrapuerto Turbus,charging_station,,,,Estación Central,-70.6865034,-33.4542123
+Santo Tomás Sede Estación Central,university,,,,Estación Central,-70.6781996,-33.4524508
+Enel X,charging_station,,,,Estación Central,-70.70520420000001,-33.4560614
+Vegamercado,,supermarket,,,Estación Central,-70.72412161346958,-33.46680719349944
+Estadio Marista,,,,stadium,Estación Central,-70.6867064736576,-33.44534965106137
+Universidad de Santiago de Chile,university,,,,Estación Central,-70.68432231470211,-33.44936674822018
+Lider,,supermarket,supermarket,,Estación Central,-70.69206031959745,-33.45279722077114
+Arauco Estación,,mall,yes,,Estación Central,-70.67984397197817,-33.45255638785987
+Mall Plaza Alameda,,mall,yes,,Estación Central,-70.68220596683685,-33.45288121375586
+Estadio Ferrocarriles,,,,stadium,Estación Central,-70.67428745629036,-33.47179004404634
+Hospital Clínico Mutual de Seguridad,hospital,,,,Estación Central,-70.70069718473582,-33.45710294951132
+Clínica Bicentenario,hospital,,,,Estación Central,-70.70146452591152,-33.45766830179675
+Privado,parking,,,,Estación Central,-70.70338792311681,-33.4595707263099
+Privado,parking,,,,Estación Central,-70.70219512058729,-33.45920121477679
+Espacio Urbano Las Rejas,,mall,yes,,Estación Central,-70.70519976998027,-33.45645066584676
+Montserrat,,supermarket,,,Estación Central,-70.72911470362374,-33.46834021090503
+Clínica Hospital del Profesor,hospital,,,,Estación Central,-70.70259282321277,-33.45769617514724
+,parking,,,,Estación Central,-70.70616171991516,-33.46933957163093
+,parking,,,,Estación Central,-70.70462990999668,-33.47228374974664
+,parking,,,,Estación Central,-70.70565472611318,-33.464488947090345
+,parking,,,,Estación Central,-70.70486353292245,-33.463824721949116
+Ekono,,supermarket,yes,,Estación Central,-70.70481941339384,-33.4639544222988
+,parking,,,,Estación Central,-70.70610768379304,-33.467504485024605
+,parking,,,,Estación Central,-70.70491798091602,-33.46897195667724
+Unimarc,,supermarket,yes,,Estación Central,-70.7050811540809,-33.46906401394648
+,parking,,,,Estación Central,-70.70607327512793,-33.47337070858513
+,parking,,,,Estación Central,-70.70621448643041,-33.47393291132826
+,parking,,,,Estación Central,-70.70752112102585,-33.47467479719043
+,parking,,,,Estación Central,-70.70272646954878,-33.46920598675614
+,parking,,,,Estación Central,-70.70397655511857,-33.469028305580004
+,parking,,,,Estación Central,-70.6999127671601,-33.47390378042391
+,parking,,,,Estación Central,-70.69918655556026,-33.46867487668552
+Comunidad Centro Comercial Persa Estación,,,retail,,Estación Central,-70.68090165008822,-33.4527141754619
+Petrobras,fuel,,roof,,Estación Central,-70.70451203736475,-33.45663229728315
+Mall Parque Estación,,mall,yes,,Estación Central,-70.68665616859658,-33.45336955441024
+,,,commercial,,Estación Central,-70.68513771100588,-33.45286776178265
+Mayorista,,supermarket,yes,,Estación Central,-70.7229519671487,-33.464639323588656
+Auto Spa,car_wash,,yes,,Estación Central,-70.7229204386919,-33.46415994790339
+Comercial China,,,commercial,,Estación Central,-70.68444628013773,-33.452691718311925
+,,,commercial,,Estación Central,-70.6813828164077,-33.45136275028646
+,,,commercial,,Estación Central,-70.68850817492897,-33.46618719331745
+,,,commercial,,Estación Central,-70.68857593402966,-33.46930481736869
+Copec,fuel,,roof,,Estación Central,-70.69938640586287,-33.46263531068594
+Terpel,fuel,,roof,,Estación Central,-70.69698259411734,-33.461444918365025
+Copec,fuel,,roof,,Estación Central,-70.68967669941614,-33.458398851811246
+,,,commercial,,Estación Central,-70.71748413232966,-33.46990806711185
+,parking,,,,Estación Central,-70.69124788154086,-33.44476611435335
+,parking,,,,Estación Central,-70.68692383672268,-33.44955602416896
+,parking,,,,Estación Central,-70.68669466143527,-33.445919511918696
+,,,office,,Estación Central,-70.69152450001636,-33.45455960004195
+,parking,,,,Estación Central,-70.68346993671626,-33.44866972620823
+,parking,,,,Estación Central,-70.68336668278474,-33.447230402942324
+,parking,,,,Estación Central,-70.68193531684041,-33.46181944137372
+,,,commercial,,Estación Central,-70.6873569709601,-33.454780478830834
+,,,commercial,,Estación Central,-70.68835358828204,-33.45373890635621
+,parking,,,,Estación Central,-70.68458646771487,-33.46198292600101
+,parking,,,,Estación Central,-70.6847245620374,-33.46226122599211
+,parking,,,,Estación Central,-70.6864060772721,-33.46195016960743
+,parking,,,,Estación Central,-70.68346153512562,-33.446193273135115
+,parking,,,,Estación Central,-70.68622343909516,-33.45203210573813
+,parking,,,,Estación Central,-70.68780488648991,-33.44972694618222
+Petrobras,fuel,,,,Estación Central,-70.72295177993624,-33.46301426433386
+,parking,,,,Estación Central,-70.67847891002253,-33.47220315336328
+,parking,,,,Estación Central,-70.67834921321216,-33.470995270830805
+,parking,,,,Estación Central,-70.67973535341741,-33.47155003298791
+,,,retail,,Estación Central,-70.6871928624875,-33.453864873068426
+,parking,,,,Estación Central,-70.68687639628223,-33.44462577490992
+,parking,,,,Estación Central,-70.68056825023206,-33.444377062036075
+,parking,,,,Estación Central,-70.68511958176272,-33.449975661196596
+Copec,fuel,,,,Estación Central,-70.69312466159406,-33.459147322211784
+Estadio Las Rejas,,,,stadium,Estación Central,-70.7094855109721,-33.46492321577592
+,parking,,,,Estación Central,-70.67968663041069,-33.470973461434525
+Espacio Ruiz Tagle USACH,university,,,,Estación Central,-70.68875852091617,-33.451380107692266
+Departamento Ingeniería en Minas USACH - Ex ENAMI,university,,,,Estación Central,-70.68402716256453,-33.44497961005675
+,parking,,,,Estación Central,-70.72143770022569,-33.46669759999073
+,parking,,,,Estación Central,-70.69232618796126,-33.47027019858134
+,,,retail,,Estación Central,-70.68717563020944,-33.45350961373052
+,,,commercial,,Estación Central,-70.69995303610328,-33.47411089390565
+,parking,,,,Estación Central,-70.68849261984252,-33.454474827142775
+,parking,,,,Estación Central,-70.6877357514671,-33.454281838311296
+,parking,,,,Estación Central,-70.68532745584508,-33.45379598569875
+,parking,,,,Estación Central,-70.68665624183085,-33.45400244775216
+,parking,,,,Estación Central,-70.68605755584048,-33.45377232527957

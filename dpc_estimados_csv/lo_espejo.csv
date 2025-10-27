@@ -1,0 +1,16 @@
+name,amenity,shop,building,leisure,comuna,lon,lat,tipo_osm,Zcap
+Shell,fuel,,,,Lo Espejo,-70.7055362,-33.526568100000006,fuel,10
+Copec,fuel,,,,Lo Espejo,-70.6993657,-33.53370389999999,fuel,10
+,car_wash,,,,Lo Espejo,-70.6897889,-33.50406350000001,car_wash,2
+,parking,,,,Lo Espejo,-70.68247477854057,-33.53042777447179,parking,25
+Acuenta,,supermarket,,,Lo Espejo,-70.6774654047591,-33.5087818678427,supermarket,10
+,,mall,yes,,Lo Espejo,-70.67853967889057,-33.52234316703019,mall,20
+,parking,,,,Lo Espejo,-70.6783908746655,-33.52258681838444,parking,25
+,,,retail,,Lo Espejo,-70.68812495002842,-33.50466235003144,retail,6
+aCuenta,,supermarket,yes,,Lo Espejo,-70.67755864518541,-33.50882501089972,supermarket,10
+,parking,,,,Lo Espejo,-70.68130350668916,-33.52966197026511,parking,25
+Estadio Clara Estrella,,,,stadium,Lo Espejo,-70.67706478199575,-33.518295957201545,stadium,20
+Estadio Cardenal Caro,,,,stadium,Lo Espejo,-70.69436425332724,-33.51087602737275,stadium,20
+,parking,,,,Lo Espejo,-70.69192880332233,-33.50651310792031,parking,25
+,parking,,,,Lo Espejo,-70.68329815482353,-33.521141939950915,parking,25
+Pronto Express,,convenience,retail,,Lo Espejo,-70.69975550773583,-33.533583409811385,convenience,13

@@ -3,8 +3,9 @@ import geopandas as gpd
 import os
 
 # --- Configuración ---
+
 projected_crs = "EPSG:32719" # CRS Proyectado para Santiago
-project_folder = "/home/marti/opti/" # Tu carpeta de trabajo en WSL
+project_folder = "/home/marti/opti/" # Cambiado a la raíz del proyecto
 
 comunas_file = os.path.join(project_folder, "comunas_rm_limpias.gpkg") 
 output_file = os.path.join(project_folder, "features_rm_total.gpkg")  
@@ -60,5 +61,18 @@ print(f"Columnas limpiadas. Se guardarán {len(gdf_limpio.columns)} columnas.")
 
 # --- 6. Guardar ---
 # Guardamos el GeoDataFrame limpio, no el original
-gdf_limpio.to_file(output_file, driver="GPKG")
-print(f"\n¡Éxito! Todos los puntos de interés guardados en '{output_file}'")
+import os
+import unicodedata
+def normalizar_nombre(nombre):
+    base, ext = os.path.splitext(nombre)
+    base = base.lower()
+    base = base.replace('ñ', 'n')
+    base = ''.join((c for c in unicodedata.normalize('NFD', base) if unicodedata.category(c) != 'Mn'))
+    base = base.replace(' ', '_').replace('-', '_')
+    while '__' in base:
+        base = base.replace('__', '_')
+    base = base.strip('_')
+    return base + ext
+output_file_norm = normalizar_nombre(output_file)
+gdf_limpio.to_file(output_file_norm, driver="GPKG")
+print(f"\n¡Éxito! Todos los puntos de interés guardados en '{output_file_norm}'")

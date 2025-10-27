@@ -1,0 +1,860 @@
+name,amenity,shop,building,leisure,comuna,lon,lat,tipo_osm,Zcap
+Estacionamiento,parking,,,,Santiago,-70.6568744,-33.440623599999995,parking,25
+Santa Isabel,,supermarket,,,Santiago,-70.63749080000001,-33.443164499999995,supermarket,10
+,parking,,,,Santiago,-70.6600965,-33.473374,parking,25
+,parking,,,,Santiago,-70.6575791,-33.473167,parking,25
+Lira 85,parking,,,,Santiago,-70.6410871,-33.44397989999999,parking,25
+,parking,,,,Santiago,-70.6596468,-33.432300700000006,parking,25
+,parking,,,,Santiago,-70.6593459,-33.44272749999999,parking,25
+,parking,,,,Santiago,-70.6483656,-33.474029300000005,parking,25
+Mercado Persa Bio-Bío,parking,,,,Santiago,-70.6450609,-33.4743483,parking,25
+Los Alpes,,supermarket,,,Santiago,-70.6548593,-33.44533710000001,supermarket,10
+Unimarc,,supermarket,,,Santiago,-70.6393551,-33.440891400000005,supermarket,10
+Escuela de Ingeniería Universidad de Chile,university,,,,Santiago,-70.6635288,-33.45777249999999,university,10
+Lider,,supermarket,,,Santiago,-70.6475955,-33.4371234,supermarket,10
+Estacionamiento publico,parking,,,,Santiago,-70.645224,-33.439995999999994,parking,25
+Estacionamiento Calle Moneda,parking,,,,Santiago,-70.645761,-33.44137800000001,parking,25
+,parking,,,,Santiago,-70.6570673,-33.44777789999999,parking,25
+O2 deportes,,supermarket,,,Santiago,-70.6519719,-33.43987469999999,supermarket,10
+Copec,fuel,,,,Santiago,-70.6646859,-33.4322847,fuel,10
+Shell,fuel,,,,Santiago,-70.6491123,-33.4639103,fuel,10
+Estacionamiento Subterraneo Teatro Municipal,parking,,,,Santiago,-70.6473732,-33.44044639999999,parking,25
+Estacionamiento Subterráneo Parque Forestal,parking,,,,Santiago,-70.6481489,-33.43382509999999,parking,25
+Estacionamiento Huerfanos/Miraflores,parking,,,,Santiago,-70.6458286,-33.4387919,parking,25
+Estacionamiento Subterráneo Mall del Centro,parking,,,,Santiago,-70.6504232,-33.4350606,parking,25
+Estacionamiento Subterráneo Santa Isabel,parking,,,,Santiago,-70.6500883,-33.43383539999999,parking,25
+Club Hipico,parking,,,,Santiago,-70.6680125,-33.45794,parking,25
+Santa Isabel,,supermarket,,,Santiago,-70.6566663,-33.4448365,supermarket,10
+Estacionamiento Merced,parking,,,,Santiago,-70.6445571,-33.437673100000005,parking,25
+Estacionamiento Santa Lucia,parking,,,,Santiago,-70.6440099,-33.43880409999999,parking,25
+Estacionamiento Monjitas,parking,,,,Santiago,-70.6418653,-33.4368904,parking,25
+,car_wash,,,,Santiago,-70.637,-33.444955199999995,car_wash,2
+Autogasco,fuel,,,,Santiago,-70.6730081,-33.43261830000001,fuel,10
+Santa Isabel,,supermarket,,,Santiago,-70.65732,-33.44012560000001,supermarket,10
+Estacionamiento publico,parking,,,,Santiago,-70.64494400000001,-33.4401981,parking,25
+Lider Express,,supermarket,,,Santiago,-70.6483719,-33.43890009999999,supermarket,10
+Santa Isabel,,supermarket,,,Santiago,-70.649842,-33.433708,supermarket,10
+Lider Express,,supermarket,,,Santiago,-70.6520296,-33.43612649999999,supermarket,10
+Unimarc,,supermarket,,,Santiago,-70.6539661,-33.4388305,supermarket,10
+Instituto Profesional Chileno Británico de Cultura,university,,,,Santiago,-70.6449589,-33.4391887,university,10
+Aulario UDP,university,,,,Santiago,-70.6605627,-33.451039,university,10
+Facultad Medicina UDP,university,,,,Santiago,-70.6611211,-33.4500744,university,10
+Los Alpes,,supermarket,,,Santiago,-70.6532587,-33.4473615,supermarket,10
+Estacionamiento Privado Universidad,parking,,,,Santiago,-70.6595991,-33.451210399999994,parking,25
+,parking,,,,Santiago,-70.6607454,-33.4513366,parking,25
+,parking,,,,Santiago,-70.6605365,-33.45120779999999,parking,25
+,parking,,,,Santiago,-70.6608052,-33.44997089999999,parking,25
+,parking,,,,Santiago,-70.6448199,-33.4488887,parking,25
+Universidad de Chile,parking,,,,Santiago,-70.6648004,-33.4583407,parking,25
+Enel X,charging_station,,,,Santiago,-70.6551213,-33.4423388,charging_station,30
+,parking,,,,Santiago,-70.6630494,-33.47225649999999,parking,25
+Postgrados UTEM,university,,,,Santiago,-70.658227,-33.4481572,university,10
+,parking,,,,Santiago,-70.6568514,-33.4721778,parking,25
+,parking,,,,Santiago,-70.6562271,-33.456362,parking,25
+,parking,,,,Santiago,-70.661342,-33.4709416,parking,25
+,parking,,,,Santiago,-70.6750359,-33.450038,parking,25
+,parking,,,,Santiago,-70.6580329,-33.4710496,parking,25
+,parking,,,,Santiago,-70.6580999,-33.470628999999995,parking,25
+Copec,fuel,,,,Santiago,-70.6792179,-33.43748459999999,fuel,10
+Lider Express,,supermarket,,,Santiago,-70.6567675,-33.44389420000001,supermarket,10
+Super 10,,supermarket,,,Santiago,-70.649981,-33.43398369999999,supermarket,10
+Ekono,,supermarket,,,Santiago,-70.6762719,-33.43545540000001,supermarket,10
+OK market,,supermarket,,,Santiago,-70.6608711,-33.45356,supermarket,10
+Montserrat,,supermarket,,,Santiago,-70.6504596,-33.46358279999999,supermarket,10
+,parking,,,,Santiago,-70.6364499,-33.44080610000001,parking,25
+Supermarket Al Toque,,supermarket,,,Santiago,-70.62684930000002,-33.4668714,supermarket,10
+Galería San Antonio,,mall,,,Santiago,-70.6488845,-33.4384034,mall,20
+Universidad Central,university,,,,Santiago,-70.6600272,-33.452967399999984,university,10
+,parking,,,,Santiago,-70.6722466,-33.45536760000001,parking,25
+Supermercado Los Zuluagas,,supermarket,,,Santiago,-70.6584304,-33.44515719999999,supermarket,10
+El Dragón,,supermarket,,,Santiago,-70.6715481,-33.46953350000001,supermarket,10
+Parking Garage,parking,,,,Santiago,-70.6767093,-33.453141,parking,25
+Supermercado Chino,,supermarket,,,Santiago,-70.6760371,-33.45517629999999,supermarket,10
+Ahorra Food Depot,,supermarket,,,Santiago,-70.6499932,-33.4535202,supermarket,10
+Nature Market,,supermarket,,,Santiago,-70.6513276,-33.4473791,supermarket,10
+Portal Bulnes,,mall,,,Santiago,-70.6496559,-33.4376893,mall,20
+Galería Agustín Edwards,,mall,,,Santiago,-70.6516098,-33.43912610000001,mall,20
+Galería San Antonio,,mall,,,Santiago,-70.6491302,-33.4349364,mall,20
+Gallería Pasaje Matte,,mall,,,Santiago,-70.6501793,-33.439147600000005,mall,20
+Shell,fuel,,,,Santiago,-70.663888,-33.43994039999999,fuel,10
+Lider Express,,supermarket,,,Santiago,-70.6444027,-33.43796350000001,supermarket,10
+Shell,fuel,,,,Santiago,-70.6371067,-33.444832600000005,fuel,10
+Shell,fuel,,,,Santiago,-70.6449381,-33.4634876,fuel,10
+Shell,fuel,,,,Santiago,-70.6735915,-33.44602140000001,fuel,10
+Shell,fuel,,,,Santiago,-70.6522214,-33.454569000000006,fuel,10
+Copec,fuel,,,,Santiago,-70.6450576,-33.45906269999999,fuel,10
+Copec,fuel,,,,Santiago,-70.6499301,-33.470112900000004,fuel,10
+Galería Comercial Metro,,mall,,,Santiago,-70.650323,-33.4437739,mall,20
+"UTEM, Universidad Tecnológica Metropolitana. Escuela de Arquitectura",university,,,,Santiago,-70.6574577,-33.44972099999999,university,10
+,parking,,,,Santiago,-70.6642151,-33.4597263,parking,25
+Santa Isabel,,supermarket,,,Santiago,-70.6495226,-33.433837800000006,supermarket,10
+Copec,fuel,,,,Santiago,-70.6429556,-33.4463785,fuel,10
+Estacionamiento,parking,,,,Santiago,-70.6494362,-33.4468843,parking,25
+Enel X,charging_station,,,,Santiago,-70.6471922,-33.43785940000001,charging_station,30
+Centro de Prácticas Profesionales UDLA,university,,,,Santiago,-70.6657416,-33.45007869999999,university,10
+Facultad de Derecho UDLA,university,,,,Santiago,-70.6663007,-33.4501176,university,10
+Universidad Miguel de Cervantes,university,,,,Santiago,-70.647106,-33.4383874,university,10
+Minimarket sub,,supermarket,,,Santiago,-70.6545194,-33.43666840000001,supermarket,10
+"Facultad de arte, arquitectura y diseño Universidad Diego Portales",university,,,,Santiago,-70.6676391,-33.4506596,university,10
+Universidad Diego Portales,university,,,,Santiago,-70.666922,-33.44959,university,10
+Facultad de Comunicación y Letras  Universidad Diego Portales,university,,,,Santiago,-70.66165,-33.45022159999999,university,10
+Facultad de derecho Universidad Diego Portales,university,,,,Santiago,-70.6682281,-33.4503026,university,10
+Facultad de Educación Diego Portales,university,,,,Santiago,-70.661756,-33.4498816,university,10
+Facultad de Salud y Odontología Universidad Diego Portales,university,,,,Santiago,-70.6600348,-33.4499524,university,10
+Gimnasio UDP,university,,,,Santiago,-70.6598118,-33.4513455,university,10
+Instituto de Filosofía Udp,university,,,,Santiago,-70.6607069,-33.45005949999999,university,10
+Copec,fuel,,,,Santiago,-70.6599265,-33.4343759,fuel,10
+Copec,fuel,,,,Santiago,-70.6564035,-33.47205810000001,fuel,10
+,parking,,,,Santiago,-70.6442749,-33.44493429999999,parking,25
+,parking,,,,Santiago,-70.6531377,-33.4474063,parking,25
+Galería Metropolitana,,mall,,,Santiago,-70.6467006,-33.442044499999994,mall,20
+Petrobras,fuel,,,,Santiago,-70.6442933,-33.453428,fuel,10
+Centro de Formación Técnica Alpes,university,,,,Santiago,-70.6678793,-33.4560176,university,10
+Centro de Formación Técnica Accioma,university,,,,Santiago,-70.6584543,-33.45029100000001,university,10
+Centro de Formación Técnica ICEL,university,,,,Santiago,-70.6717317,-33.4492959,university,10
+Centro de Formación Técnica Paulina Diard,university,,,,Santiago,-70.6523992,-33.43606409999999,university,10
+Escuela de Comercio de Santiago Campus Sazié,university,,,,Santiago,-70.6624941,-33.4501102,university,10
+Escuela de Comercio de Santiago Campus Republica,university,,,,Santiago,-70.6675431,-33.450900000000004,university,10
+Instituto Chileno Británico de Cultura,university,,,,Santiago,-70.6622955,-33.4427942,university,10
+Instituto Profesional Carlos Casanueva,university,,,,Santiago,-70.6481321,-33.4444122,university,10
+Instituto Profesional CIISA,university,,,,Santiago,-70.6663594,-33.44686200000001,university,10
+Instituto Profesional del Valle Central Santiago,university,,,,Santiago,-70.6585596,-33.449165599999986,university,10
+Instituto Profesional Duoc UC Sede Padre Alonso de Ovalle,university,,,,Santiago,-70.6577737,-33.447305799999995,university,10
+Universidad Los Leones,university,,,,Santiago,-70.6518964,-33.4481675,university,10
+Instituto Profesional Los Leones sedes Santiago,university,,,,Santiago,-70.6677121,-33.44959509999999,university,10
+Instituto Profesional Vertical,university,,,,Santiago,-70.6620093,-33.4473488,university,10
+Instituto Profesional Vertical,university,,,,Santiago,-70.6606927,-33.4482203,university,10
+Universidad Academia de Humanismo Cristiano Campus Brasil,university,,,,Santiago,-70.6632372,-33.44113089999999,university,10
+Universidad Academia de Humanismo Cristiano Casa Barroso,university,,,,Santiago,-70.6625804,-33.4400049,university,10
+Universidad Academia de Humanismo Cristiano Casa Arrau,university,,,,Santiago,-70.6664057,-33.441435799999994,university,10
+Universidad Bolivariana,university,,,,Santiago,-70.6615143,-33.440436899999995,university,10
+Universidad Católica del Norte (UCN) SeDe Santiago,university,,,,Santiago,-70.639799,-33.4401927,university,10
+Universidad de Las Américas,university,,,,Santiago,-70.668407,-33.449461199999995,university,10
+,parking,,,,Santiago,-70.6519895,-33.456337899999994,parking,25
+Universidad Academia de Humanismo Cristiano Casa Catedral,university,,,,Santiago,-70.6615345,-33.4383302,university,10
+Copec,fuel,,,,Santiago,-70.6721225,-33.4771592,fuel,10
+,parking,,,,Santiago,-70.6423031,-33.4725056,parking,25
+Universidad Academia de Humanismo Cristiano Casa Agustina,university,,,,Santiago,-70.6654222,-33.44203999999999,university,10
+,parking,,,,Santiago,-70.6583649,-33.45591400000001,parking,25
+,parking,,,,Santiago,-70.65087940000001,-33.459282899999984,parking,25
+,parking,,,,Santiago,-70.6549041,-33.4641106,parking,25
+Lider Express,,supermarket,,,Santiago,-70.6479126,-33.47576409999999,supermarket,10
+,parking,,,,Santiago,-70.6476454,-33.47061670000001,parking,25
+Facultad de Artes de la Universidad de Chile,university,,,,Santiago,-70.6547764,-33.43907879999998,university,10
+Los Alpes,,supermarket,,,Santiago,-70.6552661,-33.4388377,supermarket,10
+Los Alpes,,supermarket,,,Santiago,-70.6545794,-33.43762830000001,supermarket,10
+Estadio Militar,,,,stadium,Santiago,-70.6612152768579,-33.472272113910726,stadium,20
+Biblioteca Nacional de Chile,library,,office,,Santiago,-70.64572906148909,-33.44207105384273,library,13
+,,,commercial,,Santiago,-70.65054106906601,-33.43640526844666,commercial,10
+,,,commercial,,Santiago,-70.65266039370469,-33.4401810905147,commercial,10
+,,,commercial,,Santiago,-70.65246249761772,-33.44071317124657,commercial,10
+,,,office,,Santiago,-70.66235618738179,-33.45371065098859,office,8
+,,,office,,Santiago,-70.6499894745308,-33.43972614529254,office,8
+Hospital San Juan de Dios,hospital,,,,Santiago,-70.67909093250101,-33.442393261702435,hospital,6
+Bolsa de Comercio de Santiago,,,commercial,,Santiago,-70.6515699016275,-33.442728679987376,commercial,10
+Campus Patrimonial Universidad Alberto Hurtado,university,,,,Santiago,-70.66225356991065,-33.445022047088855,university,10
+Universidad Diego Portales,university,,,,Santiago,-70.66043345517289,-33.4505901940222,university,10
+,,,commercial,,Santiago,-70.64892446603774,-33.442005876121826,commercial,10
+Universidad Mayor Campus Santo Domingo,university,,university,,Santiago,-70.6477281136793,-33.435530992885326,university,10
+The Garden Hostel & Food,,mall,yes,,Santiago,-70.66546359206298,-33.44569737010524,mall,20
+,,,commercial,,Santiago,-70.65172627220528,-33.44109711743774,commercial,10
+,,,commercial,,Santiago,-70.65200293831124,-33.43839026661702,commercial,10
+Club Hípico de Santiago,,,,stadium,Santiago,-70.66835123533143,-33.46356378760531,stadium,20
+Universidad de Chile (Facultad de Economía y Negocios),university,,,,Santiago,-70.63603406706356,-33.441801053076695,university,10
+Mercado Central de Santiago,marketplace,marketplace,retail,,Santiago,-70.65105672628066,-33.43379418259558,marketplace,13
+Casa Central Universidad de Chile,university,,yes,,Santiago,-70.65097137431117,-33.44455485742408,university,10
+Plaza Elizondo,,,commercial,,Santiago,-70.64579801387112,-33.475943195219955,commercial,10
+Persa de las Mujeres,,,commercial,,Santiago,-70.6446742019714,-33.47589212190313,commercial,10
+Lider Express,,supermarket,retail,,Santiago,-70.65744922322759,-33.454139414043766,supermarket,10
+Universidad Central,university,,,,Santiago,-70.65156935880178,-33.45259997085961,university,10
+Torre 1,,,office,,Santiago,-70.6568709149549,-33.444603169489085,office,8
+Universidad Central,university,,,,Santiago,-70.65528147288649,-33.45138458230758,university,10
+Universidad Central - Centro de Extensión,university,,yes,,Santiago,-70.65409999952337,-33.45140519428355,university,10
+Mall Exposición,,mall,yes,,Santiago,-70.6775447975682,-33.45191415206848,mall,20
+Galeria Plaza Santiago,,mall,yes,,Santiago,-70.63691026031225,-33.438476453070095,mall,20
+Ripley Huérfanos,,,commercial,,Santiago,-70.64920540249791,-33.43972605373185,commercial,10
+"Taller Mecánico, Universidad de Chile",university,,,,Santiago,-70.67280050033119,-33.457816549864205,university,10
+Tottus,,supermarket,yes,,Santiago,-70.65209604286697,-33.45376176353924,supermarket,10
+Edificio Santa Rosa 76,,,office,,Santiago,-70.64514120798856,-33.444706061814,office,8
+Instituto Bíblico Nacional,,,office,,Santiago,-70.66030532449929,-33.45248576144913,office,8
+Santa Isabel,,supermarket,yes,,Santiago,-70.64250652277042,-33.47228578724533,supermarket,10
+Universidad de Chile (Facultad de Arquitectura y Urbanismo),university,,,,Santiago,-70.63739513635491,-33.4418024349912,university,10
+Universidad de Chile (Oficinas Centrales),university,,,,Santiago,-70.63754946813175,-33.4426564711124,university,10
+Torre 15,,,commercial,,Santiago,-70.63769558029871,-33.44267070664642,commercial,10
+Universidad de Chile,university,,,,Santiago,-70.63528919302462,-33.441301320070345,university,10
+,parking,,,,Santiago,-70.63507646178013,-33.440958813530806,parking,25
+Paseo San Agustín,,mall,supermarket,,Santiago,-70.64864667457142,-33.44137238905135,mall,20
+Centro de Especialidades Médicas UC,hospital,,,,Santiago,-70.6400986453831,-33.44233898278529,hospital,6
+Pontificia Universidad Católica de Chile,university,,,,Santiago,-70.64040797031835,-33.44180212630104,university,10
+Privado,parking,,,,Santiago,-70.66649727993611,-33.45616949116708,parking,25
+Privado,parking,,,,Santiago,-70.66629262734983,-33.45707256401104,parking,25
+Privado,parking,,,,Santiago,-70.66575096659392,-33.45617939179307,parking,25
+,,,commercial,,Santiago,-70.66648935021226,-33.455877193153064,commercial,10
+Pontificia Universidad Católica de Chile,parking,,,,Santiago,-70.63917339068422,-33.442989908724655,parking,25
+Mall Vivo El Centro,,mall,yes,,Santiago,-70.65094065773887,-33.43527915844471,mall,20
+Parque de los Reyes,parking,,,,Santiago,-70.67046214750384,-33.42767678869267,parking,25
+Universidad Iberoamericana de Ciencias y Tecnología,university,,,,Santiago,-70.65811587337126,-33.4496911332425,university,10
+Pontificia Universidad Católica de Chile,parking,,,,Santiago,-70.63877611082343,-33.44300676232505,parking,25
+Universidad de Chile (Facultad de Ciencias Físicas y Matemáticas),university,,,,Santiago,-70.66374531501594,-33.45657044891804,university,10
+Universidad de Chile (Facultad de Ciencias Físicas y Matemáticas),university,,,,Santiago,-70.66231866245397,-33.45768778235045,university,10
+Universidad de Chile (Facultad de Ciencias Físicas y Matemáticas),university,,,,Santiago,-70.6677058205703,-33.456604281636494,university,10
+Universidad de Chile (Facultad de Ciencias Físicas y Matemáticas),university,,,,Santiago,-70.66447673618133,-33.45784075360902,university,10
+Universidad de Chile (Facultad de Ciencias Físicas y Matemáticas),university,,,,Santiago,-70.66700468797559,-33.45706697175396,university,10
+Edificio del Comercio,,,commercial,,Santiago,-70.64313908259605,-33.43671445883753,commercial,10
+Estacionamiento Merced,parking,,yes,,Santiago,-70.64174167633819,-33.43708110509229,parking,25
+Estacionamiento Avenida República,parking,,,,Santiago,-70.66701115527448,-33.4549234046338,parking,25
+Universidad de Los Lagos,university,,,,Santiago,-70.6676618239554,-33.45495258702655,university,10
+IGM parking,parking,,,,Santiago,-70.65743656387232,-33.45219739329427,parking,25
+,parking,,,,Santiago,-70.65214533627466,-33.44571957792707,parking,25
+Santa Isabel,,supermarket,yes,,Santiago,-70.6641051354605,-33.45175433794655,supermarket,10
+Biblioteca Campus Central UTEM,university,,yes,,Santiago,-70.65895692783936,-33.4496326718162,university,10
+INACAP Santiago Centro,university,,,,Santiago,-70.66233007497279,-33.44350998075815,university,10
+Archivo Nacional de Chile,,,office,,Santiago,-70.6452676865027,-33.441955154962,office,8
+Hospital San Borja Arriarán,hospital,,,,Santiago,-70.64148848470768,-33.46108306796131,hospital,6
+Torre 2,,,office,,Santiago,-70.65644955613962,-33.44437732597701,office,8
+Facultad de Odontologia,university,,public,,Santiago,-70.66400804579938,-33.44631878271177,university,10
+,parking,,,,Santiago,-70.65974165056603,-33.447751216119805,parking,25
+"Facultad de Arquitectura, Diseño y Construcción - Universidad Mayor",university,,,,Santiago,-70.63671723284202,-33.4468568672571,university,10
+Facultad de Medicina Universidad de Chile,university,,,,Santiago,-70.6834310848693,-33.442695843465,university,10
+Estacionamiento Parque de los Reyes,parking,,,,Santiago,-70.65756370498198,-33.43141633192881,parking,25
+,parking,,,,Santiago,-70.6790626164571,-33.442577751086695,parking,25
+,,,commercial,,Santiago,-70.65126444548713,-33.44056001536074,commercial,10
+Universidad Diego Portales,university,,,,Santiago,-70.66737829532653,-33.45061477625203,university,10
+Mall Espacio M,,mall,retail,,Santiago,-70.65418346905926,-33.43910837029351,mall,20
+,public_building,,office,,Santiago,-70.66662070380775,-33.45519590609685,public_building,13
+,,,office,,Santiago,-70.66652823817827,-33.45540525014654,office,8
+,,,commercial,,Santiago,-70.66589140248298,-33.45415756087473,commercial,10
+,,,office,,Santiago,-70.66610451808589,-33.45330070112656,office,8
+,,,commercial,,Santiago,-70.66605110507362,-33.45323860972608,commercial,10
+Universidad Diego Portales,university,,,,Santiago,-70.66026398438885,-33.450061378166495,university,10
+,parking,,,,Santiago,-70.65702267357732,-33.452190022323606,parking,25
+Tecnicor,parking,,,,Santiago,-70.65775882923099,-33.45003078032414,parking,25
+,parking,,,,Santiago,-70.65942971693669,-33.44793922611708,parking,25
+,parking,,,,Santiago,-70.65920738869181,-33.447868295486266,parking,25
+Diseño Universidad Tecnológica Metropolitana,,,office,,Santiago,-70.65848077532722,-33.44756822510883,office,8
+Buses JAC,,,commercial,,Santiago,-70.66056024930336,-33.449322705943665,commercial,10
+,,,commercial,,Santiago,-70.6604410459195,-33.45332659389546,commercial,10
+,parking,,,,Santiago,-70.65877935852775,-33.44704801106141,parking,25
+Cooperativa de Ahorro y Crédito,,,commercial,,Santiago,-70.65885302684667,-33.44743281514429,commercial,10
+Observatorio Latinoamericano de Conflictos Ambientales,,,office,,Santiago,-70.6587072320154,-33.447381401985,office,8
+Facultad de Humanidades y Tecnologías de la Comunicación Social,university,,university,,Santiago,-70.65851089705448,-33.44738956506451,university,10
+,,,commercial,,Santiago,-70.66029894359338,-33.45413045238975,commercial,10
+,,,commercial,,Santiago,-70.65983944571882,-33.45165849310921,commercial,10
+,,,commercial,,Santiago,-70.65993158445154,-33.451687037704275,commercial,10
+,,,commercial,,Santiago,-70.66104655156713,-33.44703315271319,commercial,10
+IGENAR,parking,,yes,,Santiago,-70.66082779418782,-33.4471981950027,parking,25
+,,,commercial,,Santiago,-70.66096842178396,-33.447366331021755,commercial,10
+Estacionamiento Rhona,parking,,,,Santiago,-70.6606582459639,-33.448006950895184,parking,25
+,,,commercial,,Santiago,-70.66071678210666,-33.44767763496153,commercial,10
+,parking,,,,Santiago,-70.66104930456636,-33.44752121975124,parking,25
+,parking,,,,Santiago,-70.66097687761479,-33.44789078422374,parking,25
+,,,commercial,,Santiago,-70.6600777945797,-33.45169920372533,commercial,10
+,,,commercial,,Santiago,-70.66037767840359,-33.45169881615333,commercial,10
+Centros medicos vida integra,,,office,,Santiago,-70.65875939238488,-33.446479107271166,office,8
+Rhona,,,commercial,,Santiago,-70.66098439028997,-33.44844566669762,commercial,10
+,,,commercial,,Santiago,-70.665219080022,-33.453730202173446,commercial,10
+,,,commercial,,Santiago,-70.66537432084016,-33.45311711108537,commercial,10
+,parking,,,,Santiago,-70.66594131455462,-33.45220939310998,parking,25
+,,,commercial,,Santiago,-70.66523362540303,-33.45453740737848,commercial,10
+Sociedad Teosofica de Chile,,,commercial,,Santiago,-70.66022230317196,-33.45043389573627,commercial,10
+,,,commercial,,Santiago,-70.66128875226735,-33.44976703922811,commercial,10
+Estacionamiento Privado Universidad Iberoamericana,parking,,,,Santiago,-70.6580815419156,-33.44989382489714,parking,25
+Esucomex,university,,,,Santiago,-70.66157349292806,-33.448518936571176,university,10
+Esucomex,university,,yes,,Santiago,-70.66162159570521,-33.44814566627948,university,10
+Centro de Formación Técnica ICCE,,,commercial,,Santiago,-70.6616768709562,-33.44727883117035,commercial,10
+,parking,,,,Santiago,-70.65991520006112,-33.44995074995271,parking,25
+,parking,,,,Santiago,-70.6599784000161,-33.44969244998784,parking,25
+,parking,,,,Santiago,-70.65846239952161,-33.447209769005994,parking,25
+,parking,,,,Santiago,-70.6590940743655,-33.44729507884352,parking,25
+,parking,,,,Santiago,-70.65169624052513,-33.44999130138042,parking,25
+pasaje allende,parking,,,,Santiago,-70.65941614279602,-33.45374617224441,parking,25
+,parking,,,,Santiago,-70.65897031672206,-33.453549241680385,parking,25
+Estacionamientos Conaf,parking,,,,Santiago,-70.65134279416759,-33.44932224106275,parking,25
+Universidad Iberoamericana,university,,yes,,Santiago,-70.65742019466968,-33.448821655115964,university,10
+Estacionamiento Pasaje Padre Miguel de Olivares,parking,,,,Santiago,-70.65869146267254,-33.4500032156915,parking,25
+Universidad Bolivariana,university,,,,Santiago,-70.65811891311633,-33.449080836485386,university,10
+,parking,,,,Santiago,-70.66204110597195,-33.45291481755869,parking,25
+,parking,,,,Santiago,-70.6626360050941,-33.45279860706115,parking,25
+,parking,,,,Santiago,-70.66114781835928,-33.45104822816929,parking,25
+,parking,,,,Santiago,-70.65934114150907,-33.4463247381687,parking,25
+,parking,,,,Santiago,-70.65992564018973,-33.45177798506203,parking,25
+,parking,,,,Santiago,-70.65975835002902,-33.45070154997814,parking,25
+Universidad Diego Portales,,,commercial,,Santiago,-70.65982010267209,-33.45100587732865,commercial,10
+Comercio y vivienda,,,commercial,,Santiago,-70.66077389921902,-33.451811828171955,commercial,10
+,parking,,,,Santiago,-70.65913288695539,-33.4412658831564,parking,25
+Antigüedades Carroza,,,commercial,,Santiago,-70.65981284897464,-33.43176596711684,commercial,10
+,parking,,,,Santiago,-70.65194754435956,-33.4487579885727,parking,25
+,,,commercial,,Santiago,-70.64716101386145,-33.451457840999986,commercial,10
+,parking,,,,Santiago,-70.64718514587442,-33.45133709268445,parking,25
+Privado,parking,,,,Santiago,-70.64731497914514,-33.450466422399046,parking,25
+,parking,,,,Santiago,-70.6472193337907,-33.450790481303365,parking,25
+Indumotora One,,car,commercial,,Santiago,-70.64527019073957,-33.45033473232718,car,13
+Kia,,car,commercial,,Santiago,-70.64519297767457,-33.45006213683963,car,13
+Universidad de Chile (Facultad de Ciencias Físicas y Matemáticas),university,,,,Santiago,-70.66695628877068,-33.456596351663734,university,10
+,,,office,,Santiago,-70.66694681598312,-33.456622803384974,office,8
+,,,office,,Santiago,-70.6669612387404,-33.45653674886819,office,8
+IP Chile,university,,,,Santiago,-70.66901960262967,-33.452954327401685,university,10
+Universidad Andrés Bello (Facultad de Economía y Negocios),university,,,,Santiago,-70.66777005341177,-33.45330746526,university,10
+Universidad Andrés Bello (Facultad de Medicina),university,,,,Santiago,-70.6670831539838,-33.45243087960289,university,10
+Opticas Rodenstock,,,commercial,,Santiago,-70.66408862789078,-33.468165139713506,commercial,10
+,parking,,,,Santiago,-70.65718186980295,-33.457481333317425,parking,25
+Universidad Bernardo O'Higgins,university,,,,Santiago,-70.65756390057207,-33.467105605163,university,10
+Lider Express,,supermarket,yes,,Santiago,-70.67050238686235,-33.43534338326402,supermarket,10
+Escuela de Gendarmería del General Manuel Bulnes Prieto,university,,,,Santiago,-70.63843751143949,-33.458070936975815,university,10
+,,,office,,Santiago,-70.66194176547837,-33.45362014312168,office,8
+,,,office,,Santiago,-70.66126609562006,-33.45316973851644,office,8
+,,,office,,Santiago,-70.66106822925512,-33.453180293648394,office,8
+,,,commercial,,Santiago,-70.66146457645245,-33.47177312685599,commercial,10
+,,,commercial,,Santiago,-70.66171862353083,-33.4717768970358,commercial,10
+Edificio Galaxy Center,,,commercial,,Santiago,-70.64489891199786,-33.43637561003816,commercial,10
+Mall Chino,,mall,yes,,Santiago,-70.67513475447748,-33.44915382076666,mall,20
+,,,commercial,,Santiago,-70.65024682336633,-33.45149421394266,commercial,10
+,,,commercial,,Santiago,-70.65026063810303,-33.45138113234226,commercial,10
+,,,commercial,,Santiago,-70.65027245669866,-33.45126895194115,commercial,10
+,,,commercial,,Santiago,-70.65021407300303,-33.4516138140245,commercial,10
+,parking,,,,Santiago,-70.65115673201484,-33.4465842320148,parking,25
+Oficinas de la Municipalidad de Santiago,,,commercial,,Santiago,-70.64675321513494,-33.43495011310985,commercial,10
+Edificio Marcial Martínez,,,commercial,,Santiago,-70.64852189205325,-33.441883838256146,commercial,10
+Centro Comercial Dragon de Oro,,mall,retail,,Santiago,-70.67603618277083,-33.450852249273865,mall,20
+,,,commercial,,Santiago,-70.67001126380511,-33.44900726029835,commercial,10
+Tottus,,supermarket,yes,,Santiago,-70.63218442654505,-33.450565058777755,supermarket,10
+Universidad Católica Raúl Silva Henríquez,university,,,,Santiago,-70.64199936520885,-33.446894166897295,university,10
+,,,commercial,,Santiago,-70.64711737562511,-33.44197492848905,commercial,10
+Centro Comercial,,,commercial,,Santiago,-70.64744139388209,-33.44202121110475,commercial,10
+,,,commercial,,Santiago,-70.64811508178086,-33.44194878530097,commercial,10
+EuroCentro,,,commercial,,Santiago,-70.65031341202658,-33.442109076906576,commercial,10
+,,,commercial,,Santiago,-70.65091641452217,-33.442137335885924,commercial,10
+Edificio Mundial,,,commercial,,Santiago,-70.65167091615781,-33.442176170490534,commercial,10
+Centro Comercial Patio Centro,,mall,commercial,,Santiago,-70.65162948170702,-33.441737237929665,mall,20
+,,,commercial,,Santiago,-70.65282132604477,-33.43959468390778,commercial,10
+Edificio Parlamento,,,commercial,,Santiago,-70.65228526703815,-33.43840856426986,commercial,10
+,,,commercial,,Santiago,-70.6466641795196,-33.4413594480407,commercial,10
+,,,commercial,,Santiago,-70.6469995286478,-33.44145398446614,commercial,10
+Edificio Fundación,,,office,,Santiago,-70.64548002215248,-33.440584192814114,office,8
+Estacionamiento Casablanca,parking,,parking,,Santiago,-70.64535525530268,-33.437666789712644,parking,25
+Edificio Carillón,parking,,parking,,Santiago,-70.64629323844565,-33.43768630582004,parking,25
+Work/Café Santander,,,commercial,,Santiago,-70.6516810729551,-33.44142079696109,commercial,10
+París,,department_store,commercial,,Santiago,-70.65180524176924,-33.44065389477509,department_store,13
+,,,commercial,,Santiago,-70.65185851761197,-33.44040885354495,commercial,10
+,,,commercial,,Santiago,-70.65211135621233,-33.43942200467524,commercial,10
+Pasaje Catedral,,,commercial,,Santiago,-70.65214847361818,-33.437105269000384,commercial,10
+Universidad Tecnológica Metropolitana,university,,yes,,Santiago,-70.65705056529248,-33.448342385998345,university,10
+,,,commercial,,Santiago,-70.6311597612701,-33.452248733493896,commercial,10
+Copec,fuel,,roof,,Santiago,-70.65467069645723,-33.4477680001094,fuel,10
+Mitsubishi,,car,commercial,,Santiago,-70.64405320990048,-33.450239598237104,car,13
+Santa Isabel,,supermarket,yes,,Santiago,-70.65135056587036,-33.44827807014892,supermarket,10
+Lider Express,,supermarket,yes,,Santiago,-70.65134949586358,-33.44779858166292,supermarket,10
+Santa Isabel,,supermarket,yes,,Santiago,-70.66872570389843,-33.439997139088696,supermarket,10
+,,,retail,,Santiago,-70.66920147236073,-33.44609355424548,retail,6
+Centro Comercial Lego,,,commercial,,Santiago,-70.64622523232308,-33.474729089344365,commercial,10
+Lider Express,,supermarket,yes,,Santiago,-70.65335267086503,-33.43420022843951,supermarket,10
+Shell,fuel,,roof,,Santiago,-70.63591936185856,-33.44582065919148,fuel,10
+Copec,fuel,,roof,,Santiago,-70.66448187534537,-33.43487493274805,fuel,10
+Centro Comercial China,,mall,yes,,Santiago,-70.65051687439345,-33.446394070274735,mall,20
+Universidad Arturo Prat Santiago,university,,,,Santiago,-70.66241823027218,-33.43520739251148,university,10
+Copec,fuel,,roof,,Santiago,-70.6487515237917,-33.4537147778188,fuel,10
+,,,commercial,,Santiago,-70.64681883772221,-33.47303110101182,commercial,10
+Centro Comercial Paseo Franklin,,,commercial,,Santiago,-70.64687388004558,-33.47354168726948,commercial,10
+Copec,fuel,,roof,,Santiago,-70.67380145444154,-33.45675611957312,fuel,10
+,,,commercial,,Santiago,-70.67617177228674,-33.43738052936524,commercial,10
+Radio Cooperativa,,,office,,Santiago,-70.67657855003256,-33.43973119988558,office,8
+Shell,fuel,,roof,,Santiago,-70.67705538031113,-33.43285650474897,fuel,10
+Tottus,,supermarket,retail,,Santiago,-70.6631277305474,-33.438908695158375,supermarket,10
+,,,commercial,,Santiago,-70.64549695622212,-33.44312386380917,commercial,10
+Estacionamientos Tottus,parking,,,,Santiago,-70.66355616567465,-33.43938507832161,parking,25
+Montserrat,,supermarket,yes,,Santiago,-70.67484383278638,-33.437756259346294,supermarket,10
+Lider Express,,supermarket,yes,,Santiago,-70.63901237001137,-33.44863201116441,supermarket,10
+Edificio Corporativo La Araucana,,,office,,Santiago,-70.64422689514106,-33.43807602313249,office,8
+Galería Consistorial,,,commercial,,Santiago,-70.64926592367183,-33.43696070143789,commercial,10
+Galería Capri,,,commercial,,Santiago,-70.64903187855127,-33.43676285832761,commercial,10
+Galería Comercial Bandera Centro,,mall,yes,,Santiago,-70.65241973457391,-33.43725264457032,mall,20
+,,,retail,,Santiago,-70.63923124140744,-33.440913906666154,retail,6
+Copec,fuel,,roof,,Santiago,-70.6607510837709,-33.456517667326374,fuel,10
+Lider Express,,supermarket,yes,,Santiago,-70.63456695998318,-33.45002437103064,supermarket,10
+,,,retail,,Santiago,-70.63646672082706,-33.44287341267196,retail,6
+Lider Express,,supermarket,yes,,Santiago,-70.63679268211891,-33.44564188604314,supermarket,10
+La Caserita,,supermarket,yes,,Santiago,-70.67893596925342,-33.44706572291785,supermarket,10
+Lider Express,,supermarket,yes,,Santiago,-70.64595770229043,-33.44561644337622,supermarket,10
+Shell,fuel,,roof,,Santiago,-70.66537686418346,-33.44253196624422,fuel,10
+Centro de Formación Técnica del Medio Ambiente SeDe Santiago,university,,,,Santiago,-70.66404190003956,-33.44226104993944,university,10
+Scanavini,,,commercial,,Santiago,-70.67083748273396,-33.45791389458962,commercial,10
+Universidad del Alba,university,,yes,,Santiago,-70.66137140131976,-33.44886527148869,university,10
+Mall Mayorista Plaza Lila,,mall,yes,,Santiago,-70.67295340560905,-33.45096428966357,mall,20
+,,,commercial,,Santiago,-70.66060362294951,-33.45636401848765,commercial,10
+Restaurant Hang Nan,restaurant,,commercial,,Santiago,-70.66418117721864,-33.45407945307571,restaurant,13
+Universidad Andrés Bello,university,,,,Santiago,-70.66818337175408,-33.45160353794088,university,10
+,,supermarket,yes,,Santiago,-70.67148345383444,-33.469578013328764,supermarket,10
+Perfumeria Aseo Hogar,,,commercial,,Santiago,-70.64807026218715,-33.47455991632198,commercial,10
+El Angolino,,,commercial,,Santiago,-70.6481233034105,-33.47391009033122,commercial,10
+Maicao,,chemist,commercial,,Santiago,-70.64821456041577,-33.473438600782174,chemist,13
+,,,retail,,Santiago,-70.64932490002013,-33.457046350013215,retail,6
+Super 10,,supermarket,yes,,Santiago,-70.64894438090025,-33.473679599204864,supermarket,10
+La Mundial,,,commercial,,Santiago,-70.64512923629506,-33.47178894333578,commercial,10
+Yousef,,,commercial,,Santiago,-70.64163247317553,-33.46871653821394,commercial,10
+,,,retail,,Santiago,-70.64317337325555,-33.4608283079654,retail,6
+,,,commercial,,Santiago,-70.64915014803061,-33.47348739613133,commercial,10
+Universidad Santo Tomás,university,,,,Santiago,-70.66058243560971,-33.44882010133039,university,10
+,,,commercial,,Santiago,-70.66521942960223,-33.45278646759149,commercial,10
+Caracol San Diego,,,commercial,,Santiago,-70.6480604024416,-33.47299962656541,commercial,10
+,,,commercial,,Santiago,-70.64871655628369,-33.470890084859384,commercial,10
+,,,commercial,,Santiago,-70.6431324435869,-33.462978456693186,commercial,10
+KMayorista,,supermarket,yes,,Santiago,-70.64497215197626,-33.463168620616976,supermarket,10
+,,,commercial,,Santiago,-70.6471098822952,-33.46755454635584,commercial,10
+Shell,fuel,,roof,,Santiago,-70.65463934000577,-33.47282701801053,fuel,10
+,,,retail,,Santiago,-70.64470632821968,-33.4479101111932,retail,6
+,,,commercial,,Santiago,-70.6501881103105,-33.45525952324114,commercial,10
+,,,retail,,Santiago,-70.64371181358759,-33.45738448689343,retail,6
+Erbi,,supermarket,yes,,Santiago,-70.67997975000935,-33.43563219999158,supermarket,10
+Copec,fuel,,roof,,Santiago,-70.67316633074059,-33.43519744901705,fuel,10
+Petrobras,fuel,,roof,,Santiago,-70.65240092753623,-33.45968115880508,fuel,10
+Automotora Santa Isabel,,car,commercial,,Santiago,-70.64374047665964,-33.450164314534305,car,13
+,,,commercial,,Santiago,-70.64853512846823,-33.47593840746168,commercial,10
+,,,commercial,,Santiago,-70.64810793706516,-33.47496273589088,commercial,10
+,,,commercial,,Santiago,-70.65685615512648,-33.440919139959114,commercial,10
+,parking,,,,Santiago,-70.68364440861676,-33.44218035017563,parking,25
+,,,commercial,,Santiago,-70.66538007400007,-33.45632375443877,commercial,10
+,parking,,,,Santiago,-70.67512618296253,-33.440697805718635,parking,25
+Estacionamientos INE,parking,,,,Santiago,-70.65170526805449,-33.450971104697565,parking,25
+,parking,,,,Santiago,-70.65271524911765,-33.451138688243184,parking,25
+,parking,,,,Santiago,-70.63750510103142,-33.437333550118545,parking,25
+San Francisco,parking,,,,Santiago,-70.64780695213788,-33.4453763144432,parking,25
+,parking,,,,Santiago,-70.65220866506495,-33.45032345775181,parking,25
+El mesón de Paula,,,commercial,,Santiago,-70.66399017183018,-33.456355648107014,commercial,10
+,,,commercial,,Santiago,-70.66349573635522,-33.456327023677666,commercial,10
+,,,commercial,,Santiago,-70.66334438664857,-33.456274341702404,commercial,10
+,parking,,,,Santiago,-70.67539836466513,-33.44066526743071,parking,25
+,,,commercial,,Santiago,-70.65051475947897,-33.46357851920972,commercial,10
+,parking,,,,Santiago,-70.66167966412992,-33.435760074655306,parking,25
+,parking,,,,Santiago,-70.66675501749361,-33.44898328667486,parking,25
+,parking,,,,Santiago,-70.64302929516138,-33.46185513406642,parking,25
+,parking,,,,Santiago,-70.65023565479271,-33.47394912304371,parking,25
+Mall Vivo Imperio,,mall,yes,,Santiago,-70.64871503476246,-33.439852599164766,mall,20
+,,,commercial,,Santiago,-70.64875022104854,-33.44040676655068,commercial,10
+,parking,,,,Santiago,-70.65599600158309,-33.4587013861413,parking,25
+,parking,,,,Santiago,-70.64378647073946,-33.44926957041301,parking,25
+,parking,,,,Santiago,-70.64523049940303,-33.47417638967105,parking,25
+,parking,,,,Santiago,-70.6439676765324,-33.47585345355927,parking,25
+Torre 6,,,office,,Santiago,-70.65718457794745,-33.444004533183346,office,8
+Torre 4,,,office,,Santiago,-70.65717797773122,-33.444239931665784,office,8
+Estacionamiento CORFO,parking,,,,Santiago,-70.65706676333633,-33.44288953232559,parking,25
+Edificio Morandé,,,office,,Santiago,-70.65417671311998,-33.433919288397625,office,8
+Núcleo San Diego,,,commercial,,Santiago,-70.64789478109908,-33.46945907731213,commercial,10
+Garage Hispano-Suiza,,car_repair,commercial,,Santiago,-70.6640600083718,-33.453310556842595,car_repair,13
+,,,commercial,,Santiago,-70.66280482223142,-33.45380636983974,commercial,10
+,parking,,,,Santiago,-70.66112267362585,-33.45344541227808,parking,25
+,,,commercial,,Santiago,-70.66102903402229,-33.45354036538002,commercial,10
+,,,commercial,,Santiago,-70.66077448087644,-33.45340408290324,commercial,10
+,,,commercial,,Santiago,-70.6631378586511,-33.453606272942025,commercial,10
+Entre Tinajas,bar,,commercial,,Santiago,-70.66331332180687,-33.45359482982996,bar,13
+,parking,,,,Santiago,-70.67599547960322,-33.462894345677135,parking,25
+,,,commercial,,Santiago,-70.66255940239597,-33.453472542331,commercial,10
+Santiago,veterinary,,commercial,,Santiago,-70.66377111963324,-33.45605342868813,veterinary,13
+,,,commercial,,Santiago,-70.66452597777929,-33.45618090003453,commercial,10
+Ely,,convenience,commercial,,Santiago,-70.66219553792003,-33.45485644564621,convenience,13
+,car_wash,,yes,,Santiago,-70.67828860701506,-33.46147274480663,car_wash,2
+Marsol,parking,,,,Santiago,-70.66044193520784,-33.456433970600344,parking,25
+Pronto Copec,,convenience,commercial,,Santiago,-70.66078077885804,-33.45638303521337,convenience,13
+Facultad de Derecho UDP,university,,school,,Santiago,-70.66838388770614,-33.450334619376136,university,10
+,university,,,,Santiago,-70.66128258735166,-33.43822397090849,university,10
+,parking,,,,Santiago,-70.65698094620146,-33.45416257417154,parking,25
+,,,retail,,Santiago,-70.65755627305992,-33.454275469762486,retail,6
+Terminal Los Héroes,parking,,,,Santiago,-70.65864923280516,-33.44452169239326,parking,25
+Estacionamiento El Cielo,parking,,,,Santiago,-70.64862401504354,-33.46477803887341,parking,25
+"Hospital Penitenciario, Santiago",hospital,,,,Santiago,-70.66037139839413,-33.4740027769193,hospital,6
+Universidad Andrés Bello,university,,,,Santiago,-70.6669674872254,-33.45146020109871,university,10
+,,,office,,Santiago,-70.6563749393587,-33.43262472535609,office,8
+,,,commercial,,Santiago,-70.63510028596916,-33.44742321095675,commercial,10
+,,,commercial,,Santiago,-70.64611305569319,-33.47518540291428,commercial,10
+,parking,,,,Santiago,-70.66389050000213,-33.438476850008094,parking,25
+,parking,,,,Santiago,-70.66702666879742,-33.4467182576694,parking,25
+Pernos Kim,,,commercial,,Santiago,-70.63332741326073,-33.45143447689266,commercial,10
+,parking,,,,Santiago,-70.6799770039224,-33.44246770714307,parking,25
+CTMAN,,computer,commercial,,Santiago,-70.64944714613624,-33.4452653621543,computer,13
+Edificio Financiero,,,office,,Santiago,-70.6515352464307,-33.442237137721584,office,8
+,parking,,,,Santiago,-70.63534924065338,-33.44611291728617,parking,25
+,parking,,,,Santiago,-70.63457261149132,-33.44510861296489,parking,25
+,parking,,,,Santiago,-70.65432567704472,-33.43796984860744,parking,25
+,parking,,,,Santiago,-70.64556487029432,-33.446626351589615,parking,25
+Universidad Andrés Bello,university,,,,Santiago,-70.6683332221528,-33.45096511635018,university,10
+Lider Express,,supermarket,yes,,Santiago,-70.64309829096827,-33.44599458123156,supermarket,10
+,,,commercial,,Santiago,-70.64377361551118,-33.446319073440385,commercial,10
+Galería Lastarria,,mall,yes,,Santiago,-70.6415909843366,-33.43884498444989,mall,20
+Hospital de Urgencia Asistencia Pública,hospital,,,,Santiago,-70.63826810560235,-33.44403994353784,hospital,6
+,,,commercial,,Santiago,-70.6485344652783,-33.4760192226609,commercial,10
+,parking,,,,Santiago,-70.66789374314105,-33.454886372511226,parking,25
+,parking,,,,Santiago,-70.64777061580932,-33.451618064620085,parking,25
+,,,commercial,,Santiago,-70.64063283371632,-33.44938998102619,commercial,10
+,parking,,,,Santiago,-70.66116394045594,-33.43494104428505,parking,25
+Torre 7,,,office,,Santiago,-70.65669971444794,-33.44376604154657,office,8
+,,,office,,Santiago,-70.65646791296489,-33.44381492576327,office,8
+,parking,,,,Santiago,-70.66144070888478,-33.458267431601335,parking,25
+Facultad de Ciencias Fisicas y Matematicas (Universidad de Chile),parking,,,,Santiago,-70.66288492643125,-33.458369741872616,parking,25
+Copec,fuel,,,,Santiago,-70.64246875698841,-33.45783211057772,fuel,10
+Shell,fuel,,,,Santiago,-70.63660890837058,-33.457209988726525,fuel,10
+,,,commercial,,Santiago,-70.65506637347963,-33.4490912060294,commercial,10
+,parking,,,,Santiago,-70.63497426488313,-33.44796931347102,parking,25
+,parking,,,,Santiago,-70.63817956623065,-33.437813438957015,parking,25
+,,,office,,Santiago,-70.66474467600042,-33.45445648249229,office,8
+,,,commercial,,Santiago,-70.66155813101317,-33.45247050326665,commercial,10
+Universidad Diego Portales - Facultad de Ingeniería,university,,,,Santiago,-70.66109748140501,-33.45272602297492,university,10
+Universidad Tecnológica Metropolitana,university,,,,Santiago,-70.65677429020329,-33.451457115359105,university,10
+Comercial Marzuca,,,retail,,Santiago,-70.64797658990128,-33.463828558808665,retail,6
+,,,commercial,,Santiago,-70.66517021153119,-33.452360150480125,commercial,10
+,,,commercial,,Santiago,-70.66520795977613,-33.452121082231066,commercial,10
+Lider Express,,supermarket,yes,,Santiago,-70.66545621710776,-33.4520054594634,supermarket,10
+Privado,parking,,,,Santiago,-70.66598888533986,-33.452603285199075,parking,25
+,,,office,,Santiago,-70.66484166117165,-33.4547481263666,office,8
+,,,office,,Santiago,-70.6673011819423,-33.44820125030966,office,8
+,,,office,,Santiago,-70.66747782938579,-33.44820628841638,office,8
+,,,office,,Santiago,-70.66779449965543,-33.4484395326769,office,8
+Universidad Mayor,university,,,,Santiago,-70.66740784650924,-33.44824387116572,university,10
+Escuela CEIA Acuario,university,,,,Santiago,-70.66181933298222,-33.456099472546775,university,10
+,,,office,,Santiago,-70.66156651195203,-33.45655724175364,office,8
+,parking,,,,Santiago,-70.66181578339054,-33.45635456394049,parking,25
+,,,office,,Santiago,-70.65842542209,-33.45579505349168,office,8
+,parking,,,,Santiago,-70.65928139223612,-33.4558362383843,parking,25
+,,,office,,Santiago,-70.65845118204722,-33.45557973638336,office,8
+,parking,,,,Santiago,-70.66514580293483,-33.44053116451962,parking,25
+,parking,,,,Santiago,-70.64664331684085,-33.45102775842615,parking,25
+Universidad Pedro de Valdivia,university,,,,Santiago,-70.66692284040843,-33.448265324133395,university,10
+,parking,,,,Santiago,-70.6477338466132,-33.45133795886036,parking,25
+"Facultad de Arquitectura, Arte y Diseño UDP",university,,,,Santiago,-70.66708495448832,-33.449363042617975,university,10
+IP Chile,university,,,,Santiago,-70.66718468071012,-33.45199575553378,university,10
+IP Alpes,university,,,,Santiago,-70.66690117071865,-33.45363332815562,university,10
+Universidad Andrés Bello,university,,,,Santiago,-70.66684221317948,-33.45403586524645,university,10
+,,,commercial,,Santiago,-70.67623133265987,-33.43724567024243,commercial,10
+,parking,,,,Santiago,-70.65739251001551,-33.46663591667325,parking,25
+Universidad Diego Portales,university,,yes,,Santiago,-70.66175364686852,-33.449882874905754,university,10
+Persa Cordillera,,,commercial,,Santiago,-70.64080441483773,-33.474946793199514,commercial,10
+Galpón de la Computación,,,commercial,,Santiago,-70.64111767863236,-33.47498598062619,commercial,10
+Persa Placer,,,commercial,,Santiago,-70.64248572995382,-33.47497289088239,commercial,10
+,parking,,,,Santiago,-70.64736975472223,-33.474105501127084,parking,25
+Mall Paseo San Jorge,,mall,yes,,Santiago,-70.64623358280453,-33.47282001574761,mall,20
+,parking,,,,Santiago,-70.64601400498643,-33.47403859610752,parking,25
+,,,commercial,,Santiago,-70.6457087407668,-33.47430269262222,commercial,10
+,,,commercial,,Santiago,-70.64574093399962,-33.473907524052706,commercial,10
+,,,commercial,,Santiago,-70.64479650000409,-33.47560665001149,commercial,10
+,parking,,,,Santiago,-70.64287446940845,-33.476092430875745,parking,25
+Persa Comunidad San Isidro,,mall,yes,,Santiago,-70.63964439431155,-33.47315176594894,mall,20
+,,,commercial,,Santiago,-70.64235338817858,-33.47567773354808,commercial,10
+,,,commercial,,Santiago,-70.6401878277538,-33.47334540326987,commercial,10
+,,,office,,Santiago,-70.65869772430604,-33.43729649826633,office,8
+Facultad de Comunicación y Letras UDP,university,,,,Santiago,-70.66165064177338,-33.45018601993338,university,10
+Facultad de Psicología UDP,university,,,,Santiago,-70.66232418925502,-33.45065077788364,university,10
+,,,commercial,,Santiago,-70.62739698392515,-33.47082930039111,commercial,10
+,,,commercial,,Santiago,-70.65549517562953,-33.47136011509747,commercial,10
+,,,commercial,,Santiago,-70.65538785466606,-33.46975831954225,commercial,10
+,,,commercial,,Santiago,-70.65486066087854,-33.47016192851421,commercial,10
+,,,commercial,,Santiago,-70.65513190001211,-33.47024463335212,commercial,10
+,,,commercial,,Santiago,-70.65442688196123,-33.46990177638211,commercial,10
+,,,commercial,,Santiago,-70.65453058475042,-33.46955566254677,commercial,10
+,,,commercial,,Santiago,-70.65450510007679,-33.46949816332751,commercial,10
+,,,commercial,,Santiago,-70.6544677100314,-33.46935718096902,commercial,10
+,,,commercial,,Santiago,-70.65416483627918,-33.469395361090925,commercial,10
+,,,commercial,,Santiago,-70.65435018876613,-33.470210050960034,commercial,10
+,,,commercial,,Santiago,-70.6549495965941,-33.47119079703876,commercial,10
+,,,commercial,,Santiago,-70.65488334939519,-33.47136948681364,commercial,10
+,,,commercial,,Santiago,-70.6523201000078,-33.47036169999254,commercial,10
+,,,commercial,,Santiago,-70.65271760965014,-33.47151317840323,commercial,10
+,,,commercial,,Santiago,-70.65257953012771,-33.47151472746879,commercial,10
+,,,commercial,,Santiago,-70.65242219840718,-33.47150090268897,commercial,10
+,,,commercial,,Santiago,-70.65223489098757,-33.471489859373925,commercial,10
+,,,commercial,,Santiago,-70.65251595825168,-33.471310596877245,commercial,10
+,,,commercial,,Santiago,-70.65236039935313,-33.47118273983018,commercial,10
+,,,commercial,,Santiago,-70.65341678831011,-33.47305240658693,commercial,10
+,,,commercial,,Santiago,-70.65261808605528,-33.47296324689173,commercial,10
+,,,commercial,,Santiago,-70.65265060835141,-33.473146558827835,commercial,10
+,,,commercial,,Santiago,-70.65247326513904,-33.47299157989258,commercial,10
+,,,commercial,,Santiago,-70.65407555312284,-33.473467856164284,commercial,10
+,,,commercial,,Santiago,-70.65390422419698,-33.47345932853768,commercial,10
+,,,commercial,,Santiago,-70.65385588396661,-33.47333495909914,commercial,10
+,,,commercial,,Santiago,-70.65265758091482,-33.47253517966095,commercial,10
+,,,commercial,,Santiago,-70.65246193874412,-33.47249482762221,commercial,10
+,,,commercial,,Santiago,-70.65195177731077,-33.47213943385437,commercial,10
+,,,commercial,,Santiago,-70.65210105378691,-33.47177622098758,commercial,10
+,,,commercial,,Santiago,-70.65199160217597,-33.47184353730405,commercial,10
+,,,commercial,,Santiago,-70.65180904596009,-33.47080180546118,commercial,10
+,,,commercial,,Santiago,-70.65403420416895,-33.47374295200645,commercial,10
+,,,commercial,,Santiago,-70.653396644152,-33.47385214697088,commercial,10
+,,,commercial,,Santiago,-70.65246394330849,-33.473778516198735,commercial,10
+,,,commercial,,Santiago,-70.64947729218149,-33.470198027282315,commercial,10
+,,,commercial,,Santiago,-70.64891446360969,-33.47059945291784,commercial,10
+,,,commercial,,Santiago,-70.64908143693803,-33.47017746314896,commercial,10
+,,,commercial,,Santiago,-70.64909710721744,-33.47047295166804,commercial,10
+,,,commercial,,Santiago,-70.64907239939356,-33.470990637518895,commercial,10
+,,,commercial,,Santiago,-70.6491721134514,-33.470927293000486,commercial,10
+,,,commercial,,Santiago,-70.65298834213523,-33.474891233668274,commercial,10
+,,,commercial,,Santiago,-70.65340305003893,-33.47595299989524,commercial,10
+,,,commercial,,Santiago,-70.65164788203707,-33.475646477258266,commercial,10
+,,,commercial,,Santiago,-70.6518640470668,-33.47569895468169,commercial,10
+,,,commercial,,Santiago,-70.64752055840783,-33.46998136525013,commercial,10
+,,,commercial,,Santiago,-70.64708546255105,-33.47077478722049,commercial,10
+,,,commercial,,Santiago,-70.6469337432708,-33.47078902997288,commercial,10
+,,,commercial,,Santiago,-70.65119314731984,-33.47563904566391,commercial,10
+,,,commercial,,Santiago,-70.65186764233167,-33.47362318759477,commercial,10
+,,,commercial,,Santiago,-70.65146412932337,-33.473606428654584,commercial,10
+,,,commercial,,Santiago,-70.6515420158412,-33.47412526403737,commercial,10
+,,,commercial,,Santiago,-70.65039884875179,-33.47608761529144,commercial,10
+,,,commercial,,Santiago,-70.65058697987205,-33.476077473379014,commercial,10
+,,,commercial,,Santiago,-70.62642892812296,-33.46894056759461,commercial,10
+,,,commercial,,Santiago,-70.62701634769515,-33.46899638782878,commercial,10
+,,,commercial,,Santiago,-70.62704392888072,-33.46886900818766,commercial,10
+,,,commercial,,Santiago,-70.6270716151686,-33.46875776721437,commercial,10
+,,,commercial,,Santiago,-70.62709077928768,-33.46862530450605,commercial,10
+,,,commercial,,Santiago,-70.62746252894924,-33.468467175447074,commercial,10
+,,,commercial,,Santiago,-70.62694285167792,-33.46841857851794,commercial,10
+,,,commercial,,Santiago,-70.62660586190782,-33.46842151679467,commercial,10
+,,,commercial,,Santiago,-70.62676992156524,-33.46771491583399,commercial,10
+,,,commercial,,Santiago,-70.62715696769074,-33.46773748234288,commercial,10
+,,,commercial,,Santiago,-70.62738620578871,-33.46776835486908,commercial,10
+,,,commercial,,Santiago,-70.62713563674149,-33.46795183050886,commercial,10
+,,,commercial,,Santiago,-70.62791898730487,-33.46559885734204,commercial,10
+,,,commercial,,Santiago,-70.62733348056896,-33.465918847784025,commercial,10
+,,,commercial,,Santiago,-70.62740119208668,-33.46583347600383,commercial,10
+,,,commercial,,Santiago,-70.62733011233372,-33.465728793255366,commercial,10
+,,,commercial,,Santiago,-70.62751760149496,-33.46576283381164,commercial,10
+,,,commercial,,Santiago,-70.62746379760785,-33.46546550923792,commercial,10
+,,,commercial,,Santiago,-70.62743105081064,-33.4655642386618,commercial,10
+,,,commercial,,Santiago,-70.62736777404923,-33.46564338157791,commercial,10
+,,,commercial,,Santiago,-70.62765513520888,-33.46523914129372,commercial,10
+,,,commercial,,Santiago,-70.62816932543532,-33.465505043668784,commercial,10
+,,,commercial,,Santiago,-70.630014226472,-33.46541275016199,commercial,10
+,,,commercial,,Santiago,-70.62885627873014,-33.46529314317658,commercial,10
+,,,commercial,,Santiago,-70.62926106202515,-33.46531568559961,commercial,10
+,fuel,,,,Santiago,-70.65460389528994,-33.472717203692824,fuel,10
+,,,commercial,,Santiago,-70.65413723820014,-33.472670589461025,commercial,10
+,,,commercial,,Santiago,-70.65581656198077,-33.469115631137484,commercial,10
+,,,commercial,,Santiago,-70.65519116162655,-33.46815904998668,commercial,10
+Ahorra Food Depot,,supermarket,yes,,Santiago,-70.64862549609164,-33.472157656997624,supermarket,10
+,parking,,,,Santiago,-70.65070325185991,-33.46971838772731,parking,25
+,,,commercial,,Santiago,-70.64849766387712,-33.46754477626087,commercial,10
+,,,commercial,,Santiago,-70.64714502226256,-33.47361672056613,commercial,10
+,,,commercial,,Santiago,-70.64748890641725,-33.473773270202635,commercial,10
+,,,commercial,,Santiago,-70.64750891849482,-33.47366428671475,commercial,10
+,,,commercial,,Santiago,-70.64756743302975,-33.47378729945912,commercial,10
+,,,commercial,,Santiago,-70.6479108143408,-33.4737962903096,commercial,10
+,,,commercial,,Santiago,-70.64796646066964,-33.47369596556068,commercial,10
+,,,commercial,,Santiago,-70.64763941648854,-33.47368709379919,commercial,10
+,,,commercial,,Santiago,-70.64820874570171,-33.47356630325532,commercial,10
+,,,commercial,,Santiago,-70.64812004408783,-33.47357205756962,commercial,10
+,,,commercial,,Santiago,-70.64755086944794,-33.47346066899137,commercial,10
+,,,commercial,,Santiago,-70.64781017524867,-33.474932342127595,commercial,10
+,,,commercial,,Santiago,-70.6480966941163,-33.4746372219351,commercial,10
+,,,commercial,,Santiago,-70.6480942066444,-33.47470776762187,commercial,10
+,,,commercial,,Santiago,-70.64784737343422,-33.47462181309961,commercial,10
+,,,commercial,,Santiago,-70.64855290398506,-33.46685672749776,commercial,10
+,,,commercial,,Santiago,-70.64710799073592,-33.46708158212845,commercial,10
+,,,commercial,,Santiago,-70.64660738301826,-33.4694607034397,commercial,10
+,,,commercial,,Santiago,-70.64636937528374,-33.471022449715555,commercial,10
+,,,commercial,,Santiago,-70.64638312282784,-33.47115212106566,commercial,10
+,,,commercial,,Santiago,-70.64596685059789,-33.47179124818734,commercial,10
+,parking,,,,Santiago,-70.64623947399248,-33.47235629092062,parking,25
+,,,commercial,,Santiago,-70.6464713818458,-33.47248890755361,commercial,10
+,parking,,,,Santiago,-70.64612586771895,-33.47247751579744,parking,25
+,,,commercial,,Santiago,-70.64502350171371,-33.47294636008153,commercial,10
+,parking,,,,Santiago,-70.64478596400119,-33.47234496654133,parking,25
+,parking,,,,Santiago,-70.64418494351989,-33.47202699354363,parking,25
+,,,commercial,,Santiago,-70.64443693784867,-33.471706740161075,commercial,10
+,,,commercial,,Santiago,-70.64402229458354,-33.47171190397843,commercial,10
+,,,commercial,,Santiago,-70.64473721283021,-33.471227922789055,commercial,10
+,,,commercial,,Santiago,-70.64506982012743,-33.47125460818967,commercial,10
+,,,commercial,,Santiago,-70.64443583948992,-33.46801531750938,commercial,10
+,,,commercial,,Santiago,-70.64456724326946,-33.46740015490698,commercial,10
+,,,commercial,,Santiago,-70.64492008313566,-33.467321515756566,commercial,10
+,,,commercial,,Santiago,-70.64495873188554,-33.46706301796158,commercial,10
+,,,commercial,,Santiago,-70.64263474223723,-33.475690314579815,commercial,10
+,,,commercial,,Santiago,-70.64276989512055,-33.47569355937326,commercial,10
+,,,commercial,,Santiago,-70.64301797517295,-33.47552716712355,commercial,10
+,,,commercial,,Santiago,-70.64322830287458,-33.4755357118135,commercial,10
+,,,commercial,,Santiago,-70.6433310419614,-33.475540345900654,commercial,10
+,,,commercial,,Santiago,-70.6431049198046,-33.47579598535603,commercial,10
+,,,commercial,,Santiago,-70.6422952083727,-33.4746268821065,commercial,10
+,parking,,,,Santiago,-70.64287761909192,-33.473636295228246,parking,25
+,parking,,,,Santiago,-70.64333254607308,-33.47335325840529,parking,25
+Factoría Franklin,,,commercial,,Santiago,-70.64349209722955,-33.47270691806872,commercial,10
+Factoría Franklin,,,commercial,,Santiago,-70.64292718042145,-33.47281136747588,commercial,10
+,,,retail,,Santiago,-70.64276427755547,-33.471928625818826,retail,6
+,,,retail,,Santiago,-70.64328667719164,-33.47185555203613,retail,6
+,,,retail,,Santiago,-70.64324498119707,-33.47197094508041,retail,6
+,parking,,,,Santiago,-70.64261745613541,-33.469340928960214,parking,25
+,,,commercial,,Santiago,-70.64308643975431,-33.46906679513187,commercial,10
+,,,commercial,,Santiago,-70.64271760763414,-33.469025136099376,commercial,10
+,,,commercial,,Santiago,-70.6428403953155,-33.46889427229196,commercial,10
+,,,commercial,,Santiago,-70.6428468480707,-33.46858082316442,commercial,10
+,parking,,,,Santiago,-70.64189083918531,-33.46750150340744,parking,25
+,,,office,,Santiago,-70.64138201399238,-33.467936677384834,office,8
+,,,commercial,,Santiago,-70.64160739694836,-33.46853019948618,commercial,10
+,parking,,,,Santiago,-70.6418112124793,-33.46796533866021,parking,25
+,,,commercial,,Santiago,-70.64165213962667,-33.46957831220873,commercial,10
+,,,commercial,,Santiago,-70.64141789002325,-33.47015886376389,commercial,10
+,,,commercial,,Santiago,-70.64131474384168,-33.4701522243979,commercial,10
+Distribuidora Alegria,,convenience,retail,,Santiago,-70.63391788957544,-33.469577149912155,convenience,13
+,,,commercial,,Santiago,-70.64162596870611,-33.47052775967759,commercial,10
+,,,commercial,,Santiago,-70.64161063783821,-33.47074654393955,commercial,10
+,,,commercial,,Santiago,-70.6416989913379,-33.470904269113895,commercial,10
+,,,commercial,,Santiago,-70.64162300558117,-33.47112209751905,commercial,10
+,,,commercial,,Santiago,-70.64154288233313,-33.471958546806704,commercial,10
+,,,commercial,,Santiago,-70.64155286131387,-33.47204565827452,commercial,10
+,,,commercial,,Santiago,-70.64111826634095,-33.47215440364029,commercial,10
+,,,commercial,,Santiago,-70.64118291420739,-33.47464437873828,commercial,10
+,,,commercial,,Santiago,-70.64119527790454,-33.474423526948414,commercial,10
+,,,commercial,,Santiago,-70.64103063716216,-33.47410030575068,commercial,10
+,,,commercial,,Santiago,-70.64171154541033,-33.474804023700834,commercial,10
+,,,commercial,,Santiago,-70.63939414168564,-33.4737852510661,commercial,10
+,,,commercial,,Santiago,-70.63936964265604,-33.47398352972561,commercial,10
+,,,commercial,,Santiago,-70.63934480487144,-33.474196830163045,commercial,10
+,,,commercial,,Santiago,-70.63930142028673,-33.47433324838874,commercial,10
+,,,commercial,,Santiago,-70.63931888076657,-33.47442225950641,commercial,10
+,,,commercial,,Santiago,-70.63929862947147,-33.474607861951526,commercial,10
+,,,commercial,,Santiago,-70.63988418316542,-33.47441389129471,commercial,10
+,,,commercial,,Santiago,-70.64028308693041,-33.4750292103637,commercial,10
+,,,commercial,,Santiago,-70.63993358036197,-33.47500936789707,commercial,10
+,,,commercial,,Santiago,-70.63961630839007,-33.47499181405648,commercial,10
+,,,commercial,,Santiago,-70.63885117751794,-33.47317926426847,commercial,10
+,,,commercial,,Santiago,-70.6390450138967,-33.472848127634144,commercial,10
+,,,commercial,,Santiago,-70.6388440822866,-33.472534644342375,commercial,10
+,,,commercial,,Santiago,-70.63793258487412,-33.47446656299858,commercial,10
+,parking,,,,Santiago,-70.63805706094358,-33.47426940855602,parking,25
+,,,commercial,,Santiago,-70.63808743282856,-33.47409222069961,commercial,10
+,,,commercial,,Santiago,-70.63809750868714,-33.4740116414612,commercial,10
+,,,commercial,,Santiago,-70.63774293239659,-33.47434924506237,commercial,10
+,,,commercial,,Santiago,-70.63759888673275,-33.47426920488796,commercial,10
+,,,commercial,,Santiago,-70.63782376285789,-33.47402731567186,commercial,10
+,,,commercial,,Santiago,-70.63766931399284,-33.47383639354671,commercial,10
+,,,commercial,,Santiago,-70.63785312791543,-33.47382663980812,commercial,10
+,,,commercial,,Santiago,-70.63788418615916,-33.473651549295,commercial,10
+,,,commercial,,Santiago,-70.63731984903661,-33.47418267809464,commercial,10
+,,,commercial,,Santiago,-70.63590851982617,-33.47439836676826,commercial,10
+,,,commercial,,Santiago,-70.63598484243407,-33.47431534907615,commercial,10
+,,,commercial,,Santiago,-70.63577680173655,-33.47420078424653,commercial,10
+,,,commercial,,Santiago,-70.63548758704299,-33.47388425339738,commercial,10
+,,,commercial,,Santiago,-70.63548789366563,-33.47379582650955,commercial,10
+,,,commercial,,Santiago,-70.63555618138389,-33.473726969833976,commercial,10
+,,,commercial,,Santiago,-70.63581611026122,-33.47295744147436,commercial,10
+,,,commercial,,Santiago,-70.63584943491705,-33.47279474080967,commercial,10
+,,,commercial,,Santiago,-70.64030596987374,-33.466770949800136,commercial,10
+,,,commercial,,Santiago,-70.63887567290983,-33.47027597224544,commercial,10
+,,,commercial,,Santiago,-70.63926766669036,-33.47054854253699,commercial,10
+,,,commercial,,Santiago,-70.63642316458517,-33.4702315664334,commercial,10
+,,,commercial,,Santiago,-70.63648463114382,-33.47033830704347,commercial,10
+,,,commercial,,Santiago,-70.63647024585863,-33.470522173281545,commercial,10
+,,,commercial,,Santiago,-70.63785071754599,-33.473286853678594,commercial,10
+,,,commercial,,Santiago,-70.63804235821624,-33.47315690529124,commercial,10
+,,,commercial,,Santiago,-70.6380578307305,-33.47306441302138,commercial,10
+,,,commercial,,Santiago,-70.63745260697114,-33.473132012350625,commercial,10
+,,,commercial,,Santiago,-70.63769195995891,-33.47157473490884,commercial,10
+,parking,,,,Santiago,-70.63821235306824,-33.47208840221433,parking,25
+,parking,,,,Santiago,-70.63817345285206,-33.472236976061566,parking,25
+,,,commercial,,Santiago,-70.63694605519991,-33.4696918509802,commercial,10
+,,,commercial,,Santiago,-70.63674368443502,-33.46941588808035,commercial,10
+,,,commercial,,Santiago,-70.6367253833127,-33.46951060458635,commercial,10
+,,,commercial,,Santiago,-70.63680000881692,-33.46925294182805,commercial,10
+,,,commercial,,Santiago,-70.63872699032108,-33.468954954388515,commercial,10
+,,,commercial,,Santiago,-70.63810702537572,-33.46885467614895,commercial,10
+,,,commercial,,Santiago,-70.63858058018411,-33.46953657970462,commercial,10
+,,,commercial,,Santiago,-70.63912597778832,-33.46903408848879,commercial,10
+,,,commercial,,Santiago,-70.63897053846367,-33.470022613465105,commercial,10
+,,,commercial,,Santiago,-70.63897658917898,-33.46994234231923,commercial,10
+,,,commercial,,Santiago,-70.63898515388524,-33.469852515111654,commercial,10
+,,,commercial,,Santiago,-70.63910139028255,-33.470026084963905,commercial,10
+,,,commercial,,Santiago,-70.6392356867352,-33.467716957554835,commercial,10
+,,,commercial,,Santiago,-70.6392138777001,-33.46791790242127,commercial,10
+,,,commercial,,Santiago,-70.63925638556196,-33.468104011940795,commercial,10
+,,,commercial,,Santiago,-70.63918259482445,-33.4684133736241,commercial,10
+,,,commercial,,Santiago,-70.63923663646605,-33.46860631602095,commercial,10
+,,,commercial,,Santiago,-70.63955757460303,-33.468638529356994,commercial,10
+,,,commercial,,Santiago,-70.63957117331847,-33.46856984561991,commercial,10
+,,,commercial,,Santiago,-70.63949445959226,-33.468466087216804,commercial,10
+,,,commercial,,Santiago,-70.63950447820892,-33.46839439188613,commercial,10
+,,,commercial,,Santiago,-70.64072180790964,-33.46857060266183,commercial,10
+,,,commercial,,Santiago,-70.63940855236483,-33.46668692334685,commercial,10
+,,,commercial,,Santiago,-70.63931406660136,-33.46661788982999,commercial,10
+Universidad de Chile,university,,,,Santiago,-70.66989474704262,-33.45296500239595,university,10
+AIEP,university,,,,Santiago,-70.6712762266889,-33.45357150400788,university,10
+,,,commercial,,Santiago,-70.64834965121003,-33.4519497814018,commercial,10
+Estacionamiento Paseo Bulnes,parking,,,,Santiago,-70.65261525557106,-33.4474600958912,parking,25
+Hiper Asia,,,retail,,Santiago,-70.67208928198953,-33.45386948359804,retail,6
+Cowork Latam,,,office,,Santiago,-70.64650094229556,-33.44353808946415,office,8
+,parking,,,,Santiago,-70.67884529999492,-33.443449950063275,parking,25
+,parking,,,,Santiago,-70.64591620442538,-33.44091143045379,parking,25
+Torre Los Andes,,,office,,Santiago,-70.64535953660092,-33.441070279756225,office,8
+Torre Huérfanos,,,office,,Santiago,-70.646316304544,-33.439415236656394,office,8
+,parking,,,,Santiago,-70.64561572651643,-33.43627065962701,parking,25
+,parking,,,,Santiago,-70.65431659386233,-33.432813722409655,parking,25
+,parking,,,,Santiago,-70.65656022498136,-33.43595644780996,parking,25
+,parking,,,,Santiago,-70.65808102350574,-33.44204425678269,parking,25
+,,,retail,,Santiago,-70.65731063374459,-33.440649097150214,retail,6
+,parking,,,,Santiago,-70.66098255000483,-33.44190360000249,parking,25
+,parking,,,,Santiago,-70.66096210001317,-33.44223784998388,parking,25
+,parking,,,,Santiago,-70.6611453170221,-33.44267258392544,parking,25
+,parking,,,,Santiago,-70.66154697856092,-33.441924948497324,parking,25
+,parking,,,,Santiago,-70.6661155259146,-33.44527398940805,parking,25
+,parking,,,,Santiago,-70.65952375486782,-33.43550635867839,parking,25
+,parking,,,,Santiago,-70.65592573262165,-33.445250864952854,parking,25
+,parking,,,,Santiago,-70.65682587373819,-33.44522024882119,parking,25
+Hites,,department_store,commercial,,Santiago,-70.65133640397704,-33.43883361277,department_store,13
+,,,commercial,,Santiago,-70.65774233676586,-33.46210389361114,commercial,10
+,,,commercial,,Santiago,-70.65810211864415,-33.46224349079943,commercial,10
+,,,commercial,,Santiago,-70.65772040000245,-33.46227270000021,commercial,10
+,parking,,,,Santiago,-70.6447894775325,-33.44425195636809,parking,25
+,parking,,,,Santiago,-70.64462015866357,-33.44472900714121,parking,25
+,parking,,,,Santiago,-70.64559441592448,-33.446823766717,parking,25
+,parking,,,,Santiago,-70.64829164733668,-33.44821958785989,parking,25
+,parking,,,,Santiago,-70.64769392628672,-33.4482137362752,parking,25
+,parking,,,,Santiago,-70.65167314472292,-33.449271345255944,parking,25
+,parking,,,,Santiago,-70.64889728791297,-33.44526940535406,parking,25
+,parking,,,,Santiago,-70.64901937659157,-33.44493705971842,parking,25
+,parking,,,,Santiago,-70.64894711634547,-33.44506920273673,parking,25
+Boulevard Alameda 333,,,retail,,Santiago,-70.64132153299694,-33.440130486236285,retail,6
+,parking,,,,Santiago,-70.65411156635533,-33.44750630867159,parking,25
+,parking,,,,Santiago,-70.65492779752739,-33.44700965374596,parking,25
+,parking,,,,Santiago,-70.65376790798328,-33.44866782444875,parking,25
+,parking,,,,Santiago,-70.65840268867794,-33.45143891005332,parking,25
+,parking,,,,Santiago,-70.65615767262008,-33.44967212983306,parking,25
+,parking,,,,Santiago,-70.65642162656376,-33.449383427986135,parking,25
+,parking,,,,Santiago,-70.65405625506622,-33.44987966423548,parking,25
+,parking,,,,Santiago,-70.65376510464922,-33.4495940027418,parking,25
+,parking,,,,Santiago,-70.6539851164431,-33.450449201831155,parking,25
+,parking,,,,Santiago,-70.65389535258153,-33.45071613672319,parking,25
+,parking,,,,Santiago,-70.65673338064947,-33.45045341156072,parking,25
+,parking,,,,Santiago,-70.6568344426721,-33.44975220287742,parking,25
+,parking,,,,Santiago,-70.63415568121992,-33.45739111158395,parking,25
+,parking,,,,Santiago,-70.63899420020343,-33.45853099987808,parking,25
+,,,commercial,,Santiago,-70.66198877724577,-33.44710089463834,commercial,10
+,parking,,,,Santiago,-70.63680792564276,-33.439479668093774,parking,25
+,parking,,,,Santiago,-70.63604232847152,-33.440256509794864,parking,25
+,parking,,,,Santiago,-70.63576989086484,-33.43823660802645,parking,25
+,parking,,,,Santiago,-70.64489503231229,-33.464677984148445,parking,25
+,parking,,,,Santiago,-70.64291229225923,-33.46410835062776,parking,25
+,parking,,,,Santiago,-70.64113823978697,-33.463472709750675,parking,25
+,parking,,,,Santiago,-70.65734939683448,-33.45970201315196,parking,25
+,parking,,,,Santiago,-70.62780351160292,-33.4647528879407,parking,25
+,parking,,,,Santiago,-70.62843881423485,-33.46418259312323,parking,25
+,parking,,,,Santiago,-70.66525360472076,-33.44979250795886,parking,25
+,parking,,,,Santiago,-70.66759764603441,-33.45039470165216,parking,25
+,parking,,,,Santiago,-70.63478090333183,-33.45314983331952,parking,25
+,parking,,,,Santiago,-70.66558036388732,-33.43925621789727,parking,25
+Universidad de Chile Campus Andrés Bello,university,,,,Santiago,-70.63675690771606,-33.44182369967244,university,10
+,,,commercial,,Santiago,-70.68004382134583,-33.43273311935782,commercial,10
+,parking,,,,Santiago,-70.64342910569553,-33.44374589123777,parking,25
+,parking,,,,Santiago,-70.64413016640704,-33.44390304682636,parking,25
+,parking,,,,Santiago,-70.64372412424339,-33.44428693445256,parking,25
+,parking,,,,Santiago,-70.64398635858703,-33.44434645074227,parking,25
+,parking,,,,Santiago,-70.65535536085133,-33.474364001285565,parking,25
+,parking,,,,Santiago,-70.65557452798154,-33.47400027633702,parking,25
+,parking,,,,Santiago,-70.66529867755087,-33.47021783121588,parking,25
+Shell,fuel,,roof,,Santiago,-70.65627441018597,-33.46003177879584,fuel,10
+Edificio Impala,parking,,parking,,Santiago,-70.64589053652985,-33.437548763541386,parking,25
+,parking,,,,Santiago,-70.64643055340593,-33.43648009912839,parking,25
+Menguard - Teobservo,,,commercial,,Santiago,-70.65232040554861,-33.45762651846903,commercial,10
+,parking,,,,Santiago,-70.64926285932292,-33.43436988992772,parking,25
+,parking,,,,Santiago,-70.66064516046876,-33.46383583228035,parking,25
+,parking,,,,Santiago,-70.64451147772046,-33.44687033627033,parking,25
+,parking,,,,Santiago,-70.64442537305524,-33.44634089789796,parking,25
+,,,commercial,,Santiago,-70.6479063336638,-33.47575252633107,commercial,10
+,,,commercial,,Santiago,-70.64736233242014,-33.475989870610576,commercial,10
+,,,commercial,,Santiago,-70.6472449187749,-33.47617047288627,commercial,10
+,parking,,,,Santiago,-70.65760618478963,-33.46436833881911,parking,25
+,,,commercial,,Santiago,-70.65802077694647,-33.46206394227158,commercial,10
+,parking,,,,Santiago,-70.66206290703593,-33.4585321151319,parking,25
+,,,office,,Santiago,-70.65606369282331,-33.44423913153944,office,8

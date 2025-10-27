@@ -1,0 +1,14 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+21 de mayo 576;metropolitana;Santiago;-3.343.628;-7.065.014;7;AC;7;8
+agustinas 735;metropolitana;Santiago;-3.344.038;-7.064.727;7;AC;7;3
+avenida libertador bernardo ohiggins 816;metropolitana;Santiago;-3.344.379;-7.064.849;7,7;AC;7,7;2
+avenida vicuna mackena 885;metropolitana;Santiago;-3.345.304;-706.308;70;DC;60;3
+cardenal jose maria caro 870;metropolitana;Santiago;-3.343.371;-706.484;7,4;AC;7,4;3
+catedral 1850;metropolitana;Santiago;-334.389;-7.066.323;70;DC;50;4
+enrique mac iver #424;metropolitana;Santiago;-334.378;-7.064.747;22;AC;22;1
+moneda #1326, esquina teatinos;metropolitana;Santiago;-3.344.228;-706.549;44;AC;22;2
+nataniel cox 620;metropolitana;Santiago;-3.345.378;-7.065.204;70;DC;60;4
+paseo bulnes 141;metropolitana;Santiago;-3.344.743;-706.533;7;AC;7;6
+san isiidro 85;metropolitana;Santiago;-3.344.436;-7.064.454;98;AC;43;3
+santa rosa 76;metropolitana;Santiago;-3.344.476;-7.064.557;7;AC;7;3
+victoria subercaseaux 400;metropolitana;Santiago;-3.343.821;-7.064.277;7;AC;7;3

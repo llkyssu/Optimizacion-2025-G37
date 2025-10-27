@@ -1,0 +1,3 @@
+Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
+avda.gran avenida jose miguel carrera 8925;metropolitana;La Cisterna;-3.353.895;-7.066.506;70;DC;60;2
+goycolea 100;metropolitana;La Cisterna;-3.354.033;-706.637;22;AC;22;1
