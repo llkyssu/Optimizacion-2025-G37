@@ -1,5 +1,5 @@
 Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
-autopista ruta 5 sur kilometro 29 29;metropolitana;San Bernardo;-3.368.104;-7.072.634;50;AC;43;3
-av. presidente jorge alessandri 20040;metropolitana;San Bernardo;-336.317;-707.104;7,4;AC;7,4;2
-avenida presidente jorge alessandri 26517;metropolitana;San Bernardo;-3.368.606;-7.072.606;98;AC;43;3
-ruta 5 sur km 16.4 s/n;metropolitana;San Bernardo;-3.358.058;-7.071.387;94;AC;43;6
+autopista ruta 5 sur kilometro 29 29;metropolitana;San Bernardo;-33.68104;-70.72634;50;AC;43;3
+av. presidente jorge alessandri 20040;metropolitana;San Bernardo;-33.6317;-70.7104;7,4;AC;7,4;2
+avenida presidente jorge alessandri 26517;metropolitana;San Bernardo;-33.68606;-70.72606;98;AC;43;3
+ruta 5 sur km 16.4 s/n;metropolitana;San Bernardo;-33.58058;-70.71387;94;AC;43;6

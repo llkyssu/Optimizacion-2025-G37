@@ -1,0 +1,9 @@
+﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
+avenida el rodeo 12850,metropolitana,Lo Barnechea,-33.35227,-70.52073,70,DC,30,2,63,3.9597169300571338,2,True
+avenida las condes 12916,metropolitana,Lo Barnechea,-33.36968,-70.51218,24,DC,24,4,56,11.754690403228778,4,True
+avenida raul labbe 12931,metropolitana,Lo Barnechea,-33.36654,-70.51665,"7,4",AC,"7,4",2,130,379.67894013622936,2,True
+camino los trapenses 3385,metropolitana,Lo Barnechea,-33.34485,-70.54589,50,DC,50,3,138,158.51060708690738,3,True
+camino los trapenses 3515,metropolitana,Lo Barnechea,-33.34331,-70.54444,44,AC,22,2,76,16.611489191287852,2,True
+comandante malbec 12851,metropolitana,Lo Barnechea,-33.35971,-70.51527,22,AC,22,2,84,74.61828963608328,2,True
+jose alcalde delano 10492,metropolitana,Lo Barnechea,-33.35645,-70.53946,44,AC,22,2,38,53.74006528167963,2,True
+paseo pie andino 5885,metropolitana,Lo Barnechea,-33.32395,-70.53919,22,DC,22,2,51,55.55618654088181,2,True

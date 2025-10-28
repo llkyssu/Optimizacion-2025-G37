@@ -9,7 +9,7 @@ project_folder = "/home/marti/opti/" # Tu carpeta de trabajo en WSL
 
 # --- Carpeta de ENTRADA ---
 # Esta es la carpeta donde el Script 3A guardó los archivos
-input_folder = os.path.join(project_folder, "datos_por_comuna") 
+input_folder = os.path.join(project_folder, "dpc_gpkg") 
 
 # --- Archivo de SALIDA ---
 mapa_file = os.path.join(project_folder, "mapa_completo_final.html") # Mapa de salida

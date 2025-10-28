@@ -1,0 +1,8 @@
+﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
+americo vespucio norte 1155,metropolitana,Huechuraba,-33.37014,-70.6626,14,AC,7,2,16,121.88716584584729,2,True
+av. pedro fontova 6789,metropolitana,Huechuraba,-33.36017,-70.66956,"43,56",AC,22,2,65,47.19688076965846,2,True
+avenida americo vespucio 1737,metropolitana,Huechuraba,-33.36669,-70.6788,"7,4",AC,"7,4",4,27,86.61850975502749,4,True
+avenida el salto 5000,metropolitana,Huechuraba,-33.38515,-70.62257,"6,6",AC,"6,6",2,42,123.91720687376265,2,True
+calle nueva 1660,metropolitana,Huechuraba,-33.36243,-70.6777,22,AC,22,2,52,90.79430881248526,2,True
+del parque 4023,metropolitana,Huechuraba,-33.39402,-70.62063,"7,4",AC,"7,4",2,24,32.251759006384894,2,True
+del parque 4980,metropolitana,Huechuraba,-33.3889,-70.61664,22,AC,22,1,54,79.72530388338427,1,True

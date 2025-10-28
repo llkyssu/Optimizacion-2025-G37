@@ -1,0 +1,14 @@
+﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
+alonso de cordova 3788,metropolitana,Vitacura,-33.40187,-70.59291,7,AC,7,2,197,19.706638758375608,2,True
+av vitacura 5951,metropolitana,Vitacura,-33.39178,-70.57323,44,AC,44,1,71,87.6126066697895,1,True
+av. americo vespucio #1665,metropolitana,Vitacura,-33.39894,-70.58718,50,DC,50,3,204,3.296103846343188,3,True
+av. vitacura 6980,metropolitana,Vitacura,-33.38675,-70.56556,70,DC,60,4,244,32.62786153530692,4,True
+av. vitacura 9019,metropolitana,Vitacura,-33.38374,-70.54946,70,DC,60,4,112,4.903288546338886,4,True
+bicentenario 3800,metropolitana,Vitacura,-33.39938,-70.60154,14,AC,7,8,286,147.0416218427366,8,True
+buenaventura 1770,metropolitana,Vitacura,-33.38677,-70.56821,24,DC,24,2,74,21.758286941866558,2,True
+"costanera norte km 2,5 e-0 s/n",metropolitana,Vitacura,-33.37513,-70.53187,175,DC,175,4,33,3.678198529337386,4,True
+costanera norte km 8 (direccion oriente),metropolitana,Vitacura,-33.3821,-70.59316,50,DC,50,3,8,43.661377286927,3,True
+luis pasteur 6725,metropolitana,Vitacura,-33.37999,-70.56953,22,AC,22,3,48,9.914058056597966,3,True
+santa maria 5870,metropolitana,Vitacura,-33.38042,-70.5857,14,AC,7,2,254,29.801296346050094,2,True
+santa maria 5888,metropolitana,Vitacura,-33.37966,-70.58436,14,AC,7,2,98,3.13479594580896,2,True
+vitacura 3350,metropolitana,Vitacura,-33.40552,-70.59834,50,DC,50,3,107,8.67843240680256,3,True

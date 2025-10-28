@@ -1,0 +1,14 @@
+﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
+21 de mayo 576,metropolitana,Santiago,-33.43628,-70.65014,7,AC,7,8,146,39.79513348895535,8,True
+agustinas 735,metropolitana,Santiago,-33.44038,-70.64727,7,AC,7,3,19,12.095084110277062,3,True
+avenida libertador bernardo ohiggins 816,metropolitana,Santiago,-33.44379,-70.64849,"7,7",AC,"7,7",2,117,76.6060462884075,2,True
+avenida vicuna mackena 885,metropolitana,Santiago,-33.45304,-70.6308,70,DC,60,3,340,93.90834630674904,3,True
+cardenal jose maria caro 870,metropolitana,Santiago,-33.43371,-70.6484,"7,4",AC,"7,4",3,20,26.609486433267264,3,True
+catedral 1850,metropolitana,Santiago,-33.4389,-70.66323,70,DC,50,4,360,9.557576795592741,4,True
+enrique mac iver #424,metropolitana,Santiago,-33.4378,-70.64747,22,AC,22,1,91,26.656244781045185,1,True
+"moneda #1326, esquina teatinos",metropolitana,Santiago,-33.44228,-70.6549,44,AC,22,2,47,21.583789402239066,2,True
+nataniel cox 620,metropolitana,Santiago,-33.45378,-70.65204,70,DC,60,4,175,5.588621237122448,4,True
+paseo bulnes 141,metropolitana,Santiago,-33.44743,-70.6533,7,AC,7,6,40,8.511875483998415,6,True
+san isiidro 85,metropolitana,Santiago,-33.44436,-70.64454,98,AC,43,3,797,26.106435370740957,3,True
+santa rosa 76,metropolitana,Santiago,-33.44476,-70.64557,7,AC,7,3,176,40.31157420894808,3,True
+victoria subercaseaux 400,metropolitana,Santiago,-33.43821,-70.64277,7,AC,7,3,479,130.29175650571878,3,True

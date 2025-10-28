@@ -1,5 +1,5 @@
 Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
-av. concha y toro 1149;metropolitana;Puente Alto;-3.360.006;-7.057.581;60;DC;60;2
-av. concha y toro 555;metropolitana;Puente Alto;-3.360.608;-7.057.636;22;AC;22;3
-avenida camilo henriquez 3692;metropolitana;Puente Alto;-3.356.926;-7.055.583;7,4;AC;7,4;2
-camilo henriquez 4583;metropolitana;Puente Alto;-3.355.784;-7.055.931;43,56;AC;22;2
+av. concha y toro 1149;metropolitana;Puente Alto;-33.60006;-70.57581;60;DC;60;2
+av. concha y toro 555;metropolitana;Puente Alto;-33.60608;-70.57636;22;AC;22;3
+avenida camilo henriquez 3692;metropolitana;Puente Alto;-33.56926;-70.55583;7,4;AC;7,4;2
+camilo henriquez 4583;metropolitana;Puente Alto;-33.55784;-70.55931;43,56;AC;22;2

@@ -1,16 +1,16 @@
 Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
-andr¿s bello 1863;metropolitana;Providencia;-3.342.294;-7.061.701;14;AC;7;2
-andr¿s bello 2461;metropolitana;Providencia;-334.203;-7.061.128;14;AC;7;2
-av. francisco bilbao 451;metropolitana;Providencia;-334.418;-7.062.604;22;AC;22;1
-avenida francisco bilbao 1439;metropolitana;Providencia;-3.343.934;-7.061.451;7;AC;7;1
-avenida providencia 1909;metropolitana;Providencia;-3.342.508;-7.061.364;7;AC;7;3
-avenida providencia 2001;metropolitana;Providencia;-3.342.361;-7.061.207;7;AC;7;3
-avenida providencia 2099;metropolitana;Providencia;-334.213;-7.060.905;7;AC;7;3
-avenida providencia 2203;metropolitana;Providencia;-3.342.187;-706.098;7;AC;7;3
-avenida ricardo lyon 25;metropolitana;Providencia;-3.342.198;-7.060.989;22;AC;22;3
-avenida ricardo lyon 322;metropolitana;Providencia;-334.246;-706.085;22;AC;22;2
-avenida santa maria 1742;metropolitana;Providencia;-334.219;-7.062.115;22;AC;22;2
-guardia vieja 285;metropolitana;Providencia;-334.249;-706.098;22;AC;22;2
-miguel claro 275;metropolitana;Providencia;-3.343.204;-7.062.044;7,4;AC;7,4;2
-pedro de valdivia norte 699;metropolitana;Providencia;-3.341.533;-7.061.739;44;AC;22;2
-santa isabel 168;metropolitana;Providencia;-3.344.679;-7.062.932;24;DC;24;4
+andr¿s bello 1863;metropolitana;Providencia;-33.42294;-70.61701;14;AC;7;2
+andr¿s bello 2461;metropolitana;Providencia;-33.4203;-70.61128;14;AC;7;2
+av. francisco bilbao 451;metropolitana;Providencia;-33.4418;-70.62604;22;AC;22;1
+avenida francisco bilbao 1439;metropolitana;Providencia;-33.43934;-70.61451;7;AC;7;1
+avenida providencia 1909;metropolitana;Providencia;-33.42508;-70.61364;7;AC;7;3
+avenida providencia 2001;metropolitana;Providencia;-33.42361;-70.61207;7;AC;7;3
+avenida providencia 2099;metropolitana;Providencia;-33.4213;-70.60905;7;AC;7;3
+avenida providencia 2203;metropolitana;Providencia;-33.42187;-70.6098;7;AC;7;3
+avenida ricardo lyon 25;metropolitana;Providencia;-33.42198;-70.60989;22;AC;22;3
+avenida ricardo lyon 322;metropolitana;Providencia;-33.4246;-70.6085;22;AC;22;2
+avenida santa maria 1742;metropolitana;Providencia;-33.4219;-70.62115;22;AC;22;2
+guardia vieja 285;metropolitana;Providencia;-33.4249;-70.6098;22;AC;22;2
+miguel claro 275;metropolitana;Providencia;-33.43204;-70.62044;7,4;AC;7,4;2
+pedro de valdivia norte 699;metropolitana;Providencia;-33.41533;-70.61739;44;AC;22;2
+santa isabel 168;metropolitana;Providencia;-33.44679;-70.62932;24;DC;24;4

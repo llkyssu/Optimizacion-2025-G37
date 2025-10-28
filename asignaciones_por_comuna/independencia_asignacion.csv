@@ -1,0 +1,6 @@
+﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
+av. fermin vivaceta 1030,metropolitana,Independencia,-33.4187,-70.66372,70,DC,60,2,36,69.46897244134944,2,True
+avenida independencia 397,metropolitana,Independencia,-33.42653,-70.6542,"7,4",AC,"7,4",2,17,58.853766318611626,2,True
+enrique soros 1070,metropolitana,Independencia,-33.41796,-70.67166,44,AC,22,2,1,174.06329210130318,2,True
+independencia 565,metropolitana,Independencia,-33.42463,-70.65481,14,AC,7,2,50,118.36365698793846,2,True
+profesor zanartu 1130,metropolitana,Independencia,-33.41782,-70.65446,44,AC,22,2,21,80.16350254793043,2,True

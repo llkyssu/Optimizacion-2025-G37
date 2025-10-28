@@ -1,0 +1,9 @@
+﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
+av. pajaritos 3439,metropolitana,Maipú,-33.4959,-70.7572,22,AC,22,3,20,12.396537709392147,3,True
+avda. los pajaritos s/n 000,metropolitana,Maipú,-33.49224,-70.75532,"43,56",AC,"21,78",2,36,26.873172544140957,2,True
+avenida los pajaritos 1780,metropolitana,Maipú,-33.51088,-70.75785,70,DC,60,2,12,18.74486337909242,2,True
+camino a melipilla 11585,metropolitana,Maipú,-33.52354,-70.75063,22,AC,22,3,104,277.0974101818935,3,True
+camino melipilla 17800,metropolitana,Maipú,-33.54954,-70.78875,"7,4",AC,"7,4",2,13,230.78772327163094,2,True
+pajaritos 2872,metropolitana,Maipú,-33.50085,-70.7576,44,AC,22,2,218,89.11704311055348,2,True
+parque central 21,metropolitana,Maipú,-33.55456,-70.79538,22,AC,22,3,25,11.095323861119542,3,True
+primera transversal frente 1970,metropolitana,Maipú,-33.50926,-70.75314,"43,56",AC,"21,78",2,86,308.4266770857991,2,True

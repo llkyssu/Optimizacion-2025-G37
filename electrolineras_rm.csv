@@ -1,179 +1,179 @@
 Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
-21 de mayo 576;metropolitana;Santiago;-3.343.628;-7.065.014;7;AC;7;8
-agustinas 735;metropolitana;Santiago;-3.344.038;-7.064.727;7;AC;7;3
-alcalde luis araya cereceda frente a 1261;metropolitana;Penaflor;-336.083;-7.090.101;44;AC;22;2
-alejandro fleming n/a;metropolitana;Las Condes;-3.342.545;-7.055.409;48;AC;22;2
-alonso de cordova 3788;metropolitana;Vitacura;-3.340.187;-7.059.291;7;AC;7;2
-alonso de cordova 6050;metropolitana;Las Condes;-3.340.788;-7.056.829;22;AC;22;2
-altos del parque sur 5800;metropolitana;Penalolén;-334.987;-7.055.529;22;AC;11;4
-americo vespucio 400;metropolitana;Pudahuel;-3.345.607;-7.076.757;44;AC;22;2
-americo vespucio norte 1155;metropolitana;Huechuraba;-3.337.014;-706.626;14;AC;7;2
-andr¿s bello 1863;metropolitana;Providencia;-3.342.294;-7.061.701;14;AC;7;2
-andr¿s bello 2461;metropolitana;Providencia;-334.203;-7.061.128;14;AC;7;2
-autopista ruta 5 sur kilometro 29 29;metropolitana;San Bernardo;-3.368.104;-7.072.634;50;AC;43;3
-av jose pedro alesandri 131;metropolitana;Nunoa;-3.345.615;-7.059.812;7,4;AC;7,4;2
-av jose pedro alessandri 131;metropolitana;Nuñoa;-3.345.615;-7.059.812;7,4;AC;7,4;2
-av vitacura 5951;metropolitana;Vitacura;-3.339.178;-7.057.323;44;AC;44;1
-av, manquehue sur 1590;metropolitana;Las Condes;-3.342.487;-7.056.338;22;AC;22;3
-av. americo vespucio #1665;metropolitana;Vitacura;-3.339.894;-7.058.718;50;DC;50;3
-av. americo vespucio 1289;metropolitana;Pudahuel;-3.342.819;-7.078.205;22;AC;22;23
+21 de mayo 576;metropolitana;Santiago;-33.43628;-70.65014;7;AC;7;8
+agustinas 735;metropolitana;Santiago;-33.44038;-70.64727;7;AC;7;3
+alcalde luis araya cereceda frente a 1261;metropolitana;Penaflor;-33.6083;-70.90101;44;AC;22;2
+alejandro fleming n/a;metropolitana;Las Condes;-33.42545;-70.55409;48;AC;22;2
+alonso de cordova 3788;metropolitana;Vitacura;-33.40187;-70.59291;7;AC;7;2
+alonso de cordova 6050;metropolitana;Las Condes;-33.40788;-70.56829;22;AC;22;2
+altos del parque sur 5800;metropolitana;Penalolén;-33.4987;-70.55529;22;AC;11;4
+americo vespucio 400;metropolitana;Pudahuel;-33.45607;-70.76757;44;AC;22;2
+americo vespucio norte 1155;metropolitana;Huechuraba;-33.37014;-70.6626;14;AC;7;2
+andr¿s bello 1863;metropolitana;Providencia;-33.42294;-70.61701;14;AC;7;2
+andr¿s bello 2461;metropolitana;Providencia;-33.4203;-70.61128;14;AC;7;2
+autopista ruta 5 sur kilometro 29 29;metropolitana;San Bernardo;-33.68104;-70.72634;50;AC;43;3
+av jose pedro alesandri 131;metropolitana;Nunoa;-33.45615;-70.59812;7,4;AC;7,4;2
+av jose pedro alessandri 131;metropolitana;Nuñoa;-33.45615;-70.59812;7,4;AC;7,4;2
+av vitacura 5951;metropolitana;Vitacura;-33.39178;-70.57323;44;AC;44;1
+av, manquehue sur 1590;metropolitana;Las Condes;-33.42487;-70.56338;22;AC;22;3
+av. americo vespucio #1665;metropolitana;Vitacura;-33.39894;-70.58718;50;DC;50;3
+av. americo vespucio 1289;metropolitana;Pudahuel;-33.42819;-70.78205;22;AC;22;23
 av. americo vespucio 1501;metropolitana;Cerrillos;-33.517;-70.717;7,4;AC;7,4;4
-av. apoquindo #4900;metropolitana;Las Condes;-3.341.159;-7.057.807;44;AC;22;2
-av. chamisero 10410;metropolitana;Colina;-3.330.688;-7.066.335;43,56;AC;22;2
-av. chicureo 2300;metropolitana;Colina;-332.855;-7.067.739;70;DC;60;3
-av. concha y toro 1149;metropolitana;Puente Alto;-3.360.006;-7.057.581;60;DC;60;2
-av. concha y toro 555;metropolitana;Puente Alto;-3.360.608;-7.057.636;22;AC;22;3
-av. echenique con carlos ossandon s/n;metropolitana;La Reina;-3.344.196;-7.054.344;22;AC;7,4;4
-av. fermin vivaceta 1030;metropolitana;Independencia;-334.187;-7.066.372;70;DC;60;2
-av. francisco bilbao 451;metropolitana;Providencia;-334.418;-7.062.604;22;AC;22;1
-av. jorge alessandri 1347;metropolitana;La Reina;-3.346.254;-7.054.487;22;AC;22;2
-av. las condes 11049;metropolitana;Las Condes;-3.337.999;-7.052.888;7,4;AC;7,4;2
-av. las condes 12145;metropolitana;Las Condes;-3.337.418;-705.198;43,56;AC;22;2
-av. padre hurtado sur #875, piso -2;metropolitana;Las Condes;-3.341.512;-705.405;7;AC;7;1
-av. pajaritos 3439;metropolitana;Maipú;-334.959;-707.572;22;AC;22;3
-av. pedro aguirre cerda con felix margoz s/n;metropolitana;Cerrillos;-3.349.439;-7.070.549;22;AC;7,4;4
-av. pedro fontova 6789;metropolitana;Huechuraba;-3.336.017;-7.066.956;43,56;AC;22;2
-av. plaza n/a;metropolitana;Las Condes;-333.927;-7.050.372;48;AC;22;2
-av. presidente jorge alessandri 20040;metropolitana;San Bernardo;-336.317;-707.104;7,4;AC;7,4;2
-av. presidente kennedy lateral 5055;metropolitana;Las Condes;-3.340.249;-7.058.085;14;AC;7;2
-av. principe de gales 9200;metropolitana;La Reina;-3.344.154;-7.053.489;70;DC;60;3
-av. principe de gales con aguas claras s/n;metropolitana;La Reina;-3.343.937;-7.055.639;22;AC;7,4;4
-av. quilin frente al 3250;metropolitana;Macul;-3.348.513;-7.059.783;43,56;AC;21,78;2
-av. sanchez fontecilla 8968;metropolitana;La Florida;-3.353.467;-7.055.362;24;DC;24;2
-av. vicuna mackenna 8153;metropolitana;La Florida;-3.352.875;-7.059.615;7,4;AC;7,4;2
-av. vitacura 6980;metropolitana;Vitacura;-3.338.675;-7.056.556;70;DC;60;4
-av. vitacura 9019;metropolitana;Vitacura;-3.338.374;-7.054.946;70;DC;60;4
-avda tobalaba 12150;metropolitana;Penalolén;-3.348.649;-7.055.887;22;AC;22;3
-"avda. libertador bernardo o""higgins frente al 4620";metropolitana;Estación Central;-3.345.627;-7.069.906;44;AC;22;2
-avda. los pajaritos s/n 000;metropolitana;Maipú;-3.349.224;-7.075.532;43,56;AC;21,78;2
-avda.gran avenida jose miguel carrera 8925;metropolitana;La Cisterna;-3.353.895;-7.066.506;70;DC;60;2
-avenida americo vespucio 1737;metropolitana;Huechuraba;-3.336.669;-706.788;7,4;AC;7,4;4
-avenida americo vespucio sur 345;metropolitana;Las Condes;-3.341.832;-7.058.336;7,4;AC;7,4;2
-avenida apoquindo 5680;metropolitana;Las Condes;-3.340.941;-7.057.111;22;AC;22;2
-avenida camilo henriquez 3692;metropolitana;Puente Alto;-3.356.926;-7.055.583;7,4;AC;7,4;2
-avenida costanera ferrea frente al 0495;metropolitana;Quilicura;-3.335.561;-7.071.316;43,56;AC;21,78;2
-avenida el rodeo 12850;metropolitana;Lo Barnechea;-3.335.227;-7.052.073;70;DC;30;2
-avenida el salto 5000;metropolitana;Huechuraba;-3.338.515;-7.062.257;6,6;AC;6,6;2
-avenida francisco bilbao 1439;metropolitana;Providencia;-3.343.934;-7.061.451;7;AC;7;1
-avenida independencia 397;metropolitana;Independencia;-3.342.653;-706.542;7,4;AC;7,4;2
-avenida irarrazaval 2928;metropolitana;Nunoa;-3.345.432;-7.060.044;24;DC;24;2
-avenida las condes 10462;metropolitana;Las Condes;-3.338.263;-705.334;7,4;AC;7,4;2
-avenida las condes 12916;metropolitana;Lo Barnechea;-3.336.968;-7.051.218;24;DC;24;4
-avenida las condes 13451;metropolitana;Las Condes;-3.337.041;-7.050.717;6,6;AC;6,6;4
-avenida las condes 9595;metropolitana;Las Condes;-3.338.842;-7.053.921;22;AC;22;3
-avenida libertador bernardo ohiggins 816;metropolitana;Santiago;-3.344.379;-7.064.849;7,7;AC;7,7;2
-avenida libertador bernardo o´higgins 3470;metropolitana;Estación Central;-3.345.273;-7.068.224;7,4;AC;7,4;2
-avenida los pajaritos 1780;metropolitana;Maipú;-3.351.088;-7.075.785;70;DC;60;2
-avenida padre hurtado sur 1621;metropolitana;Las Condes;-3.342.325;-7.053.849;70;DC;60;2
-avenida presidente errazuriz s/n;metropolitana;Las Condes;-3.341.885;-705.837;45;AC;22;2
-avenida presidente jorge alessandri 26517;metropolitana;San Bernardo;-3.368.606;-7.072.606;98;AC;43;3
-avenida presidente riesco s/n;metropolitana;Las Condes;-3.340.137;-7.056.781;45;AC;22;4
-avenida providencia 1909;metropolitana;Providencia;-3.342.508;-7.061.364;7;AC;7;3
-avenida providencia 2001;metropolitana;Providencia;-3.342.361;-7.061.207;7;AC;7;3
-avenida providencia 2099;metropolitana;Providencia;-334.213;-7.060.905;7;AC;7;3
-avenida providencia 2203;metropolitana;Providencia;-3.342.187;-706.098;7;AC;7;3
-avenida raul labbe 12931;metropolitana;Lo Barnechea;-3.336.654;-7.051.665;7,4;AC;7,4;2
-avenida ricardo lyon 25;metropolitana;Providencia;-3.342.198;-7.060.989;22;AC;22;3
-avenida ricardo lyon 322;metropolitana;Providencia;-334.246;-706.085;22;AC;22;2
-avenida santa maria 1742;metropolitana;Providencia;-334.219;-7.062.115;22;AC;22;2
-avenida vicuna mackena 885;metropolitana;Santiago;-3.345.304;-706.308;70;DC;60;3
-avenida vitacura 2610;metropolitana;Las Condes;-3.341.649;-7.060.496;7,4;AC;7,4;2
-avenida vitacura 2885;metropolitana;Las Condes;-3.341.251;-7.060.296;7,7;AC;7,7;2
-aviador bleriot frente a 2215;metropolitana;Quinta Normal;-3.342.286;-7.069.296;43,56;AC;21,78;2
-bicentenario 3800;metropolitana;Vitacura;-3.339.938;-7.060.154;14;AC;7;8
-buenaventura 1770;metropolitana;Vitacura;-3.338.677;-7.056.821;24;DC;24;2
-calle nueva 1660;metropolitana;Huechuraba;-3.336.243;-706.777;22;AC;22;2
-camilo henriquez 4583;metropolitana;Puente Alto;-3.355.784;-7.055.931;43,56;AC;22;2
-camino a melipilla 11585;metropolitana;Maipú;-3.352.354;-7.075.063;22;AC;22;3
-camino la farfana 390;metropolitana;Pudahule;-3.345.543;-7.080.337;22;AC;22;1
-camino los trapenses 3385;metropolitana;Lo Barnechea;-3.334.485;-7.054.589;50;DC;50;3
-camino los trapenses 3515;metropolitana;Lo Barnechea;-3.334.331;-7.054.444;44;AC;22;2
-camino melipilla 17800;metropolitana;Maipú;-3.354.954;-7.078.875;7,4;AC;7,4;2
-cardenal jose maria caro 870;metropolitana;Santiago;-3.343.371;-706.484;7,4;AC;7,4;3
-catedral 1850;metropolitana;Santiago;-334.389;-7.066.323;70;DC;50;4
-cerro colorado s/n;metropolitana;Las Condes;-3.340.423;-70,58;45;AC;22;2
-cerro el plomo 5931;metropolitana;Las Condes;-3.340.446;-705.705;7,4;AC;7,4;8
-chicureo 99;metropolitana;Colina;-3.328.431;-7.068.088;7,4;AC;7,4;1
-colina sur 14600;metropolitana;Colina;-3.327.782;-706.278;70;DC;30;2
-colon 4333;metropolitana;Las Condes;-3.342.377;-7.058.047;55;DC;50;3
-comandante malbec 12851;metropolitana;Lo Barnechea;-3.335.971;-7.051.527;22;AC;22;2
-costanera norte km 2,5 e-0 s/n;metropolitana;Vitacura;-3.337.513;-7.053.187;175;DC;175;4
-costanera norte km 34;metropolitana;Pudahuel;-3.343.393;-7.081.048;50;DC;50;3
-costanera norte km 8 (direccion oriente);metropolitana;Vitacura;-333.821;-7.059.316;50;DC;50;3
-cristobal colon 7550;metropolitana;Las Condes;-3.341.754;-7.055.222;70;DC;50;5
-del parque 4023;metropolitana;Huechuraba;-3.339.402;-7.062.063;7,4;AC;7,4;2
-del parque 4980;metropolitana;Huechuraba;-333.889;-7.061.664;22;AC;22;1
-diagonal las torres 2700;metropolitana;Penalolén;-3.349.013;-7.051.898;44;AC;22;2
-ecuador 5140;metropolitana;Estación Central;-3.345.606;-7.070.501;70;DC;60;2
-el alcalde 15;metropolitana;Las Condes;-334.159;-7.059.524;22;AC;22;2
-enrique foster 21;metropolitana;Las Condes;-3.341.556;-7.059.412;7;AC;7;2
-enrique kirberg frente al 4;metropolitana;Estación Central;-3.345.024;-7.068.283;44;AC;22;2
-enrique mac iver #424;metropolitana;Santiago;-334.378;-7.064.747;22;AC;22;1
-enrique soros 1070;metropolitana;Independencia;-3.341.796;-7.067.166;44;AC;22;2
-estados unidos 1365;metropolitana;Cerro Navia;-3.343.004;-7.073.747;44;AC;22;2
-general korner frente a 286;metropolitana;El Bosque;-3.355.054;-7.067.642;43,56;AC;21,78;2
-goycolea 100;metropolitana;La Cisterna;-3.354.033;-706.637;22;AC;22;1
-gran av. jose miguel carrera 6150;metropolitana;San Miguel;-3.351.185;-7.065.681;70;DC;60;2
-guardia vieja 285;metropolitana;Providencia;-334.249;-706.098;22;AC;22;2
-ignacio carrera pinto frente 1066;metropolitana;Lampa;-3.328.663;-7.087.213;43,56;AC;21,78;2
-independencia 565;metropolitana;Independencia;-3.342.463;-7.065.481;14;AC;7;2
-isidora goyenechea 2939;metropolitana;Las Condes;-3.341.422;-7.060.025;3,5;AC;3,5;4
-javiera carrera al oriente del 910;metropolitana;El Bosque;-3.355.718;-706.648;43,56;AC;21,78;2
-jean mermoz 2101;metropolitana;Pudahuel;-3.339.934;-7.079.489;22;AC;22;6
-jose alcalde delano 10492;metropolitana;Lo Barnechea;-3.335.645;-7.053.946;44;AC;22;2
-juan de austria n/a;metropolitana;Las Condes;-3.343.089;-7.057.912;48;AC;22;2
-kennedy 4601;metropolitana;Las Condes;-3.340.395;-7.058.281;44;AC;22;2
-la castellana sur s/n;metropolitana;Las Condes;-3.341.191;-7.057.688;45;AC;22;2
-los ediles 747;metropolitana;Pudahuel;-3.344.625;-7.074.481;44;AC;22;2
-los militares 4611;metropolitana;Las Condes;-3.341.278;-7.058.235;22;AC;22;2
-los militares 4661;metropolitana;Las Condes;-334.121;-7.058.118;7;AC;7;2
-los platanos frente a 3130;metropolitana;Macul;-3.348.225;-705.995;43,56;AC;21,78;2
-luis pasteur 6725;metropolitana;Vitacura;-3.337.999;-7.056.953;22;AC;22;3
-mar de los sargazos s/n;metropolitana;Las Condes;-3.341.039;-7.056.998;45;AC;22;2
-miguel claro 275;metropolitana;Providencia;-3.343.204;-7.062.044;7,4;AC;7,4;2
-moneda #1326, esquina teatinos;metropolitana;Santiago;-3.344.228;-706.549;44;AC;22;2
-nataniel cox 620;metropolitana;Santiago;-3.345.378;-7.065.204;70;DC;60;4
-pajaritos 2872;metropolitana;Maipú;-3.350.085;-707.576;44;AC;22;2
-parque central 21;metropolitana;Maipú;-3.355.456;-7.079.538;22;AC;22;3
-pasaje dallas frente a 266;metropolitana;Quilicura;-3.336.854;-7.072.389;43,56;AC;21,78;2
-paseo bulnes 141;metropolitana;Santiago;-3.344.743;-706.533;7;AC;7;6
-paseo pie andino 5885;metropolitana;Lo Barnechea;-3.332.395;-7.053.919;22;DC;22;2
-patagonia 75;metropolitana;Las Condes;-3.340.918;-7.054.478;50;DC;50;3
-pedro de valdivia norte 699;metropolitana;Providencia;-3.341.533;-7.061.739;44;AC;22;2
-pio nono 450 p2;metropolitana;Recoleta;-3.341.383;-706.208;44;AC;22;4
-poeta augusto winter frente 3941;metropolitana;Macul;-3.349.003;-7.059.367;43,56;AC;21,78;2
-presidente errazuriz n/a;metropolitana;Las Condes;-3.342.129;-705.953;48;AC;22;4
-presidente kennedy 5413;metropolitana;Las Condes;-334.018;-7.057.972;14;AC;7;2
-presidente kennedy 5601;metropolitana;Las Condes;-3.340.118;-7.057.539;14;AC;7;6
-presidente kennedy 5741;metropolitana;Las Condes;-3.339.999;-7.057.428;22;AC;22;1
-presidente riesco 5330;metropolitana;Las Condes;-3.339.742;-7.055.966;7;AC;7;18
-presidente riesco con rosario norte (av. pdte. riesco #5810);metropolitana;Las Condes;-3.340.388;-7.057.396;44;AC;44;2
-primera transversal frente 1970;metropolitana;Maipú;-3.350.926;-7.075.314;43,56;AC;21,78;2
-principe de gales 6803;metropolitana;La Reina;-3.343.876;-7.056.181;7,4;AC;7,4;1
-principe de gales 9140;metropolitana;La Reina;-3.344.127;-7.053.553;24;DC;24;4
-profesor zanartu 1130;metropolitana;Independencia;-3.341.782;-7.065.446;44;AC;22;2
-puerto madero 9710;metropolitana;Pudahuel;-3.345.277;-7.078.616;44;AC;22;2
-radal frente a 1693;metropolitana;Quinta Normal;-334.275;-7.070.347;43,56;AC;21,78;2
-rolando petersen s/n;metropolitana;Cerro Navia;-3.341.348;-7.074.713;44;AC;22;2
-rosario norte 530;metropolitana;Las Condes;-3.340.513;-7.057.304;22;AC;22;3
-ruta 5 norte km 27.5 s/n;metropolitana;Colina;-3.321.605;-7.076.698;72;AC;43;3
-ruta 5 norte km.26 poniente 000;metropolitana;Lampa;-3.323.692;-7.075.872;55;AC;43;3
-ruta 5 sur km 16.4 s/n;metropolitana;San Bernardo;-3.358.058;-7.071.387;94;AC;43;6
-ruta 68 18501;metropolitana;Pudahuel;-3.343.693;-7.083.869;44;AC;22;2
-ruta 68 sur km 18.5;metropolitana;Pudahuel;-334.398;-7.084.116;50;DC;50;3
-san carlos de apoquindo 2300;metropolitana;Las Condes;-3.340.417;-7.050.836;44;AC;22;2
-san eugenio 1602;metropolitana;Nunoa;-3.346.699;-7.062.305;21,78;AC;11;2
-san ignacio frente al 951;metropolitana;Quilicura;-3.333.225;-7.070.984;43,56;AC;21,78;2
-san isiidro 85;metropolitana;Santiago;-3.344.436;-7.064.454;98;AC;43;3
-san pablo 8444;metropolitana;Pudahuel;-3.344.567;-7.074.401;44;AC;22;1
-san ramon 2701;metropolitana;Las Condes;-3.340.754;-7.051.114;21,78;AC;11;2
-santa isabel 168;metropolitana;Providencia;-3.344.679;-7.062.932;24;DC;24;4
-santa maria 5870;metropolitana;Vitacura;-3.338.042;-705.857;14;AC;7;2
-santa maria 5888;metropolitana;Vitacura;-3.337.966;-7.058.436;14;AC;7;2
-santa rosa 76;metropolitana;Santiago;-3.344.476;-7.064.557;7;AC;7;3
-uno sur frente a 0151;metropolitana;San José de Maipo;-3.364.081;-7.035.401;43,56;AC;21,78;2
-valdivieso frente al 555;metropolitana;Recoleta;-3.341.387;-7.064.208;44;AC;22;2
-victoria subercaseaux 400;metropolitana;Santiago;-3.343.821;-7.064.277;7;AC;7;3
-vicuna mackenna 4860;metropolitana;Macul;-3.349.726;-7.061.032;7,4;AC;7,4;4
-vicu¿a mackenna 4917;metropolitana;San Joaquín;-3.350.026;-7.061.647;22;AC;22;2
-vitacura 3350;metropolitana;Vitacura;-3.340.552;-7.059.834;50;DC;50;3
+av. apoquindo #4900;metropolitana;Las Condes;-33.41159;-70.57807;44;AC;22;2
+av. chamisero 10410;metropolitana;Colina;-33.30688;-70.66335;43,56;AC;22;2
+av. chicureo 2300;metropolitana;Colina;-33.2855;-70.67739;70;DC;60;3
+av. concha y toro 1149;metropolitana;Puente Alto;-33.60006;-70.57581;60;DC;60;2
+av. concha y toro 555;metropolitana;Puente Alto;-33.60608;-70.57636;22;AC;22;3
+av. echenique con carlos ossandon s/n;metropolitana;La Reina;-33.44196;-70.54344;22;AC;7,4;4
+av. fermin vivaceta 1030;metropolitana;Independencia;-33.4187;-70.66372;70;DC;60;2
+av. francisco bilbao 451;metropolitana;Providencia;-33.4418;-70.62604;22;AC;22;1
+av. jorge alessandri 1347;metropolitana;La Reina;-33.46254;-70.54487;22;AC;22;2
+av. las condes 11049;metropolitana;Las Condes;-33.37999;-70.52888;7,4;AC;7,4;2
+av. las condes 12145;metropolitana;Las Condes;-33.37418;-70.5198;43,56;AC;22;2
+av. padre hurtado sur #875, piso -2;metropolitana;Las Condes;-33.41512;-70.5405;7;AC;7;1
+av. pajaritos 3439;metropolitana;Maipú;-33.4959;-70.7572;22;AC;22;3
+av. pedro aguirre cerda con felix margoz s/n;metropolitana;Cerrillos;-33.49439;-70.70549;22;AC;7,4;4
+av. pedro fontova 6789;metropolitana;Huechuraba;-33.36017;-70.66956;43,56;AC;22;2
+av. plaza n/a;metropolitana;Las Condes;-33.3927;-70.50372;48;AC;22;2
+av. presidente jorge alessandri 20040;metropolitana;San Bernardo;-33.6317;-70.7104;7,4;AC;7,4;2
+av. presidente kennedy lateral 5055;metropolitana;Las Condes;-33.40249;-70.58085;14;AC;7;2
+av. principe de gales 9200;metropolitana;La Reina;-33.44154;-70.53489;70;DC;60;3
+av. principe de gales con aguas claras s/n;metropolitana;La Reina;-33.43937;-70.55639;22;AC;7,4;4
+av. quilin frente al 3250;metropolitana;Macul;-33.48513;-70.59783;43,56;AC;21,78;2
+av. sanchez fontecilla 8968;metropolitana;La Florida;-33.53467;-70.55362;24;DC;24;2
+av. vicuna mackenna 8153;metropolitana;La Florida;-33.52875;-70.59615;7,4;AC;7,4;2
+av. vitacura 6980;metropolitana;Vitacura;-33.38675;-70.56556;70;DC;60;4
+av. vitacura 9019;metropolitana;Vitacura;-33.38374;-70.54946;70;DC;60;4
+avda tobalaba 12150;metropolitana;Penalolén;-33.48649;-70.55887;22;AC;22;3
+"avda. libertador bernardo o""higgins frente al 4620";metropolitana;Estación Central;-33.45627;-70.69906;44;AC;22;2
+avda. los pajaritos s/n 000;metropolitana;Maipú;-33.49224;-70.75532;43,56;AC;21,78;2
+avda.gran avenida jose miguel carrera 8925;metropolitana;La Cisterna;-33.53895;-70.66506;70;DC;60;2
+avenida americo vespucio 1737;metropolitana;Huechuraba;-33.36669;-70.6788;7,4;AC;7,4;4
+avenida americo vespucio sur 345;metropolitana;Las Condes;-33.41832;-70.58336;7,4;AC;7,4;2
+avenida apoquindo 5680;metropolitana;Las Condes;-33.40941;-70.57111;22;AC;22;2
+avenida camilo henriquez 3692;metropolitana;Puente Alto;-33.56926;-70.55583;7,4;AC;7,4;2
+avenida costanera ferrea frente al 0495;metropolitana;Quilicura;-33.35561;-70.71316;43,56;AC;21,78;2
+avenida el rodeo 12850;metropolitana;Lo Barnechea;-33.35227;-70.52073;70;DC;30;2
+avenida el salto 5000;metropolitana;Huechuraba;-33.38515;-70.62257;6,6;AC;6,6;2
+avenida francisco bilbao 1439;metropolitana;Providencia;-33.43934;-70.61451;7;AC;7;1
+avenida independencia 397;metropolitana;Independencia;-33.42653;-70.6542;7,4;AC;7,4;2
+avenida irarrazaval 2928;metropolitana;Nunoa;-33.45432;-70.60044;24;DC;24;2
+avenida las condes 10462;metropolitana;Las Condes;-33.38263;-70.5334;7,4;AC;7,4;2
+avenida las condes 12916;metropolitana;Lo Barnechea;-33.36968;-70.51218;24;DC;24;4
+avenida las condes 13451;metropolitana;Las Condes;-33.37041;-70.50717;6,6;AC;6,6;4
+avenida las condes 9595;metropolitana;Las Condes;-33.38842;-70.53921;22;AC;22;3
+avenida libertador bernardo ohiggins 816;metropolitana;Santiago;-33.44379;-70.64849;7,7;AC;7,7;2
+avenida libertador bernardo o´higgins 3470;metropolitana;Estación Central;-33.45273;-70.68224;7,4;AC;7,4;2
+avenida los pajaritos 1780;metropolitana;Maipú;-33.51088;-70.75785;70;DC;60;2
+avenida padre hurtado sur 1621;metropolitana;Las Condes;-33.42325;-70.53849;70;DC;60;2
+avenida presidente errazuriz s/n;metropolitana;Las Condes;-33.41885;-70.5837;45;AC;22;2
+avenida presidente jorge alessandri 26517;metropolitana;San Bernardo;-33.68606;-70.72606;98;AC;43;3
+avenida presidente riesco s/n;metropolitana;Las Condes;-33.40137;-70.56781;45;AC;22;4
+avenida providencia 1909;metropolitana;Providencia;-33.42508;-70.61364;7;AC;7;3
+avenida providencia 2001;metropolitana;Providencia;-33.42361;-70.61207;7;AC;7;3
+avenida providencia 2099;metropolitana;Providencia;-33.4213;-70.60905;7;AC;7;3
+avenida providencia 2203;metropolitana;Providencia;-33.42187;-70.6098;7;AC;7;3
+avenida raul labbe 12931;metropolitana;Lo Barnechea;-33.36654;-70.51665;7,4;AC;7,4;2
+avenida ricardo lyon 25;metropolitana;Providencia;-33.42198;-70.60989;22;AC;22;3
+avenida ricardo lyon 322;metropolitana;Providencia;-33.4246;-70.6085;22;AC;22;2
+avenida santa maria 1742;metropolitana;Providencia;-33.4219;-70.62115;22;AC;22;2
+avenida vicuna mackena 885;metropolitana;Santiago;-33.45304;-70.6308;70;DC;60;3
+avenida vitacura 2610;metropolitana;Las Condes;-33.41649;-70.60496;7,4;AC;7,4;2
+avenida vitacura 2885;metropolitana;Las Condes;-33.41251;-70.60296;7,7;AC;7,7;2
+aviador bleriot frente a 2215;metropolitana;Quinta Normal;-33.42286;-70.69296;43,56;AC;21,78;2
+bicentenario 3800;metropolitana;Vitacura;-33.39938;-70.60154;14;AC;7;8
+buenaventura 1770;metropolitana;Vitacura;-33.38677;-70.56821;24;DC;24;2
+calle nueva 1660;metropolitana;Huechuraba;-33.36243;-70.6777;22;AC;22;2
+camilo henriquez 4583;metropolitana;Puente Alto;-33.55784;-70.55931;43,56;AC;22;2
+camino a melipilla 11585;metropolitana;Maipú;-33.52354;-70.75063;22;AC;22;3
+camino la farfana 390;metropolitana;Pudahule;-33.45543;-70.80337;22;AC;22;1
+camino los trapenses 3385;metropolitana;Lo Barnechea;-33.34485;-70.54589;50;DC;50;3
+camino los trapenses 3515;metropolitana;Lo Barnechea;-33.34331;-70.54444;44;AC;22;2
+camino melipilla 17800;metropolitana;Maipú;-33.54954;-70.78875;7,4;AC;7,4;2
+cardenal jose maria caro 870;metropolitana;Santiago;-33.43371;-70.6484;7,4;AC;7,4;3
+catedral 1850;metropolitana;Santiago;-33.4389;-70.66323;70;DC;50;4
+cerro colorado s/n;metropolitana;Las Condes;-33.40423;-70.58;45;AC;22;2
+cerro el plomo 5931;metropolitana;Las Condes;-33.40446;-70.5705;7,4;AC;7,4;8
+chicureo 99;metropolitana;Colina;-33.28431;-70.68088;7,4;AC;7,4;1
+colina sur 14600;metropolitana;Colina;-33.27782;-70.6278;70;DC;30;2
+colon 4333;metropolitana;Las Condes;-33.42377;-70.58047;55;DC;50;3
+comandante malbec 12851;metropolitana;Lo Barnechea;-33.35971;-70.51527;22;AC;22;2
+costanera norte km 2,5 e-0 s/n;metropolitana;Vitacura;-33.37513;-70.53187;175;DC;175;4
+costanera norte km 34;metropolitana;Pudahuel;-33.43393;-70.81048;50;DC;50;3
+costanera norte km 8 (direccion oriente);metropolitana;Vitacura;-33.3821;-70.59316;50;DC;50;3
+cristobal colon 7550;metropolitana;Las Condes;-33.41754;-70.55222;70;DC;50;5
+del parque 4023;metropolitana;Huechuraba;-33.39402;-70.62063;7,4;AC;7,4;2
+del parque 4980;metropolitana;Huechuraba;-33.3889;-70.61664;22;AC;22;1
+diagonal las torres 2700;metropolitana;Penalolén;-33.49013;-70.51898;44;AC;22;2
+ecuador 5140;metropolitana;Estación Central;-33.45606;-70.70501;70;DC;60;2
+el alcalde 15;metropolitana;Las Condes;-33.4159;-70.59524;22;AC;22;2
+enrique foster 21;metropolitana;Las Condes;-33.41556;-70.59412;7;AC;7;2
+enrique kirberg frente al 4;metropolitana;Estación Central;-33.45024;-70.68283;44;AC;22;2
+enrique mac iver #424;metropolitana;Santiago;-33.4378;-70.64747;22;AC;22;1
+enrique soros 1070;metropolitana;Independencia;-33.41796;-70.67166;44;AC;22;2
+estados unidos 1365;metropolitana;Cerro Navia;-33.43004;-70.73747;44;AC;22;2
+general korner frente a 286;metropolitana;El Bosque;-33.55054;-70.67642;43,56;AC;21,78;2
+goycolea 100;metropolitana;La Cisterna;-33.54033;-70.6637;22;AC;22;1
+gran av. jose miguel carrera 6150;metropolitana;San Miguel;-33.51185;-70.65681;70;DC;60;2
+guardia vieja 285;metropolitana;Providencia;-33.4249;-70.6098;22;AC;22;2
+ignacio carrera pinto frente 1066;metropolitana;Lampa;-33.28663;-70.87213;43,56;AC;21,78;2
+independencia 565;metropolitana;Independencia;-33.42463;-70.65481;14;AC;7;2
+isidora goyenechea 2939;metropolitana;Las Condes;-33.41422;-70.60025;3,5;AC;3,5;4
+javiera carrera al oriente del 910;metropolitana;El Bosque;-33.55718;-70.6648;43,56;AC;21,78;2
+jean mermoz 2101;metropolitana;Pudahuel;-33.39934;-70.79489;22;AC;22;6
+jose alcalde delano 10492;metropolitana;Lo Barnechea;-33.35645;-70.53946;44;AC;22;2
+juan de austria n/a;metropolitana;Las Condes;-33.43089;-70.57912;48;AC;22;2
+kennedy 4601;metropolitana;Las Condes;-33.40395;-70.58281;44;AC;22;2
+la castellana sur s/n;metropolitana;Las Condes;-33.41191;-70.57688;45;AC;22;2
+los ediles 747;metropolitana;Pudahuel;-33.44625;-70.74481;44;AC;22;2
+los militares 4611;metropolitana;Las Condes;-33.41278;-70.58235;22;AC;22;2
+los militares 4661;metropolitana;Las Condes;-33.4121;-70.58118;7;AC;7;2
+los platanos frente a 3130;metropolitana;Macul;-33.48225;-70.5995;43,56;AC;21,78;2
+luis pasteur 6725;metropolitana;Vitacura;-33.37999;-70.56953;22;AC;22;3
+mar de los sargazos s/n;metropolitana;Las Condes;-33.41039;-70.56998;45;AC;22;2
+miguel claro 275;metropolitana;Providencia;-33.43204;-70.62044;7,4;AC;7,4;2
+moneda #1326, esquina teatinos;metropolitana;Santiago;-33.44228;-70.6549;44;AC;22;2
+nataniel cox 620;metropolitana;Santiago;-33.45378;-70.65204;70;DC;60;4
+pajaritos 2872;metropolitana;Maipú;-33.50085;-70.7576;44;AC;22;2
+parque central 21;metropolitana;Maipú;-33.55456;-70.79538;22;AC;22;3
+pasaje dallas frente a 266;metropolitana;Quilicura;-33.36854;-70.72389;43,56;AC;21,78;2
+paseo bulnes 141;metropolitana;Santiago;-33.44743;-70.6533;7;AC;7;6
+paseo pie andino 5885;metropolitana;Lo Barnechea;-33.32395;-70.53919;22;DC;22;2
+patagonia 75;metropolitana;Las Condes;-33.40918;-70.54478;50;DC;50;3
+pedro de valdivia norte 699;metropolitana;Providencia;-33.41533;-70.61739;44;AC;22;2
+pio nono 450 p2;metropolitana;Recoleta;-33.41383;-70.6208;44;AC;22;4
+poeta augusto winter frente 3941;metropolitana;Macul;-33.49003;-70.59367;43,56;AC;21,78;2
+presidente errazuriz n/a;metropolitana;Las Condes;-33.42129;-70.5953;48;AC;22;4
+presidente kennedy 5413;metropolitana;Las Condes;-33.4018;-70.57972;14;AC;7;2
+presidente kennedy 5601;metropolitana;Las Condes;-33.40118;-70.57539;14;AC;7;6
+presidente kennedy 5741;metropolitana;Las Condes;-33.39999;-70.57428;22;AC;22;1
+presidente riesco 5330;metropolitana;Las Condes;-33.39742;-70.55966;7;AC;7;18
+presidente riesco con rosario norte (av. pdte. riesco #5810);metropolitana;Las Condes;-33.40388;-70.57396;44;AC;44;2
+primera transversal frente 1970;metropolitana;Maipú;-33.50926;-70.75314;43,56;AC;21,78;2
+principe de gales 6803;metropolitana;La Reina;-33.43876;-70.56181;7,4;AC;7,4;1
+principe de gales 9140;metropolitana;La Reina;-33.44127;-70.53553;24;DC;24;4
+profesor zanartu 1130;metropolitana;Independencia;-33.41782;-70.65446;44;AC;22;2
+puerto madero 9710;metropolitana;Pudahuel;-33.45277;-70.78616;44;AC;22;2
+radal frente a 1693;metropolitana;Quinta Normal;-33.4275;-70.70347;43,56;AC;21,78;2
+rolando petersen s/n;metropolitana;Cerro Navia;-33.41348;-70.74713;44;AC;22;2
+rosario norte 530;metropolitana;Las Condes;-33.40513;-70.57304;22;AC;22;3
+ruta 5 norte km 27.5 s/n;metropolitana;Colina;-33.21605;-70.76698;72;AC;43;3
+ruta 5 norte km.26 poniente 000;metropolitana;Lampa;-33.23692;-70.75872;55;AC;43;3
+ruta 5 sur km 16.4 s/n;metropolitana;San Bernardo;-33.58058;-70.71387;94;AC;43;6
+ruta 68 18501;metropolitana;Pudahuel;-33.43693;-70.83869;44;AC;22;2
+ruta 68 sur km 18.5;metropolitana;Pudahuel;-33.4398;-70.84116;50;DC;50;3
+san carlos de apoquindo 2300;metropolitana;Las Condes;-33.40417;-70.50836;44;AC;22;2
+san eugenio 1602;metropolitana;Nunoa;-33.46699;-70.62305;21,78;AC;11;2
+san ignacio frente al 951;metropolitana;Quilicura;-33.33225;-70.70984;43,56;AC;21,78;2
+san isiidro 85;metropolitana;Santiago;-33.44436;-70.64454;98;AC;43;3
+san pablo 8444;metropolitana;Pudahuel;-33.44567;-70.74401;44;AC;22;1
+san ramon 2701;metropolitana;Las Condes;-33.40754;-70.51114;21,78;AC;11;2
+santa isabel 168;metropolitana;Providencia;-33.44679;-70.62932;24;DC;24;4
+santa maria 5870;metropolitana;Vitacura;-33.38042;-70.5857;14;AC;7;2
+santa maria 5888;metropolitana;Vitacura;-33.37966;-70.58436;14;AC;7;2
+santa rosa 76;metropolitana;Santiago;-33.44476;-70.64557;7;AC;7;3
+uno sur frente a 0151;metropolitana;San José de Maipo;-33.64081;-70.35401;43,56;AC;21,78;2
+valdivieso frente al 555;metropolitana;Recoleta;-33.41387;-70.64208;44;AC;22;2
+victoria subercaseaux 400;metropolitana;Santiago;-33.43821;-70.64277;7;AC;7;3
+vicuna mackenna 4860;metropolitana;Macul;-33.49726;-70.61032;7,4;AC;7,4;4
+vicu¿a mackenna 4917;metropolitana;San Joaquín;-33.50026;-70.61647;22;AC;22;2
+vitacura 3350;metropolitana;Vitacura;-33.40552;-70.59834;50;DC;50;3

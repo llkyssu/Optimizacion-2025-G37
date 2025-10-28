@@ -1,9 +1,9 @@
 Dirección;Región;Comuna;Latitud;Longitud;Potencia (en kW) Electrolinera;Tipo corriente;Potencia (en kW) cargador;Numero de cargadores
-avenida el rodeo 12850;metropolitana;Lo Barnechea;-3.335.227;-7.052.073;70;DC;30;2
-avenida las condes 12916;metropolitana;Lo Barnechea;-3.336.968;-7.051.218;24;DC;24;4
-avenida raul labbe 12931;metropolitana;Lo Barnechea;-3.336.654;-7.051.665;7,4;AC;7,4;2
-camino los trapenses 3385;metropolitana;Lo Barnechea;-3.334.485;-7.054.589;50;DC;50;3
-camino los trapenses 3515;metropolitana;Lo Barnechea;-3.334.331;-7.054.444;44;AC;22;2
-comandante malbec 12851;metropolitana;Lo Barnechea;-3.335.971;-7.051.527;22;AC;22;2
-jose alcalde delano 10492;metropolitana;Lo Barnechea;-3.335.645;-7.053.946;44;AC;22;2
-paseo pie andino 5885;metropolitana;Lo Barnechea;-3.332.395;-7.053.919;22;DC;22;2
+avenida el rodeo 12850;metropolitana;Lo Barnechea;-33.35227;-70.52073;70;DC;30;2
+avenida las condes 12916;metropolitana;Lo Barnechea;-33.36968;-70.51218;24;DC;24;4
+avenida raul labbe 12931;metropolitana;Lo Barnechea;-33.36654;-70.51665;7,4;AC;7,4;2
+camino los trapenses 3385;metropolitana;Lo Barnechea;-33.34485;-70.54589;50;DC;50;3
+camino los trapenses 3515;metropolitana;Lo Barnechea;-33.34331;-70.54444;44;AC;22;2
+comandante malbec 12851;metropolitana;Lo Barnechea;-33.35971;-70.51527;22;AC;22;2
+jose alcalde delano 10492;metropolitana;Lo Barnechea;-33.35645;-70.53946;44;AC;22;2
+paseo pie andino 5885;metropolitana;Lo Barnechea;-33.32395;-70.53919;22;DC;22;2
