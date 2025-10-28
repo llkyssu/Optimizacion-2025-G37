@@ -1,6 +1,0 @@
-﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
-av. chamisero 10410,metropolitana,Colina,-33.30688,-70.66335,"43,56",AC,22,2,39,3.1646117795587476,2,True
-av. chicureo 2300,metropolitana,Colina,-33.2855,-70.67739,70,DC,60,3,25,1.6767195929189314,3,True
-chicureo 99,metropolitana,Colina,-33.28431,-70.68088,"7,4",AC,"7,4",1,47,107.41606133068716,1,True
-colina sur 14600,metropolitana,Colina,-33.27782,-70.6278,70,DC,30,2,102,16.572787478472247,2,True
-ruta 5 norte km 27.5 s/n,metropolitana,Colina,-33.21605,-70.76698,72,AC,43,3,49,15.50939029803848,3,True

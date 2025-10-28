@@ -1,5 +1,0 @@
-﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
-av. concha y toro 1149,metropolitana,Puente Alto,-33.60006,-70.57581,60,DC,60,2,47,1.2256207222083537,2,True
-av. concha y toro 555,metropolitana,Puente Alto,-33.60608,-70.57636,22,AC,22,3,128,30.97192749359497,3,True
-avenida camilo henriquez 3692,metropolitana,Puente Alto,-33.56926,-70.55583,"7,4",AC,"7,4",2,86,47.8944556470348,2,True
-camilo henriquez 4583,metropolitana,Puente Alto,-33.55784,-70.55931,"43,56",AC,22,2,119,24.48272139858475,2,True

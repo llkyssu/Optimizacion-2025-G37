@@ -1,5 +1,0 @@
-﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
-"avda. libertador bernardo o""higgins frente al 4620",metropolitana,Estación Central,-33.45627,-70.69906,44,AC,22,2,14,158.08078050169496,2,True
-avenida libertador bernardo o´higgins 3470,metropolitana,Estación Central,-33.45273,-70.68224,"7,4",AC,"7,4",2,31,17.065689361283063,2,True
-ecuador 5140,metropolitana,Estación Central,-33.45606,-70.70501,70,DC,60,2,25,18.053705368587842,2,True
-enrique kirberg frente al 4,metropolitana,Estación Central,-33.45024,-70.68283,44,AC,22,2,4,50.03708258872684,2,True

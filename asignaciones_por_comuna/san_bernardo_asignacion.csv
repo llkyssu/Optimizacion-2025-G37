@@ -1,5 +1,0 @@
-﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
-autopista ruta 5 sur kilometro 29 29,metropolitana,San Bernardo,-33.68104,-70.72634,50,AC,43,3,32,106.28915741189766,3,True
-av. presidente jorge alessandri 20040,metropolitana,San Bernardo,-33.6317,-70.7104,"7,4",AC,"7,4",2,1,30.38207842960775,2,True
-avenida presidente jorge alessandri 26517,metropolitana,San Bernardo,-33.68606,-70.72606,98,AC,43,3,31,1.8729533926750266,3,True
-ruta 5 sur km 16.4 s/n,metropolitana,San Bernardo,-33.58058,-70.71387,94,AC,43,6,34,15.559595626842675,6,True

@@ -1,3 +1,0 @@
-﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
-av. sanchez fontecilla 8968,metropolitana,La Florida,-33.53467,-70.55362,24,DC,24,2,219,62.30707410273695,2,True
-av. vicuna mackenna 8153,metropolitana,La Florida,-33.52875,-70.59615,"7,4",AC,"7,4",2,246,32.23375370827972,2,True

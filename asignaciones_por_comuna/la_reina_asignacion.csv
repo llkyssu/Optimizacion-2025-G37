@@ -1,7 +1,0 @@
-﻿Dirección,Región,Comuna,lat,lon,Potencia (en kW) Electrolinera,Tipo corriente,Potencia (en kW) cargador,Zcap,id_candidata,distancia,cargadores,infraestructura
-av. echenique con carlos ossandon s/n,metropolitana,La Reina,-33.44196,-70.54344,22,AC,"7,4",4,156,51.00198465605662,4,True
-av. jorge alessandri 1347,metropolitana,La Reina,-33.46254,-70.54487,22,AC,22,2,62,124.71900472327901,2,True
-av. principe de gales 9200,metropolitana,La Reina,-33.44154,-70.53489,70,DC,60,3,118,13.421009475149033,3,True
-av. principe de gales con aguas claras s/n,metropolitana,La Reina,-33.43937,-70.55639,22,AC,"7,4",4,73,42.63831233796808,4,True
-principe de gales 6803,metropolitana,La Reina,-33.43876,-70.56181,"7,4",AC,"7,4",1,21,8.011323250000608,1,True
-principe de gales 9140,metropolitana,La Reina,-33.44127,-70.53553,24,DC,24,4,118,71.53052231341867,4,True
