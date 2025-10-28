@@ -1,6 +1,6 @@
 ﻿electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,Pcap,distancia_m
-av. americo vespucio 1501,metropolitana,Cerrillos,-33.517,-70.717,"7,4",AC,"7,4",4,,,mall,yes,,Cerrillos,-70.71759875835785,-33.51702285962344,mall,20,55.680205454649574
-av. pedro aguirre cerda con felix margoz s/n,metropolitana,Cerrillos,-33.49439,-70.70549,22,AC,"7,4",4,Copec Voltex,charging_station,,,,Cerrillos,-70.7055131,-33.49435840000001,charging_station,30,4.109633687421406
+"Av. americo vespucio 1501,metropolitana,Cerrillos,-33.517,-70.717,""7,4"",AC,""7,4"",4,,,mall,yes,,Cerrillos,-70.71759875835785,-33.51702285962344,mall,20,55.680205454649574"
+"av. pedro aguirre cerda con felix margoz s/n,metropolitana,Cerrillos,-33.49439,-70.70549,22,AC,""7,4"",4,Copec Voltex,charging_station,,,,Cerrillos,-70.7055131,-33.49435840000001,charging_station,30,4.109633687421406"
 ,,,,,,,,0,Shell,fuel,,,,Cerrillos,-70.721256,-33.5182676,fuel,10,
 ,,,,,,,,0,,parking,,,,Cerrillos,-70.7104319,-33.5009094,parking,25,
 ,,,,,,,,0,La Oferta,,supermarket,,,Cerrillos,-70.6875943,-33.48317659999999,supermarket,10,
