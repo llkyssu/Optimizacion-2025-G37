@@ -1,5 +1,5 @@
 electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
-avenida el rodeo 12850,metropolitana,Lo Barnechea,-33.35227,-70.52073,70,DC,30,2,Espacio Urbano La Dehesa,,mall,yes,,Lo Barnechea,-70.52074441574428,-33.352303595318936,mall,20,50,0,3.9597169300571338,346
+avenida el rodeo 12850,metropolitana,Lo Barnechea,-33.35227,-70.52073,70,DC,30,2,Espacio Urbano La Dehesa,,mall,yes,,Lo Barnechea,-70.52074441574428,-33.352303595318936,mall,20,50,35,3.9597169300571338,346
 avenida las condes 12916,metropolitana,Lo Barnechea,-33.36968,-70.51218,24,DC,24,4,Lider,,supermarket,yes,,Lo Barnechea,-70.512286954066,-33.36973641276923,supermarket,10,18,0,11.754690403228778,288
 avenida raul labbe 12931,metropolitana,Lo Barnechea,-33.36654,-70.51665,"7,4",AC,"7,4",2,,parking,,,,Lo Barnechea,-70.51784533480594,-33.3698136004734,parking,25,30,0,379.67894013622936,250
 camino los trapenses 3385,metropolitana,Lo Barnechea,-33.34485,-70.54589,50,DC,50,3,,parking,,,,Lo Barnechea,-70.54489639349026,-33.34368910942831,parking,25,30,0,158.51060708690738,250
