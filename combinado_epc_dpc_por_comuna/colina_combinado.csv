@@ -1,46 +1,46 @@
 ﻿electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,Pcap,distancia_m,paneles_ini,paneles_max
-av. chamisero 10410,metropolitana,Colina,-33.30688,-70.66335,"43,56",AC,22,2,Copec Voltex,charging_station,,,,Colina,-70.663361,-33.30685299999999,charging_station,30,3.1646117795587476,,
-av. chicureo 2300,metropolitana,Colina,-33.2855,-70.67739,70,DC,60,3,Aramco,fuel,,,,Colina,-70.6773797,-33.2855124,fuel,10,1.6767195929189314,,
-chicureo 99,metropolitana,Colina,-33.28431,-70.68088,"7,4",AC,"7,4",1,Centro Comercial Los Ingleses,,,commercial,,Colina,-70.68027283276557,-33.285133484086145,commercial,10,107.41606133068716,,
+av. chamisero 10410,metropolitana,Colina,-33.30688,-70.66335,"43,56",AC,22,2,Copec Voltex,charging_station,,,,Colina,-70.663361,-33.30685299999999,charging_station,30,3.1646117795587476,30,45
+av. chicureo 2300,metropolitana,Colina,-33.2855,-70.67739,70,DC,60,3,Aramco,fuel,,,,Colina,-70.6773797,-33.2855124,fuel,10,1.6767195929189314,0,79
+chicureo 99,metropolitana,Colina,-33.28431,-70.68088,"7,4",AC,"7,4",1,Centro Comercial Los Ingleses,,,commercial,,Colina,-70.68027283276557,-33.285133484086145,commercial,10,107.41606133068716,0,163
 colina sur 14600,metropolitana,Colina,-33.27782,-70.6278,70,DC,30,2,Espacio Urbano La Laguna,,mall,,,Colina,-70.6278431764964,-33.277964976513104,mall,20,16.572787478472247,,
-ruta 5 norte km 27.5 s/n,metropolitana,Colina,-33.21605,-70.76698,72,AC,43,3,Estacionamiento Pronto Copec,parking,,,,Colina,-70.7671427716547,-33.21602104647133,parking,25,15.50939029803848,,
-,,,,,,,,0,Petrobras,fuel,,,,Colina,-70.7655004,-33.219182,fuel,10,,,
-,,,,,,,,0,Copec,fuel,,,,Colina,-70.7669566,-33.2163866,fuel,10,,,
+ruta 5 norte km 27.5 s/n,metropolitana,Colina,-33.21605,-70.76698,72,AC,43,3,Estacionamiento Pronto Copec,parking,,,,Colina,-70.7671427716547,-33.21602104647133,parking,25,15.50939029803848,0,250
+,,,,,,,,0,Petrobras,fuel,,,,Colina,-70.7655004,-33.219182,fuel,10,,0,76
+,,,,,,,,0,Copec,fuel,,,,Colina,-70.7669566,-33.2163866,fuel,10,,0,170
 ,,,,,,,,0,Poligono de Tiro,parking,,,,Colina,-70.6932262,-33.12186260000001,parking,25,,,
-,,,,,,,,0,Shell,fuel,,,,Colina,-70.6814772,-33.2116678,fuel,10,,,
-,,,,,,,,0,Copec,fuel,,,,Colina,-70.67345040000001,-33.201291299999994,fuel,10,,,
-,,,,,,,,0,Shell,fuel,,,,Colina,-70.6501586,-33.1821007,fuel,10,,,
+,,,,,,,,0,Shell,fuel,,,,Colina,-70.6814772,-33.2116678,fuel,10,,0,68
+,,,,,,,,0,Copec,fuel,,,,Colina,-70.67345040000001,-33.201291299999994,fuel,10,,0,53
+,,,,,,,,0,Shell,fuel,,,,Colina,-70.6501586,-33.1821007,fuel,10,,0,42
 ,,,,,,,,0,Termas de Colina,parking,,,,Colina,-70.5985277,-33.18335629999999,parking,25,,,
 ,,,,,,,,0,Termas de Colina,parking,,,,Colina,-70.5990058,-33.183754699999994,parking,25,,,
 ,,,,,,,,0,Las Brisas de Chicureo,,supermarket,,,Colina,-70.6953615,-33.238681099999994,supermarket,10,,,
 ,,,,,,,,0,Marina Chicureo,parking,,,,Colina,-70.6289041,-33.279003,parking,25,,,
 ,,,,,,,,0,Clínica Marcos Cornejo,hospital,,,,Colina,-70.6761916,-33.2067295,hospital,6,,,
 ,,,,,,,,0,Lider Chicureo,parking,,,,Colina,-70.6275235,-33.27743569999999,parking,25,,,
-,,,,,,,,0,Shell,fuel,,,,Colina,-70.6266077,-33.2774132,fuel,10,,,
+,,,,,,,,0,Shell,fuel,,,,Colina,-70.6266077,-33.2774132,fuel,10,,0,51
 ,,,,,,,,0,,parking,,,,Colina,-70.7052963,-33.31548730000001,parking,25,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.6747832,-33.23811969999999,parking,25,,,
 ,,,,,,,,0,Liga Oriente De Futbol,parking,,,,Colina,-70.6751771,-33.2278337,parking,25,,,
 ,,,,,,,,0,Lider Express,,supermarket,,,Colina,-70.7042628,-33.278237700000005,supermarket,10,,,
-,,,,,,,,0,Top Car Wash,car_wash,,,,Colina,-70.704734,-33.27834699999998,car_wash,2,,,
+,,,,,,,,0,Top Car Wash,car_wash,,,,Colina,-70.704734,-33.27834699999998,car_wash,2,,0,713
 ,,,,,,,,0,Gastronomia Peruna,,supermarket,,,Colina,-70.67574,-33.205203000000004,supermarket,10,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.6837259,-33.2826767,parking,25,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.7083675,-33.0494422,parking,25,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.7253356,-33.19787850000001,parking,25,,,
-,,,,,,,,0,One,fuel,,,,Colina,-70.6973951,-33.25428680000002,fuel,10,,,
+,,,,,,,,0,One,fuel,,,,Colina,-70.6973951,-33.25428680000002,fuel,10,,0,54
 ,,,,,,,,0,Tottus,,supermarket,,,Colina,-70.6280805,-33.27877819999999,supermarket,10,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.7152885,-32.98745949999999,parking,25,,,
-,,,,,,,,0,Shell,fuel,,,,Colina,-70.6969249,-33.3038246,fuel,10,,,
-,,,,,,,,0,Shell,fuel,,,,Colina,-70.7035607,-33.2786577,fuel,10,,,
-,,,,,,,,0,Petrobras,fuel,,,,Colina,-70.6665677,-33.2074585,fuel,10,,,
+,,,,,,,,0,Shell,fuel,,,,Colina,-70.6969249,-33.3038246,fuel,10,,0,58
+,,,,,,,,0,Shell,fuel,,,,Colina,-70.7035607,-33.2786577,fuel,10,,0,44
+,,,,,,,,0,Petrobras,fuel,,,,Colina,-70.6665677,-33.2074585,fuel,10,,0,60
 ,,,,,,,,0,Santa Isabel,,supermarket,,,Colina,-70.6662056,-33.207034400000005,supermarket,10,,,
-,,,,,,,,0,Shell,fuel,,,,Colina,-70.73888410000002,-33.27778099999999,fuel,10,,,
+,,,,,,,,0,Shell,fuel,,,,Colina,-70.73888410000002,-33.27778099999999,fuel,10,,0,100
 ,,,,,,,,0,,parking,,,,Colina,-70.7193347,-33.256997500000004,parking,25,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.7311201,-33.09243150000001,parking,25,,,
 ,,,,,,,,0,Parque Chamisero,parking,,,,Colina,-70.6243213,-33.3211884,parking,25,,,
-,,,,,,,,0,Enel X,charging_station,,,,Colina,-70.6285136,-33.27893149999999,charging_station,30,,,
-,,,,,,,,0,,car_wash,,,,Colina,-70.6295458,-33.2802302,car_wash,2,,,
-,,,,,,,,0,Copec Voltex,charging_station,,,,Colina,-70.6763459,-33.285891,charging_station,30,,,
-,,,,,,,,0,Enel X,charging_station,,,,Colina,-70.6775673,-33.28565259999999,charging_station,30,,,
+,,,,,,,,0,Enel X,charging_station,,,,Colina,-70.6285136,-33.27893149999999,charging_station,30,,0,35
+,,,,,,,,0,,car_wash,,,,Colina,-70.6295458,-33.2802302,car_wash,2,,0,19
+,,,,,,,,0,Copec Voltex,charging_station,,,,Colina,-70.6763459,-33.285891,charging_station,30,,0,253
+,,,,,,,,0,Enel X,charging_station,,,,Colina,-70.6775673,-33.28565259999999,charging_station,30,,0,87
 ,,,,,,,,0,,parking,,,,Colina,-70.623484331914,-33.27137703724461,parking,25,,,
 ,,,,,,,,0,Monserrat,parking,,,,Colina,-70.67843266254609,-33.20622308349923,parking,25,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.67111201870756,-33.23738158730325,parking,25,,,
@@ -65,7 +65,7 @@ ruta 5 norte km 27.5 s/n,metropolitana,Colina,-33.21605,-70.76698,72,AC,43,3,Est
 ,,,,,,,,0,Centro Comercial Los Pinos,,,commercial,,Colina,-70.67863937325757,-33.28535930589864,commercial,10,,,
 ,,,,,,,,0,Supercenter Chicureo,,,commercial,,Colina,-70.67752847844473,-33.28528778003054,commercial,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.67507385647863,-33.20469066429691,commercial,10,,,
-,,,,,,,,0,Copec,fuel,,roof,,Colina,-70.6527867957292,-33.283074966923884,fuel,10,,,
+,,,,,,,,0,Copec,fuel,,roof,,Colina,-70.6527867957292,-33.283074966923884,fuel,10,,0,88
 ,,,,,,,,0,,,,commercial,,Colina,-70.67670571712308,-33.20571555117174,commercial,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.67737895551154,-33.20659891707361,commercial,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.67786791700492,-33.20716599918697,commercial,10,,,
@@ -74,10 +74,10 @@ ruta 5 norte km 27.5 s/n,metropolitana,Colina,-33.21605,-70.76698,72,AC,43,3,Est
 ,,,,,,,,0,Jumbo,,supermarket,yes,,Colina,-70.6997800198182,-33.28606136296087,supermarket,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.70281702780089,-33.30970457109109,commercial,10,,,
 ,,,,,,,,0,,,,retail,,Colina,-70.70485483405383,-33.31266411591828,retail,6,,,
-,,,,,,,,0,Copec,fuel,,roof,,Colina,-70.70469578534136,-33.314703277011915,fuel,10,,,
+,,,,,,,,0,Copec,fuel,,roof,,Colina,-70.70469578534136,-33.314703277011915,fuel,10,,0,211
 ,,,,,,,,0,Mayorista 10,,supermarket,yes,,Colina,-70.67358474069927,-33.201883900621475,supermarket,10,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.67384843146142,-33.201812280913295,parking,25,,,
-,,,,,,,,0,Copec,fuel,,,,Colina,-70.68516545952069,-33.215153321392705,fuel,10,,,
+,,,,,,,,0,Copec,fuel,,,,Colina,-70.68516545952069,-33.215153321392705,fuel,10,,0,62
 ,,,,,,,,0,Lider Express,,supermarket,yes,,Colina,-70.68546530933052,-33.21825983988342,supermarket,10,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.68546723347369,-33.21765210606017,parking,25,,,
 ,,,,,,,,0,Paseo Colina,,mall,yes,,Colina,-70.67716648869326,-33.205043376298086,mall,20,,,
@@ -131,14 +131,14 @@ ruta 5 norte km 27.5 s/n,metropolitana,Colina,-33.21605,-70.76698,72,AC,43,3,Est
 ,,,,,,,,0,,,,commercial,,Colina,-70.62382560160222,-33.27157882376689,commercial,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.62335572354023,-33.27100126485025,commercial,10,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.71951231144226,-33.254243218490195,parking,25,,,
-,,,,,,,,0,Copec,fuel,,,,Colina,-70.62952305920565,-33.280116800736074,fuel,10,,,
+,,,,,,,,0,Copec,fuel,,,,Colina,-70.62952305920565,-33.280116800736074,fuel,10,,0,23
 ,,,,,,,,0,,hospital,,,,Colina,-70.67700965982436,-33.207137435561485,hospital,6,,,
 ,,,,,,,,0,,,,retail,,Colina,-70.67658483796754,-33.28531515236823,retail,6,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.66492872742857,-33.30680612436806,commercial,10,,,
-,,,,,,,,0,Copec,fuel,,,,Colina,-70.66355749992437,-33.30680940004237,fuel,10,,,
+,,,,,,,,0,Copec,fuel,,,,Colina,-70.66355749992437,-33.30680940004237,fuel,10,,0,42
 ,,,,,,,,0,Stripcenter Las Canteras,,,commercial,,Colina,-70.69002106138817,-33.3020425108874,commercial,10,,,
 ,,,,,,,,0,,parking,,,,Colina,-70.7063023544219,-32.96017892916192,parking,25,,,
-,,,,,,,,0,Gulf,fuel,,,,Colina,-70.676978000006,-33.184807199956964,fuel,10,,,
+,,,,,,,,0,Gulf,fuel,,,,Colina,-70.676978000006,-33.184807199956964,fuel,10,,0,92
 ,,,,,,,,0,Strip Center,,,commercial,,Colina,-70.67748380033967,-33.184389945662886,commercial,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.67722894086958,-33.183890903507866,commercial,10,,,
 ,,,,,,,,0,,,,commercial,,Colina,-70.66430029579118,-33.306712547685144,commercial,10,,,
