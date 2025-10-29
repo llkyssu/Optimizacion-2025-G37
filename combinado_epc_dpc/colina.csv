@@ -1,5 +1,5 @@
 electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
-av. chamisero 10410,metropolitana,Colina,-33.30688,-70.66335,"43,56",AC,22,2,Copec Voltex,charging_station,,,,Colina,-70.663361,-33.30685299999999,charging_station,30,40,0,3.164611779558748,464
+av. chamisero 10410,metropolitana,Colina,-33.30688,-70.66335,"43,56",AC,22,2,Copec Voltex,charging_station,,,,Colina,-70.663361,-33.30685299999999,charging_station,30,40,30,3.164611779558748,464
 av. chicureo 2300,metropolitana,Colina,-33.2855,-70.67739,70,DC,60,3,Aramco,fuel,,,,Colina,-70.6773797,-33.2855124,fuel,10,20,0,1.6767195929189314,325
 chicureo 99,metropolitana,Colina,-33.28431,-70.68088,"7,4",AC,"7,4",1,Centro Comercial Los Ingleses,,,commercial,,Colina,-70.68027283276557,-33.285133484086145,commercial,10,15,0,107.41606133068716,162
 colina sur 14600,metropolitana,Colina,-33.27782,-70.6278,70,DC,30,2,Espacio Urbano La Laguna,,mall,,,Colina,-70.6278431764964,-33.277964976513104,mall,20,50,0,16.572787478472247,418
