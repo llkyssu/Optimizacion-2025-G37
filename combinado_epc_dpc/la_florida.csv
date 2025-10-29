@@ -1,5 +1,5 @@
 electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
-av. sanchez fontecilla 8968,metropolitana,La Florida,-33.53467,-70.55362,24,DC,24,2,Lider Express,,supermarket,,,La Florida,-70.553768844901,-33.5341221614133,supermarket,10,18,0,62.30707410273695,750
+av. sanchez fontecilla 8968,metropolitana,La Florida,-33.53467,-70.55362,24,DC,24,2,Lider Express,,supermarket,,,La Florida,-70.553768844901,-33.5341221614133,supermarket,10,18,10,62.30707410273695,750
 av. vicuna mackenna 8153,metropolitana,La Florida,-33.52875,-70.59615,"7,4",AC,"7,4",2,,parking,,,,La Florida,-70.59646621135539,-33.52863022531432,parking,25,30,0,32.23375370827972,650
 ,,,,,,,,0,,parking,,,,La Florida,-70.60555,-33.5173412,parking,25,30,0,,260
 ,,,,,,,,0,Mall Florida Center,parking,,,,La Florida,-70.6052673,-33.5119792,parking,25,30,0,,260
@@ -31,8 +31,7 @@ av. vicuna mackenna 8153,metropolitana,La Florida,-33.52875,-70.59615,"7,4",AC,"
 ,,,,,,,,0,Enel X,charging_station,,,,La Florida,-70.5987911,-33.51924700000001,charging_station,30,40,0,,400
 ,,,,,,,,0,Copec Voltex,charging_station,,,,La Florida,-70.5990293,-33.5193686,charging_station,30,40,0,,400
 ,,,,,,,,0,Copec Voltex,charging_station,,,,La Florida,-70.5952685,-33.52308730000001,charging_station,30,40,0,,400
-,,,,,,,,0,Mall Plaza Vespucio,,mall,commercial,,La Florida,-70.598011994852,-33.51770290087729,mall,20,50,0,,360
-,,,,,,,,0,Mall Plaza Vespucio,,mall,commercial,,La Florida,-70.598011994852,-33.51770290087729,mall,20,50,0,,360
+,,,,,,,,0,Mall Plaza Vespucio,,mall,commercial,,La Florida,-70.598011994852,-33.51770290087729,mall,20,500,300,,360
 ,,,,,,,,0,Lider,,supermarket,yes,,La Florida,-70.5708670687278,-33.54499044557974,supermarket,10,18,0,,300
 ,,,,,,,,0,Cenco Florida,,mall,commercial,,La Florida,-70.60693528139697,-33.51046025259025,mall,20,50,0,,360
 ,,,,,,,,0,Lider,,supermarket,,,La Florida,-70.59162423989639,-33.511793200042646,supermarket,10,18,0,,300
