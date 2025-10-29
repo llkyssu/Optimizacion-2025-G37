@@ -12,7 +12,7 @@ Qué hace:
  - Usa parámetros del documento de Parámetros (Octubre 2025)
  - Guarda solución detallada en `results_optimization.csv`
 
-Restricciones implementadas:
+Restricciones implementadas del modelo original:
  ✅ R1-R2: Activación única de infraestructura
  ✅ R3-R4: Acumulación de cargadores y paneles (simplificado M=1)
  ✅ R5: Estado operativo por mes

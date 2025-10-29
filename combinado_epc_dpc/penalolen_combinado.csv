@@ -1,0 +1,161 @@
+electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,Pcap,distancia_m,Zmax,Z_inicial
+altos del parque sur 5800,metropolitana,Penalolén,-33.4987,-70.55529,22.0,AC,11.0,4,Tottus,,supermarket,,,Peñalolén,-70.5541188,-33.499266,supermarket,10,125.62195546881672,18,0
+avda tobalaba 12150,metropolitana,Penalolén,-33.48649,-70.55887,22.0,AC,22.0,3,Petrobras,fuel,,roof,,Peñalolén,-70.55886697090516,-33.486523219822054,fuel,10,3.694731319298244,20,0
+diagonal las torres 2700,metropolitana,Penalolén,-33.49013,-70.51898,44.0,AC,22.0,2,,parking,,,,Peñalolén,-70.51819088386685,-33.49254899439829,parking,25,278.0971552731329,30,0
+,,,,,,,,0,Santa Isabel,parking,,,,Peñalolén,-70.5752541,-33.469802299999984,parking,25,,30,0
+,,,,,,,,0,Lider Express,,supermarket,,,Peñalolén,-70.5494292,-33.487704599999994,supermarket,10,,18,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5478224,-33.484031800000004,parking,25,,30,0
+,,,,,,,,0,Ecco,fuel,,yes,,Peñalolén,-70.5508913,-33.49519889999999,fuel,10,,20,0
+,,,,,,,,0,Anita,,supermarket,,,Peñalolén,-70.5266492,-33.4743924,supermarket,10,,18,0
+,,,,,,,,0,Copec,fuel,,,,Peñalolén,-70.5472488,-33.4835184,fuel,10,,20,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5125915,-33.47776799999999,parking,25,,30,0
+,,,,,,,,0,Gas Licuado El Sauce,fuel,,,,Peñalolén,-70.5482741,-33.4705026,fuel,10,,20,0
+,,,,,,,,0,Copec,fuel,,,,Peñalolén,-70.573282,-33.46225770000001,fuel,10,,20,0
+,,,,,,,,0,Shell,fuel,,,,Peñalolén,-70.5614624,-33.5048707,fuel,10,,20,0
+,,,,,,,,0,Petrobras,fuel,,,,Peñalolén,-70.5680801,-33.460735499999984,fuel,10,,20,0
+,,,,,,,,0,Copec,fuel,,,,Peñalolén,-70.5770791,-33.474948,fuel,10,,20,0
+,,,,,,,,0,Shell,fuel,,,,Peñalolén,-70.5763329,-33.47112889999999,fuel,10,,20,0
+,,,,,,,,0,Santa Isabel,,supermarket,,,Peñalolén,-70.5441627,-33.4793759,supermarket,10,,18,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5128653,-33.493590999999995,parking,25,,30,0
+,,,,,,,,0,Almacén y verdulería,,supermarket,,,Peñalolén,-70.5792251,-33.50445429999999,supermarket,10,,18,0
+,,,,,,,,0,,,supermarket,,,Peñalolén,-70.5847656,-33.50046209999999,supermarket,10,,18,0
+,,,,,,,,0,Don Edu,,supermarket,,,Peñalolén,-70.5801055,-33.5018834,supermarket,10,,18,0
+,,,,,,,,0,Almacén Ex- Jacinto,,supermarket,,,Peñalolén,-70.582082,-33.50136909999999,supermarket,10,,18,0
+,,,,,,,,0,Minimarket Cumbre,,supermarket,,,Peñalolén,-70.56336100000001,-33.46986770000001,supermarket,10,,18,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5483751,-33.4643973,parking,25,,30,0
+,,,,,,,,0,Instituto Nacional de Fútbol,university,,,,Peñalolén,-70.5729036,-33.493547199999995,university,10,,35,0
+,,,,,,,,0,Erbi,,supermarket,,,Peñalolén,-70.5404245,-33.4911738,supermarket,10,,18,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5107379,-33.4638543,parking,25,,30,0
+,,,,,,,,0,Enel X,charging_station,,,,Peñalolén,-70.5587902,-33.48630969999999,charging_station,30,,40,0
+,,,,,,,,0,Copec Voltex,charging_station,,,,Peñalolén,-70.5732963,-33.462011600000004,charging_station,30,,40,0
+,,,,,,,,0,,,mall,yes,,Peñalolén,-70.57763442575133,-33.48750803769465,mall,20,,50,0
+,,,,,,,,0,Lider,,supermarket,yes,,Peñalolén,-70.57786159057775,-33.48599473360134,supermarket,10,,18,0
+,,,,,,,,0,Hospital Doctor Luis Tisné,hospital,,,,Peñalolén,-70.57903291458402,-33.50034528065592,hospital,6,,25,0
+,,,,,,,,0,Mall Paseo Quilín,parking,,,,Peñalolén,-70.57878290370473,-33.48703132235538,parking,25,,30,0
+,,,,,,,,0,Santa Isabel,,supermarket,yes,,Peñalolén,-70.57684685747661,-33.48856901281633,supermarket,10,,18,0
+,,,,,,,,0,Homecenter Sodimac,parking,,,,Peñalolén,-70.58762932561906,-33.509289146083994,parking,25,,30,0
+,,,,,,,,0,Viña Aquitania,parking,,,,Peñalolén,-70.5484457442144,-33.49081293063208,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.52838419986746,-33.461376749906464,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.52911931705735,-33.46058178737741,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.52904132356717,-33.46336599029976,parking,25,,30,0
+,,,,,,,,0,Imperial,,doityourself,commercial,,Peñalolén,-70.57335386074251,-33.46300011850135,doityourself,13,,10,0
+,,,,,,,,0,Mayorista 10,,supermarket,yes,,Peñalolén,-70.57959440986454,-33.506604443152646,supermarket,10,,18,0
+,,,,,,,,0,Petrobras,fuel,,roof,,Peñalolén,-70.57979200000737,-33.506312850026944,fuel,10,,20,0
+,,,,,,,,0,Jumbo,,supermarket,yes,,Peñalolén,-70.55666523408027,-33.48808375267994,supermarket,10,,18,0
+,,,,,,,,0,Campus Peñalolén Universidad Adolfo Ibáñez,university,,,,Peñalolén,-70.51481212141101,-33.488427854277866,university,10,,35,0
+,,,,,,,,0,Alvi,,supermarket,yes,,Peñalolén,-70.55908418523782,-33.481798565920336,supermarket,10,,18,0
+,,,,,,,,0,Instituto Profesional Arcos,university,,,,Peñalolén,-70.53693778298847,-33.47782925550028,university,10,,35,0
+,,,,,,,,0,Velódromo Peñalolén​,,,yes,stadium,Peñalolén,-70.54535905675004,-33.465955219755514,yes,13,,10,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56866740294731,-33.463955867131766,commercial,10,,15,0
+,,,,,,,,0,Unimarc,,supermarket,yes,,Peñalolén,-70.54782353780328,-33.48347924497841,supermarket,10,,18,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.54316007948637,-33.47559190621725,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.54340439997596,-33.47550264998709,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56103604884458,-33.49937288769237,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56150801752506,-33.502918459782066,commercial,10,,15,0
+,,,,,,,,0,Santa Isabel,,supermarket,yes,,Peñalolén,-70.56149148724562,-33.50344114015583,supermarket,10,,18,0
+,,,,,,,,0,Shell,car_wash,,yes,,Peñalolén,-70.56153925000021,-33.504688900004254,car_wash,2,,10,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.54562009999822,-33.4750949000101,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.55071786103598,-33.47408019454251,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.5508097456069,-33.47406277925962,commercial,10,,15,0
+,,,,,,,,0,Alvi,,supermarket,commercial,,Peñalolén,-70.55679575232728,-33.472635448202695,supermarket,10,,18,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.5594005499811,-33.47223089999678,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56076494998736,-33.47198289999614,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56154005466112,-33.47180491998271,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56234397549997,-33.47166868634249,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56243664327594,-33.47164615193593,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56299364997811,-33.47152754999732,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.58503056822607,-33.500936135134445,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56310477256469,-33.471497213002344,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56320474997331,-33.47147199999232,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.5634875627126,-33.471447749806295,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56358561900262,-33.471410087477395,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56384662011783,-33.471313533364246,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56415224998915,-33.4712885500024,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56432199023716,-33.4712246696789,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56501180163598,-33.47108536840677,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56529096669667,-33.471021613893626,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56929749999676,-33.47033295000276,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57248392898848,-33.469666209472734,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57467008170565,-33.469256404097905,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57507861489655,-33.46920872127475,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57540468543998,-33.469065901427705,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57493167848314,-33.466798888827334,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57310829991721,-33.46168399997882,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57213405000643,-33.45961295002359,commercial,10,,15,0
+,,,,,,,,0,,,,retail,,Peñalolén,-70.5784642019243,-33.505982504486,retail,6,,12,0
+,,,,,,,,0,,,,retail,,Peñalolén,-70.56110689999316,-33.50866979999944,retail,6,,12,0
+,,,,,,,,0,Mall Chino,,mall,yes,,Peñalolén,-70.53851100002264,-33.47256550010504,mall,20,,50,0
+,,,,,,,,0,,fuel,,,,Peñalolén,-70.53388469999119,-33.47303804999724,fuel,10,,20,0
+,,,,,,,,0,SuperBodega aCuenta,,supermarket,yes,,Peñalolén,-70.55325612245278,-33.469882712527905,supermarket,10,,18,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.54461291538067,-33.47606463960019,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.5442336729243,-33.47631145586955,commercial,10,,15,0
+,,,,,,,,0,Montserrat,,supermarket,yes,,Peñalolén,-70.54444044614486,-33.477073572430704,supermarket,10,,18,0
+,,,,,,,,0,Shell,fuel,,roof,,Peñalolén,-70.55851576878898,-33.481061624172526,fuel,10,,20,0
+,,,,,,,,0,QCenter Tobalaba,,shopping_centre,retail,,Peñalolén,-70.55921455242509,-33.48722632435206,shopping_centre,13,,10,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56454969363912,-33.49886395233179,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56596193022189,-33.4777891029143,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56930854533242,-33.47088432231906,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56209792190194,-33.47667786443976,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56435514999303,-33.47184904999961,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56663694796667,-33.46448413131784,commercial,10,,15,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.57275214988692,-33.46296729995326,commercial,10,,15,0
+,,,,,,,,0,Copec,fuel,,roof,,Peñalolén,-70.55803945001851,-33.478190050042095,fuel,10,,20,0
+,,,,,,,,0,Campus Médico Universidad de Chile,university,,,,Peñalolén,-70.55574439952971,-33.46788900021959,university,10,,35,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.56617053407092,-33.46477257542958,commercial,10,,15,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.51316308561005,-33.475412492095664,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5136489513631,-33.47532881631501,parking,25,,30,0
+,,,,,,,,0,Alto Peñalolén,,mall,,,Peñalolén,-70.54416331148063,-33.47915219439685,mall,20,,50,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54407818929349,-33.46670421873417,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.55855614416639,-33.48195627306287,parking,25,,30,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.5756266631058,-33.46884756803528,commercial,10,,15,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57571097415926,-33.46903844228106,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57583245941305,-33.468836541522805,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5566260388164,-33.46398610278724,parking,25,,30,0
+,,,,,,,,0,Shell,fuel,,,,Peñalolén,-70.55281132058285,-33.46960312034656,fuel,10,,20,0
+,,,,,,,,0,Jumbo Peñalolen,parking,,,,Peñalolén,-70.55752489728519,-33.48790930842807,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54578656056097,-33.478696219409535,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54513628876911,-33.47898377624852,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54532699977594,-33.47882130742164,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57609839899517,-33.487574532171266,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57248605979318,-33.49241379438829,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57346236887115,-33.49205915967794,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57934244657159,-33.48989247374682,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57537713065923,-33.489779162683945,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57665262934269,-33.492880568406534,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57638626832569,-33.489174476761306,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5765524816192,-33.4878986542281,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5719277642895,-33.49157816346032,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.56919499888417,-33.503449200630534,parking,25,,30,0
+,,,,,,,,0,Mall Chino,,mall,yes,,Peñalolén,-70.56887802617932,-33.50348501523488,mall,20,,50,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57011483940725,-33.49397305164334,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5717181843975,-33.49270928080404,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.56791028479984,-33.48986203625904,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.56859824797034,-33.490859785886336,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.57021778908688,-33.496520701182256,parking,25,,30,0
+,,,,,,,,0,Clínica Universidad de Chile Paseo Quilin,hospital,,yes,,Peñalolén,-70.57686236793856,-33.48747156789723,hospital,6,,25,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.51903055217582,-33.4985858494742,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.52275610812043,-33.47036151416208,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.51811794767488,-33.493282244447784,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.51244451747868,-33.493768095749154,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.56087256143343,-33.510323254735674,parking,25,,30,0
+,,,,,,,,0,Estadio Comando de Telecomunicaciones del Ejército de Chile,,,,stadium,Peñalolén,-70.5295251527616,-33.46172051066485,stadium,20,,60,0
+,,,,,,,,0,Estacionamiento Mistura del Perú,parking,,,,Peñalolén,-70.57210482157323,-33.462370241205726,parking,25,,30,0
+,,,,,,,,0,Santa Isabel,,supermarket,,,Peñalolén,-70.57554298968537,-33.470673514044265,supermarket,10,,18,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54849079582178,-33.46330434750662,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.55894268650847,-33.48701693368687,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.55019491821402,-33.48908283235843,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54778250577571,-33.48412987794484,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.56088375407933,-33.49929090910257,parking,25,,30,0
+,,,,,,,,0,Enel x Metbus,charging_station,,,,Peñalolén,-70.52218534601909,-33.48536496813673,charging_station,30,,40,0
+,,,,,,,,0,Enel x Metbus,charging_station,,,,Peñalolén,-70.52248659493756,-33.48535042672294,charging_station,30,,40,0
+,,,,,,,,0,Enel x Metbus,charging_station,,,,Peñalolén,-70.5230164067641,-33.485197908103096,charging_station,30,,40,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5234290399036,-33.468048495095154,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.54092111108825,-33.47672396859888,parking,25,,30,0
+,,,,,,,,0,,,,retail,,Peñalolén,-70.54046913101197,-33.49110792179261,retail,6,,12,0
+,,,,,,,,0,Centro Comercial Las Perdices,,shopping_centre,retail,,Peñalolén,-70.53989787364712,-33.49143613277548,shopping_centre,13,,10,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.5403084242672,-33.4914530972359,parking,25,,30,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.55319258761794,-33.4694510246904,parking,25,,30,0
+,,,,,,,,0,,,,commercial,,Peñalolén,-70.52324814675656,-33.46887718832077,commercial,10,,15,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.52519907625596,-33.46716535579031,parking,25,,30,0
+,,,,,,,,0,BCenter Consistorial,,,retail,,Peñalolén,-70.55263474136514,-33.49936335038214,retail,6,,12,0
+,,,,,,,,0,,parking,,,,Peñalolén,-70.56158965308519,-33.49845027539342,parking,25,,30,0
