@@ -4,7 +4,7 @@ av vitacura 5951,metropolitana,Vitacura,-33.39178,-70.57323,44.0,AC,44.0,1,Clín
 av. americo vespucio #1665,metropolitana,Vitacura,-33.39894,-70.58718,50.0,DC,50.0,3,Aramco,fuel,,,,Vitacura,-70.58715423909247,-33.39896040872285,fuel,10,20,0,3.296103846343188,269
 av. vitacura 6980,metropolitana,Vitacura,-33.38675,-70.56556,70.0,DC,60.0,4,Tottus,,supermarket,yes,,Vitacura,-70.56537243268767,-33.38650139070699,supermarket,10,18,0,32.62786153530692,288
 av. vitacura 9019,metropolitana,Vitacura,-33.38374,-70.54946,70.0,DC,60.0,4,Tottus Express,,supermarket,yes,,Vitacura,-70.54951133772366,-33.383729995058026,supermarket,10,18,0,4.903288546338886,288
-bicentenario 3800,metropolitana,Vitacura,-33.39938,-70.60154,14.0,AC,7.0,8,,parking,,,,Vitacura,-70.60054583697982,-33.40041088582734,parking,25,30,0,147.0416218427366,250
+bicentenario 3800,metropolitana,Vitacura,-33.39938,-70.60154,14.0,AC,7.0,8,,parking,,,,Vitacura,-70.60054583697982,-33.40041088582734,parking,25,30,10,147.0416218427366,250
 buenaventura 1770,metropolitana,Vitacura,-33.38677,-70.56821,24.0,DC,24.0,2,Lider,,supermarket,yes,,Vitacura,-70.5680148184978,-33.38687810279469,supermarket,10,18,0,21.75828694186656,288
 "costanera norte km 2,5 e-0 s/n",metropolitana,Vitacura,-33.37513,-70.53187,175.0,DC,175.0,4,Copec,fuel,,,,Vitacura,-70.5318506,-33.37515890000001,fuel,10,20,0,3.678198529337386,269
 costanera norte km 8 (direccion oriente),metropolitana,Vitacura,-33.3821,-70.59316,50.0,DC,50.0,3,El Mercurio,parking,,,,Vitacura,-70.5932667,-33.38171659999999,parking,25,30,0,43.661377286927,250
