@@ -1,13 +1,13 @@
 electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
-alejandro fleming n/a,metropolitana,Las Condes,-33.42545,-70.55409,48,AC,22,2,Lider,,supermarket,,,Las Condes,-70.55340866183053,-33.42458995742097,supermarket,10,18,0,114.50156744682776,810
+alejandro fleming n/a,metropolitana,Las Condes,-33.42545,-70.55409,48,AC,22,2,Lider,,supermarket,,,Las Condes,-70.55340866183053,-33.42458995742097,supermarket,10,18,10,114.50156744682776,810
 alonso de cordova 6050,metropolitana,Las Condes,-33.40788,-70.56829,22,AC,22,2,,parking,,,,Las Condes,-70.5685387745049,-33.4078128179625,parking,25,30,0,24.30791968070873,702
 "av, manquehue sur 1590",metropolitana,Las Condes,-33.42487,-70.56338,22,AC,22,3,Petrobras,fuel,,roof,,Las Condes,-70.56340337583691,-33.42484037536768,fuel,10,20,0,3.939293135170128,756
 av. apoquindo #4900,metropolitana,Las Condes,-33.41159,-70.57807,44,AC,22,2,Centro Comercial Omnium,,mall,yes,,Las Condes,-70.57806226560841,-33.411474967265455,mall,20,50,0,12.777036288929924,972
 av. las condes 11049,metropolitana,Las Condes,-33.37999,-70.52888,"7,4",AC,"7,4",2,Alvi,,supermarket,yes,,Las Condes,-70.52828559604554,-33.379278194535125,supermarket,10,18,0,96.37967494237262,810
 av. las condes 12145,metropolitana,Las Condes,-33.37418,-70.5198,"43,56",AC,22,2,Lavado de Autos,car_wash,,,,Las Condes,-70.5197097,-33.3740225,car_wash,2,10,0,19.381541364754664,216
-"av. padre hurtado sur #875, piso -2",metropolitana,Las Condes,-33.41512,-70.5405,7,AC,7,1,Mall Plaza Los Dominicos,,mall,yes,,Las Condes,-70.54076344718186,-33.41528821474805,mall,20,50,0,30.793707208731888,972
+"av. padre hurtado sur #875, piso -2",metropolitana,Las Condes,-33.41512,-70.5405,7,AC,7,1,Mall Plaza Los Dominicos,,mall,yes,,Las Condes,-70.54076344718186,-33.41528821474805,mall,20,50,5,30.793707208731888,972
 av. plaza n/a,metropolitana,Las Condes,-33.3927,-70.50372,48,AC,22,2,,parking,,,,Las Condes,-70.50233405310068,-33.39372800736575,parking,25,30,0,172.0961712674375,702
-av. presidente kennedy lateral 5055,metropolitana,Las Condes,-33.40249,-70.58085,14,AC,7,2,,parking,,,,Las Condes,-70.5805565,-33.402910299999995,parking,25,30,0,54.01623701993152,702
+av. presidente kennedy lateral 5055,metropolitana,Las Condes,-33.40249,-70.58085,14,AC,7,2,,parking,,,,Las Condes,-70.5805565,-33.402910299999995,parking,25,30,2,54.01623701993152,702
 avenida americo vespucio sur 345,metropolitana,Las Condes,-33.41832,-70.58336,"7,4",AC,"7,4",2,,,,commercial,,Las Condes,-70.58428103333472,-33.417641285142345,commercial,10,15,0,114.02552541201688,378
 avenida apoquindo 5680,metropolitana,Las Condes,-33.40941,-70.57111,22,AC,22,2,,,,commercial,,Las Condes,-70.57152558361726,-33.409509352186845,commercial,10,15,0,40.19161345159305,378
 avenida las condes 10462,metropolitana,Las Condes,-33.38263,-70.5334,"7,4",AC,"7,4",2,,,,commercial,,Las Condes,-70.53274852226514,-33.38421472840135,commercial,10,15,0,185.89594833445472,378
@@ -34,7 +34,7 @@ mar de los sargazos s/n,metropolitana,Las Condes,-33.41039,-70.56998,45,AC,22,2,
 patagonia 75,metropolitana,Las Condes,-33.40918,-70.54478,50,DC,50,3,Shell,fuel,,roof,,Las Condes,-70.54502262767674,-33.40906191028623,fuel,10,20,0,26.09045925311513,756
 presidente errazuriz n/a,metropolitana,Las Condes,-33.42129,-70.5953,48,AC,22,4,Stade Français,parking,,,,Las Condes,-70.59509348489206,-33.42096712106408,parking,25,30,0,40.63166898739396,702
 presidente kennedy 5413,metropolitana,Las Condes,-33.4018,-70.57972,14,AC,7,2,Mall Parque Arauco,parking,,,,Las Condes,-70.5800766,-33.4026927,parking,25,30,0,104.4063973322195,702
-presidente kennedy 5601,metropolitana,Las Condes,-33.40118,-70.57539,14,AC,7,6,Parque Arauco Oriente,,mall,retail,,Las Condes,-70.5754056945263,-33.40122940667526,mall,20,50,0,5.670176940640328,972
+presidente kennedy 5601,metropolitana,Las Condes,-33.40118,-70.57539,14,AC,7,6,Parque Arauco Oriente,,mall,retail,,Las Condes,-70.5754056945263,-33.40122940667526,mall,20,50,30,5.670176940640328,972
 presidente kennedy 5741,metropolitana,Las Condes,-33.39999,-70.57428,22,AC,22,1,Santiago Marriott,,,commercial,,Las Condes,-70.57429967749005,-33.40020577682716,commercial,10,15,0,23.9988034327867,378
 presidente riesco 5330,metropolitana,Las Condes,-33.39742,-70.55966,7,AC,7,18,,parking,,,,Las Condes,-70.55457544138423,-33.395383798789915,parking,25,30,0,524.1035948448592,702
 presidente riesco con rosario norte (av. pdte. riesco #5810),metropolitana,Las Condes,-33.40388,-70.57396,44,AC,44,2,,,,commercial,,Las Condes,-70.5735391387598,-33.40433481755876,commercial,10,15,0,63.84601060397957,378
