@@ -1,0 +1,65 @@
+electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
+aviador bleriot frente a 2215,metropolitana,Quinta Normal,-33.42286,-70.69296,"43,56",AC,"21,78",2,Mall chino,,,retail,,Quinta Normal,-70.69175661808141,-33.422799700852906,retail,6,12,0,112.1094452287356,91
+radal frente a 1693,metropolitana,Quinta Normal,-33.4275,-70.70347,"43,56",AC,"21,78",2,Acuenta,,supermarket,yes,,Quinta Normal,-70.7042993211834,-33.42804614168959,supermarket,10,18,0,98.06089989058218,228
+,,,,,,,,0,Comercial China,,supermarket,,,Quinta Normal,-70.7069001,-33.4323564,supermarket,10,18,0,,91
+,,,,,,,,0,Shell,fuel,,,,Quinta Normal,-70.68031170000002,-33.4381521,fuel,10,20,0,,85
+,,,,,,,,0,2.0 Car Wash,car_wash,,,,Quinta Normal,-70.6996437,-33.4362076,car_wash,2,10,0,,24
+,,,,,,,,0,Copec,fuel,,,,Quinta Normal,-70.7103495,-33.4167293,fuel,10,20,0,,85
+,,,,,,,,0,Copec,fuel,,,,Quinta Normal,-70.7028163,-33.4250671,fuel,10,20,0,,85
+,,,,,,,,0,Copec,fuel,,,,Quinta Normal,-70.6925922,-33.4461382,fuel,10,20,0,,85
+,,,,,,,,0,JLC,fuel,,,,Quinta Normal,-70.6920252,-33.4326478,fuel,10,20,0,,85
+,,,,,,,,0,Shell,fuel,,,,Quinta Normal,-70.702409,-33.445749199999995,fuel,10,20,0,,85
+,,,,,,,,0,Copec,fuel,,,,Quinta Normal,-70.6920909,-33.43317220000001,fuel,10,20,0,,85
+,,,,,,,,0,Emporio Market,,supermarket,,,Quinta Normal,-70.6915028,-33.43818780000001,supermarket,10,18,0,,91
+,,,,,,,,0,,parking,,,,Quinta Normal,-70.6862298,-33.432087200000005,parking,25,30,0,,79
+,,,,,,,,0,Estacionamiento Tramo 2,parking,,,,Quinta Normal,-70.7145783,-33.4101776,parking,25,30,0,,79
+,,,,,,,,0,Estacionamiento Tramo 2,parking,,,,Quinta Normal,-70.7193308,-33.41099259999999,parking,25,30,0,,79
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.68700735528611,-33.43749576631878,commercial,10,15,0,,43
+,,,,,,,,0,Estadio Municipal Bernardo O'Higgins,,,,stadium,Quinta Normal,-70.69902580697857,-33.4466475147056,stadium,20,60,0,,67
+,,,,,,,,0,Estadio José Climent,,,,stadium,Quinta Normal,-70.7053373882377,-33.42501752866605,stadium,20,60,0,,67
+,,,,,,,,0,Santa Isabel,,supermarket,yes,,Quinta Normal,-70.70179184606872,-33.44105047935114,supermarket,10,18,0,,91
+,,,,,,,,0,Acuenta,,supermarket,yes,,Quinta Normal,-70.71206655737544,-33.415572374472056,supermarket,10,18,0,,91
+,,,,,,,,0,Centro de Reparto Chilexpress,,,commercial,,Quinta Normal,-70.69106202843412,-33.43217084457039,commercial,10,15,0,,43
+,,,,,,,,0,Monserrat,,supermarket,yes,,Quinta Normal,-70.69290462536405,-33.43045200947768,supermarket,10,18,0,,91
+,,,,,,,,0,Santa Isabel,,supermarket,supermarket,,Quinta Normal,-70.70900965379745,-33.423926320457944,supermarket,10,18,0,,91
+,,,,,,,,0,Lider S.A.,fuel,,roof,,Quinta Normal,-70.70746715000827,-33.40887079999783,fuel,10,20,0,,85
+,,,,,,,,0,Unimarc,,supermarket,yes,,Quinta Normal,-70.69771200467108,-33.41886097657916,supermarket,10,18,0,,91
+,,,,,,,,0,Express de Lider,,supermarket,yes,,Quinta Normal,-70.694223107492,-33.423350975642904,supermarket,10,18,0,,91
+,,,,,,,,0,Lider,,supermarket,supermarket,,Quinta Normal,-70.68108972138019,-33.432310107578004,supermarket,10,18,0,,91
+,,,,,,,,0,Shell,fuel,,roof,,Quinta Normal,-70.69037563971531,-33.423630980758915,fuel,10,20,0,,85
+,,,,,,,,0,Petrobras,fuel,,roof,,Quinta Normal,-70.68744700318852,-33.42466180863727,fuel,10,20,0,,85
+,,,,,,,,0,Copec,fuel,,roof,,Quinta Normal,-70.68813818760962,-33.432811737024295,fuel,10,20,0,,85
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.7144177191359,-33.426754212891325,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.71416221935891,-33.42675899051419,commercial,10,15,0,,43
+,,,,,,,,0,Colegio Polivalente Falcón College,school,,commercial,,Quinta Normal,-70.7139879049288,-33.42688196957361,school,13,10,0,,30
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.7137585967702,-33.42685677857587,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.71003420681976,-33.427521475945895,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.70925822808375,-33.42767090546601,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.70822912212918,-33.42787709233202,commercial,10,15,0,,43
+,,,,,,,,0,Copec,fuel,,roof,,Quinta Normal,-70.69604715036557,-33.43858710525335,fuel,10,20,0,,85
+,,,,,,,,0,Copec,fuel,,roof,,Quinta Normal,-70.69434706776701,-33.438256903151085,fuel,10,20,0,,85
+,,,,,,,,0,Shell,fuel,,roof,,Quinta Normal,-70.68119487273403,-33.43580096021239,fuel,10,20,0,,85
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.71202054999392,-33.426809250005306,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.7083882861539,-33.42749542827887,commercial,10,15,0,,43
+,,,,,,,,0,Copec,fuel,,roof,,Quinta Normal,-70.70675530448155,-33.43263282715874,fuel,10,20,0,,85
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.69376011660688,-33.43135770346529,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.69071458563444,-33.4318929169976,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.69109422616987,-33.43175855425965,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.69125553294698,-33.43172218933677,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.69937642285912,-33.431670613839934,commercial,10,15,0,,43
+,,,,,,,,0,,,,retail,,Quinta Normal,-70.71056026510053,-33.43247981814216,retail,6,12,0,,36
+,,,,,,,,0,,,,retail,,Quinta Normal,-70.71609708957907,-33.431616045599284,retail,6,12,0,,36
+,,,,,,,,0,,,,retail,,Quinta Normal,-70.7200546687991,-33.4304994465352,retail,6,12,0,,36
+,,,,,,,,0,,,,retail,,Quinta Normal,-70.71986975003124,-33.43056290005227,retail,6,12,0,,36
+,,,,,,,,0,Lava-Car,car_wash,,yes,,Quinta Normal,-70.68052269297196,-33.42689446757061,car_wash,2,10,0,,24
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.68946146145605,-33.432580252364026,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.7135589422469,-33.43266090159816,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.71613044292572,-33.431918893161395,commercial,10,15,0,,43
+,,,,,,,,0,,,,commercial,,Quinta Normal,-70.72002777178012,-33.43086754375074,commercial,10,15,0,,43
+,,,,,,,,0,,parking,,,,Quinta Normal,-70.67926435544715,-33.42536569103421,parking,25,30,0,,79
+,,,,,,,,0,,parking,,,,Quinta Normal,-70.70948065358868,-33.42381433056205,parking,25,30,0,,79
+,,,,,,,,0,Estacionamiento Tramo 1,parking,,,,Quinta Normal,-70.69694906875196,-33.41352316695817,parking,25,30,0,,79
+,,,,,,,,0,,parking,,,,Quinta Normal,-70.681712500031,-33.42699040006276,parking,25,30,0,,79
+,,,,,,,,0,,parking,,,,Quinta Normal,-70.68981006519984,-33.42117029547199,parking,25,30,0,,79
+,,,,,,,,0,Estadio Esparta,,,,stadium,Quinta Normal,-70.68980956994093,-33.42064179795546,stadium,20,60,0,,67
+,,,,,,,,0,,parking,,,,Quinta Normal,-70.68099208365601,-33.43139025582472,parking,25,30,0,,79

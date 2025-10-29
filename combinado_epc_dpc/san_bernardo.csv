@@ -1,0 +1,196 @@
+electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
+autopista ruta 5 sur kilometro 29 29,metropolitana,San Bernardo,-33.68104,-70.72634,50,AC,43,3,Enex E-Pro,charging_station,,,,San Bernardo,-70.726579,-33.68197730000001,charging_station,30,40,0,106.28915741189766,784
+av. presidente jorge alessandri 20040,metropolitana,San Bernardo,-33.6317,-70.7104,"7,4",AC,"7,4",2,Lider,,supermarket,,,San Bernardo,-70.7106974,-33.6318147,supermarket,10,18,0,30.38207842960775,588
+avenida presidente jorge alessandri 26517,metropolitana,San Bernardo,-33.68606,-70.72606,98,AC,43,3,Enex E-Pro,charging_station,,,,San Bernardo,-70.7260726,-33.68604680000001,charging_station,30,40,0,1.8729533926750264,784
+ruta 5 sur km 16.4 s/n,metropolitana,San Bernardo,-33.58058,-70.71387,94,AC,43,6,Enex E-Pro,charging_station,,,,San Bernardo,-70.7140356,-33.5805583,charging_station,30,40,0,15.559595626842675,784
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.7218142,-33.66972239999999,fuel,10,20,0,,220
+,,,,,,,,0,Aramco,fuel,,,,San Bernardo,-70.7079788,-33.6374114,fuel,10,20,0,,220
+,,,,,,,,0,Tottus,,supermarket,,,San Bernardo,-70.7041355,-33.59129139999999,supermarket,10,18,0,,235
+,,,,,,,,0,Mayorista 10,,supermarket,,,San Bernardo,-70.7019899,-33.5941969,supermarket,10,18,0,,235
+,,,,,,,,0,Car service,car_wash,,,,San Bernardo,-70.7042322,-33.5852954,car_wash,2,10,0,,63
+,,,,,,,,0,Santa Isabel,,supermarket,,,San Bernardo,-70.6838122,-33.6153513,supermarket,10,18,0,,235
+,,,,,,,,0,,parking,,,,San Bernardo,-70.6836571,-33.61573370000001,parking,25,30,0,,204
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7170759,-33.60332449999999,fuel,10,20,0,,220
+,,,,,,,,0,Jumbo,,supermarket,,,San Bernardo,-70.708999,-33.6336248,supermarket,10,18,0,,235
+,,,,,,,,0,Reyes Market,,supermarket,,,San Bernardo,-70.6900996,-33.64117489999999,supermarket,10,18,0,,235
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7048472,-33.5948027,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.6943418,-33.5919718,fuel,10,20,0,,220
+,,,,,,,,0,Aramco,fuel,,,,San Bernardo,-70.6828971,-33.604474100000004,fuel,10,20,0,,220
+,,,,,,,,0,Aprisa,fuel,,,,San Bernardo,-70.7041969,-33.60853389999999,fuel,10,20,0,,220
+,,,,,,,,0,Aramco,fuel,,,,San Bernardo,-70.7029037,-33.59048680000001,fuel,10,20,0,,220
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.6787447,-33.639736600000006,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7267299,-33.6829934,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7138819,-33.58018229999999,fuel,10,20,0,,220
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.7140106,-33.6327907,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7258982,-33.685916000000006,fuel,10,20,0,,220
+,,,,,,,,0,,parking,,,,San Bernardo,-70.7152567,-33.589216,parking,25,30,0,,204
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.70241,-33.5330376,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7042581,-33.5325435,fuel,10,20,0,,220
+,,,,,,,,0,AIEP San Bernardo,university,,,,San Bernardo,-70.7073125,-33.5956596,university,10,35,0,,188
+,,,,,,,,0,,parking,,,,San Bernardo,-70.721565,-33.6282538,parking,25,30,0,,204
+,,,,,,,,0,JLC,fuel,,,,San Bernardo,-70.6994087,-33.5343433,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.7165453,-33.6142239,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.697286,-33.61236629999999,fuel,10,20,0,,220
+,,,,,,,,0,Temob,charging_station,,,,San Bernardo,-70.7077351,-33.5956321,charging_station,30,40,0,,314
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.6998284,-33.5871226,fuel,10,20,0,,220
+,,,,,,,,0,Copec Voltex,charging_station,,,,San Bernardo,-70.7141404,-33.63301770000001,charging_station,30,40,0,,314
+,,,,,,,,0,Enel X,charging_station,,,,San Bernardo,-70.7078474,-33.6375371,charging_station,30,40,0,,314
+,,,,,,,,0,Copec Voltex,charging_station,,,,San Bernardo,-70.7088445,-33.5403067,charging_station,30,40,0,,314
+,,,,,,,,0,Comercial Castro,,supermarket,,,San Bernardo,-70.7111591,-33.6001886,supermarket,10,18,0,,235
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.7089104,-33.5398834,fuel,10,20,0,,220
+,,,,,,,,0,Mallplaza Sur,,mall,yes,,San Bernardo,-70.70978325842624,-33.63222321729445,mall,20,50,0,,282
+,,,,,,,,0,Estacionamiento Mall Plaza Sur,parking,,,,San Bernardo,-70.71035580149196,-33.63034397983929,parking,25,30,0,,204
+,,,,,,,,0,Estacionamiento Mall Plaza Sur,parking,,,,San Bernardo,-70.70698383300797,-33.63319302863407,parking,25,30,0,,204
+,,,,,,,,0,Estadio VULCO de San Bernardo,,,,stadium,San Bernardo,-70.69171373502417,-33.604827003694616,stadium,20,60,0,,172
+,,,,,,,,0,Estadio Municipal San Bernardo,,,,stadium,San Bernardo,-70.68997127919584,-33.594565247248816,stadium,20,60,0,,172
+,,,,,,,,0,Hospital El Pino,hospital,,,,San Bernardo,-70.67475398223385,-33.58474624616839,hospital,6,25,0,,157
+,,,,,,,,0,Duoc UC (Sede San Bernardo),university,,,,San Bernardo,-70.7052854803232,-33.59879797587795,university,10,35,0,,188
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70491850050382,-33.595109552073275,commercial,10,15,0,,110
+,,,,,,,,0,Locales Comerciales,,,commercial,,San Bernardo,-70.71277807902804,-33.55921240256819,commercial,10,15,0,,110
+,,,,,,,,0,Terpel,fuel,,roof,,San Bernardo,-70.7117742788742,-33.56302460478814,fuel,10,20,0,,220
+,,,,,,,,0,Tottus,,supermarket,yes,,San Bernardo,-70.69959259049485,-33.59442752334418,supermarket,10,18,0,,235
+,,,,,,,,0,Santa Isabel,,supermarket,yes,,San Bernardo,-70.70583200788565,-33.60840484698958,supermarket,10,18,0,,235
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70873022242648,-33.598345764735576,commercial,10,15,0,,110
+,,,,,,,,0,,,mall,yes,,San Bernardo,-70.70409154416846,-33.59032297484544,mall,20,50,0,,282
+,,,,,,,,0,Rotiserías del Río,,supermarket,yes,,San Bernardo,-70.70524433383976,-33.5959909230136,supermarket,10,18,0,,235
+,,,,,,,,0,Fruna,,supermarket,yes,,San Bernardo,-70.70458518466211,-33.59603051268196,supermarket,10,18,0,,235
+,,,,,,,,0,Mall del Microempresario,,mall,yes,,San Bernardo,-70.70445677464473,-33.595613221901715,mall,20,50,0,,282
+,,,,,,,,0,Portal Freire,,,commercial,,San Bernardo,-70.70477011458384,-33.59436143113155,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.7156185999472,-33.606016099973054,commercial,10,15,0,,110
+,,,,,,,,0,Shell,fuel,,roof,,San Bernardo,-70.71420533172271,-33.60293059307745,fuel,10,20,0,,220
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70347150002864,-33.61667555008077,commercial,10,15,0,,110
+,,,,,,,,0,Lider,,supermarket,yes,,San Bernardo,-70.69955381270297,-33.59783129390469,supermarket,10,18,0,,235
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70608925004409,-33.58501955008042,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70802870689296,-33.589420970260086,commercial,10,15,0,,110
+,,,,,,,,0,Supermercado Andrade,,supermarket,yes,,San Bernardo,-70.70318994902293,-33.58737248974292,supermarket,10,18,0,,235
+,,,,,,,,0,Almacén Pinina,,,commercial,,San Bernardo,-70.70492463173824,-33.57829501122989,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70642835000966,-33.612440250016334,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70418271963902,-33.60242979703878,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70463808904344,-33.603781063762725,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.71218051005695,-33.601091244728345,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.71200200476486,-33.60096920911347,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.71195398379083,-33.600893675825255,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.71168114408897,-33.600085133351925,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70816375003325,-33.58957785004461,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70682300631876,-33.59214177776318,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70612987327199,-33.59228611592638,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70599496977214,-33.592316938034465,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70246062648835,-33.593185478765285,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70226155001426,-33.59322765002933,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.6996558163655,-33.59381549460192,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.69891438145933,-33.59396572846251,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.7014179244374,-33.592491718336376,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70248553667389,-33.592277801220135,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.7028842869474,-33.59220932689908,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70413615010524,-33.59635515020284,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70291458584062,-33.593412367692814,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70150137083971,-33.59459313631987,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70464739570531,-33.60280861289984,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.7047721735441,-33.60313354339984,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70494478574035,-33.60373487602763,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.71284185558615,-33.60220506676773,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70679354999851,-33.58872625003432,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70469688865911,-33.602937638803674,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.7047312817005,-33.603027648513496,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.7095771000197,-33.59652205003236,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70794804823547,-33.59220241690024,commercial,10,15,0,,110
+,,,,,,,,0,El Conquistador,,,commercial,,San Bernardo,-70.70621863065644,-33.592679565452386,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70512712984787,-33.59283497281388,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70505048378192,-33.59291040135704,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70490072814268,-33.59291441427291,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70434190222086,-33.59316777075643,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70169064987515,-33.59498334993657,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70183605213943,-33.59539285918851,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70197901087217,-33.5957901387505,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70189459998892,-33.59466595000103,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70199716780408,-33.59499079986185,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70222761639309,-33.59542019205397,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70258005602025,-33.59353322255239,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70158610332565,-33.593718212025124,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.69855317842506,-33.59291332942181,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.69979686288232,-33.59260231534302,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.69992657062801,-33.59257854455212,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70201652924361,-33.592047905692766,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70301038037077,-33.59187981183586,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70308436187398,-33.591852466913856,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70329737391252,-33.59181349925577,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70451932885703,-33.591539877686714,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70648437959186,-33.59106280418873,commercial,10,15,0,,110
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70713715295925,-33.59087971904776,commercial,10,15,0,,110
+,,,,,,,,0,,,,retail,,San Bernardo,-70.70926875257994,-33.633788278938106,retail,6,12,0,,94
+,,,,,,,,0,,parking,,,,San Bernardo,-70.68954438249628,-33.54767167161426,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.72720383444322,-33.619360050019594,parking,25,30,0,,204
+,,,,,,,,0,Universidad Santo Tomás Campus Catemitus,university,,,,San Bernardo,-70.73610738544835,-33.61132247123489,university,10,35,0,,188
+,,,,,,,,0,CintAzul,,,commercial,,San Bernardo,-70.7389468843866,-33.633120966249386,commercial,10,15,0,,110
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70781146801866,-33.63402394780719,parking,25,30,0,,204
+,,,,,,,,0,Shell,fuel,,roof,,San Bernardo,-70.69974619161103,-33.56997858929929,fuel,10,20,0,,220
+,,,,,,,,0,Shell,fuel,,roof,,San Bernardo,-70.66849518633937,-33.64373130021931,fuel,10,20,0,,220
+,,,,,,,,0,aCuenta,,supermarket,yes,,San Bernardo,-70.70338471628499,-33.609469591564384,supermarket,10,18,0,,235
+,,,,,,,,0,Shell,fuel,,roof,,San Bernardo,-70.69733545008567,-33.58274310004777,fuel,10,20,0,,220
+,,,,,,,,0,Energy,fuel,,roof,,San Bernardo,-70.68286663221977,-33.61599301356779,fuel,10,20,0,,220
+,,,,,,,,0,Super10,,supermarket,yes,,San Bernardo,-70.69462365281711,-33.612207930978016,supermarket,10,18,0,,235
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70004537008326,-33.60292293907008,parking,25,30,0,,204
+,,,,,,,,0,Mayorista 10,,supermarket,yes,,San Bernardo,-70.69484500875218,-33.59422714287866,supermarket,10,18,0,,235
+,,,,,,,,0,Edificio Administrativo,,,office,,San Bernardo,-70.71062548271313,-33.6483266729771,office,8,14,0,,125
+,,,,,,,,0,Edificio de Oficinas Empresas Carozzi,,,office,,San Bernardo,-70.70895831629338,-33.64767814135088,office,8,14,0,,125
+,,,,,,,,0,Shell,fuel,,,,San Bernardo,-70.69965650167926,-33.58612802921593,fuel,10,20,0,,220
+,,,,,,,,0,Petrobras,fuel,,,,San Bernardo,-70.67849067272888,-33.58759452701156,fuel,10,20,0,,220
+,,,,,,,,0,Mall Paseo San Bernardo,,mall,retail,,San Bernardo,-70.7072551213095,-33.59545807796973,mall,20,50,0,,282
+,,,,,,,,0,Hospital Parroquial de San Bernardo,hospital,,,,San Bernardo,-70.69678797091278,-33.59237628376026,hospital,6,25,0,,157
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71614627093548,-33.62265278376854,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69994088318425,-33.58999560766172,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70411861766296,-33.59018397709416,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69644434023944,-33.60647787137062,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69904472099905,-33.59655288279329,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71410776394718,-33.61854130645908,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.68269492610375,-33.629369246115225,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.68263346363639,-33.62992464865158,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67678304995673,-33.58394374997265,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67451729914107,-33.58517523741687,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67495957871259,-33.585193761778896,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67446347219159,-33.58481923662217,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67534068156642,-33.585107879424854,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67324196199048,-33.585015167730205,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67476470145358,-33.58440104959943,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67485873554035,-33.5843557982415,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67501441058793,-33.58432724397698,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67511754989636,-33.58433809992901,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71159756579107,-33.59421356977823,parking,25,30,0,,204
+,,,,,,,,0,Estacionamiento Mall Plaza Sur,parking,,,,San Bernardo,-70.7119923625616,-33.63259209150386,parking,25,30,0,,204
+,,,,,,,,0,Unimarc,,supermarket,,,San Bernardo,-70.70308624078797,-33.63985857804148,supermarket,10,18,0,,235
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71833652132574,-33.54655164626386,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71756519550786,-33.545435394857954,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71859676989806,-33.545746110496395,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.6906720253633,-33.61092885648214,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69066097457709,-33.61000730762168,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69068155000626,-33.60916315000636,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69021484788632,-33.607612874901626,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.68900660990181,-33.60559455369426,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.68929626654825,-33.60607026673564,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69518068099096,-33.61200567175678,parking,25,30,0,,204
+,,,,,,,,0,,,,retail,,San Bernardo,-70.70795266050159,-33.63710963675805,retail,6,12,0,,94
+,,,,,,,,0,Lider,,supermarket,yes,,San Bernardo,-70.70162880391543,-33.571942692691366,supermarket,10,18,0,,235
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70137463674908,-33.57255217361406,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69222956996225,-33.584800636511,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71847105467475,-33.53180667678346,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69879398913776,-33.597113442871695,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.7033449874882,-33.592016830075856,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69780686188119,-33.59183590007822,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70310163758266,-33.592834068785905,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70576262341935,-33.608033162342736,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.68078207608642,-33.605740751408206,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.67925776212769,-33.606102458245125,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.7114065019343,-33.553002291476055,parking,25,30,0,,204
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.6945450084152,-33.59831418636728,fuel,10,20,0,,220
+,,,,,,,,0,Supermercado Mayorista 10,,supermarket,yes,,San Bernardo,-70.70029652032785,-33.61915068769751,supermarket,10,18,0,,235
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71415418225082,-33.63277806157836,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.69465493538291,-33.59390289247323,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71770116025476,-33.60830393140417,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.71933032590441,-33.612093957641875,parking,25,30,0,,204
+,,,,,,,,0,,parking,,,,San Bernardo,-70.72028320479585,-33.60875916956575,parking,25,30,0,,204
+,,,,,,,,0,Filippa Gastrobar,restaurant,,commercial,,San Bernardo,-70.73964666052989,-33.6319883773262,restaurant,13,10,0,,78
+,,,,,,,,0,Copec,fuel,,,,San Bernardo,-70.71617501127074,-33.6064862208575,fuel,10,20,0,,220
+,,,,,,,,0,,parking,,,,San Bernardo,-70.7035195678741,-33.5934428832128,parking,25,30,0,,204
+,,,,,,,,0,,,,commercial,,San Bernardo,-70.70481651668618,-33.59410417218284,commercial,10,15,0,,110
+,,,,,,,,0,,parking,,,,San Bernardo,-70.70002941040889,-33.549092301245906,parking,25,30,0,,204
+,,,,,,,,0,Estacionamiento Mall Plaza Sur,parking,,,,San Bernardo,-70.70652769129728,-33.63227100524665,parking,25,30,0,,204

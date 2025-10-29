@@ -1,0 +1,44 @@
+electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
+avda.gran avenida jose miguel carrera 8925,metropolitana,La Cisterna,-33.53895,-70.66506,70.0,DC,60.0,2,Tottus,,supermarket,supermarket,,La Cisterna,-70.66534244999474,-33.53939063998943,supermarket,10,18,0,55.46323628582828,192
+goycolea 100,metropolitana,La Cisterna,-33.54033,-70.6637,22.0,AC,22.0,1,PetroVal,fuel,,roof,,La Cisterna,-70.66279308693751,-33.54037892882764,fuel,10,20,0,84.39923671326756,179
+,,,,,,,,0,Santa Isabel,parking,,,,La Cisterna,-70.6587063,-33.51800589999999,parking,25,30,0,,67
+,,,,,,,,0,Santa Isabel,,supermarket,,,La Cisterna,-70.6633132,-33.5388461,supermarket,10,18,0,,77
+,,,,,,,,0,Repuestos Cañas,,,commercial,,La Cisterna,-70.6595026,-33.51895509999999,commercial,10,15,0,,36
+,,,,,,,,0,Aramco,fuel,,,,La Cisterna,-70.6636656,-33.533354,fuel,10,20,0,,72
+,,,,,,,,0,Aramco,fuel,,,,La Cisterna,-70.6602243,-33.52312239999999,fuel,10,20,0,,72
+,,,,,,,,0,Estacionamiento Center Parking,parking,,,,La Cisterna,-70.66306,-33.5390432,parking,25,30,0,,67
+,,,,,,,,0,,parking,,,,La Cisterna,-70.6662122,-33.5436029,parking,25,30,0,,67
+,,,,,,,,0,Enel X,charging_station,,,,La Cisterna,-70.6656643,-33.539588999999985,charging_station,30,40,0,,102
+,,,,,,,,0,Pista Atlética Estadio La Cisterna,,,yes,stadium,La Cisterna,-70.67303984694131,-33.52069526763976,yes,13,10,0,,26
+,,,,,,,,0,Unimarc,,supermarket,yes,,La Cisterna,-70.65923907572045,-33.517045278368194,supermarket,10,18,0,,77
+,,,,,,,,0,Persa Lo Ovalle,,mall,retail,,La Cisterna,-70.6596332686218,-33.517209962782104,mall,20,50,0,,92
+,,,,,,,,0,Santa Isabel,,supermarket,commercial,,La Cisterna,-70.6583066013411,-33.51812745762185,supermarket,10,18,0,,77
+,,,,,,,,0,,parking,,,,La Cisterna,-70.67014531891674,-33.52120811514315,parking,25,30,0,,67
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.66792225007683,-33.545564800056894,commercial,10,15,0,,36
+,,,,,,,,0,Mayorista 10,,supermarket,yes,,La Cisterna,-70.66476996015774,-33.54212897164434,supermarket,10,18,0,,77
+,,,,,,,,0,Lider Express,,supermarket,yes,,La Cisterna,-70.66307878224121,-33.5338137534069,supermarket,10,18,0,,77
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.66184427131914,-33.528839190963346,commercial,10,15,0,,36
+,,,,,,,,0,Mall Chino Jieao,,houseware,commercial,,La Cisterna,-70.65927864449085,-33.51745265379683,houseware,13,10,0,,26
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.65966714977634,-33.51875793857721,commercial,10,15,0,,36
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.6596121630466,-33.51907095811094,commercial,10,15,0,,36
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.6596065204888,-33.519222998937046,commercial,10,15,0,,36
+,,,,,,,,0,Copec,fuel,,roof,,La Cisterna,-70.66460675173734,-33.536569004579235,fuel,10,20,0,,72
+,,,,,,,,0,Caracol Lo Ovalle,,mall,retail,,La Cisterna,-70.65836157281908,-33.51735906319833,mall,20,50,0,,92
+,,,,,,,,0,,,,retail,,La Cisterna,-70.67259731416502,-33.530382730663746,retail,6,12,0,,31
+,,,,,,,,0,,fuel,,roof,,La Cisterna,-70.67397709501826,-33.52218208134276,fuel,10,20,0,,72
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.66128223995288,-33.518790547410184,commercial,10,15,0,,36
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.66851808155202,-33.52417154326795,commercial,10,15,0,,36
+,,,,,,,,0,,,,retail,,La Cisterna,-70.66418504186905,-33.5257130805617,retail,6,12,0,,31
+,,,,,,,,0,Lavado Express Embellecimiento Automotriz,car_wash,,roof,,La Cisterna,-70.66471545001068,-33.51287055002706,car_wash,2,10,0,,20
+,,,,,,,,0,Shell,fuel,,roof,,La Cisterna,-70.65970559596815,-33.53389373012968,fuel,10,20,0,,72
+,,,,,,,,0,,,,retail,,La Cisterna,-70.66299690022251,-33.53138313482955,retail,6,12,0,,31
+,,,,,,,,0,Mall Chino Bestu,,variety_store,commercial,,La Cisterna,-70.66522288933014,-33.54312637437239,variety_store,13,10,0,,26
+,,,,,,,,0,Estación Intermodal La Cisterna,,,commercial,,La Cisterna,-70.66348718040223,-33.53848953274796,commercial,10,15,0,,36
+,,,,,,,,0,Copec,fuel,,,,La Cisterna,-70.66617661478375,-33.54342310381656,fuel,10,20,0,,72
+,,,,,,,,0,,parking,,,,La Cisterna,-70.66562697969692,-33.54303041725073,parking,25,30,0,,67
+,,,,,,,,0,,parking,,,,La Cisterna,-70.67684755620932,-33.53286129295074,parking,25,30,0,,67
+,,,,,,,,0,,parking,,,,La Cisterna,-70.65983052453016,-33.54120066108409,parking,25,30,0,,67
+,,,,,,,,0,,,,commercial,,La Cisterna,-70.66010226475687,-33.52398796501042,commercial,10,15,0,,36
+,,,,,,,,0,,parking,,,,La Cisterna,-70.660405875866,-33.52384311957237,parking,25,30,0,,67
+,,,,,,,,0,Santa Isabel,parking,,,,La Cisterna,-70.65810018242432,-33.51855811153968,parking,25,30,0,,67
+,,,,,,,,0,,parking,,,,La Cisterna,-70.66754039731242,-33.51238601865214,parking,25,30,0,,67

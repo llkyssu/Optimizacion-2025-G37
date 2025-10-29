@@ -1,0 +1,317 @@
+electro_Dirección,electro_Región,electro_Comuna,electro_lat,electro_lon,electro_Potencia (en kW) Electrolinera,electro_Tipo corriente,electro_Potencia (en kW) cargador,cargadores_iniciales,dpc_name,dpc_amenity,dpc_shop,dpc_building,dpc_leisure,dpc_comuna,dpc_lon,dpc_lat,dpc_tipo_osm,dpc_Pcap,dpc_Zmax,dpc_Z_inicial,distancia_m,demand_estimated
+av. concha y toro 1149,metropolitana,Puente Alto,-33.60006,-70.57581,60,DC,60,2,Enel X,charging_station,,,,Puente Alto,-70.57581970000001,-33.600052500000004,charging_station,30,40,0,1.2256207222083535,1560
+av. concha y toro 555,metropolitana,Puente Alto,-33.60608,-70.57636,22,AC,22,3,Aramco,fuel,,roof,,Puente Alto,-70.57607449377373,-33.60622464882226,fuel,10,20,0,30.97192749359497,1092
+avenida camilo henriquez 3692,metropolitana,Puente Alto,-33.56926,-70.55583,"7,4",AC,"7,4",2,Mall Plaza Tobalaba,parking,,,,Puente Alto,-70.55550252579258,-33.56959371720891,parking,25,30,0,47.8944556470348,1014
+camilo henriquez 4583,metropolitana,Puente Alto,-33.55784,-70.55931,"43,56",AC,22,2,Copec,fuel,,roof,,Puente Alto,-70.55909766726309,-33.55797090218775,fuel,10,20,0,24.48272139858475,1092
+,,,,,,,,0,Mall Chino,,supermarket,,,Puente Alto,-70.5916187,-33.614788399999995,supermarket,10,18,0,,468
+,,,,,,,,0,Santa Isabel,,supermarket,,,Puente Alto,-70.5790997,-33.601922,supermarket,10,18,0,,468
+,,,,,,,,0,Jumbo,,supermarket,,,Puente Alto,-70.5766163,-33.6116427,supermarket,10,18,0,,468
+,,,,,,,,0,Hospital de Niños,hospital,,,,Puente Alto,-70.5813935,-33.5745464,hospital,6,25,0,,312
+,,,,,,,,0,Unimarc,,supermarket,,,Puente Alto,-70.5810433,-33.5807009,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5811163,-33.59872779999999,parking,25,30,0,,406
+,,,,,,,,0,Municipalidad de Puente Alto,parking,,,,Puente Alto,-70.5795086,-33.5962691,parking,25,30,0,,406
+,,,,,,,,0,Lider Express,,supermarket,,,Puente Alto,-70.5907026,-33.595362,supermarket,10,18,0,,468
+,,,,,,,,0,Terpel,fuel,,,,Puente Alto,-70.5554601,-33.5621105,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5552047,-33.5741415,parking,25,30,0,,406
+,,,,,,,,0,Lider,,supermarket,,,Puente Alto,-70.5579298,-33.56731189999999,supermarket,10,18,0,,468
+,,,,,,,,0,Lider,,supermarket,,,Puente Alto,-70.5758353,-33.59930129999999,supermarket,10,18,0,,468
+,,,,,,,,0,Colegio Manquecura Puente Alto,parking,,,,Puente Alto,-70.5424888,-33.563484700000004,parking,25,30,0,,406
+,,,,,,,,0,Mall Plaza Tobalaba,,mall,,,Puente Alto,-70.5574865,-33.56930289999999,mall,20,50,0,,562
+,,,,,,,,0,Greenclean,car_wash,,,,Puente Alto,-70.5569492,-33.5713736,car_wash,2,10,0,,125
+,,,,,,,,0,Lider,,supermarket,,,Puente Alto,-70.5512557,-33.559850399999995,supermarket,10,18,0,,468
+,,,,,,,,0,,car_wash,,,,Puente Alto,-70.5561059,-33.56134809999999,car_wash,2,10,0,,125
+,,,,,,,,0,Lavado de Autos,car_wash,,,,Puente Alto,-70.5523401,-33.559812599999994,car_wash,2,10,0,,125
+,,,,,,,,0,Copec,fuel,,,,Puente Alto,-70.6064926,-33.58233109999999,fuel,10,20,0,,437
+,,,,,,,,0,Copec,fuel,,,,Puente Alto,-70.5988793,-33.5818399,fuel,10,20,0,,437
+,,,,,,,,0,,car_wash,,,,Puente Alto,-70.5782164,-33.601374699999994,car_wash,2,10,0,,125
+,,,,,,,,0,Cementerio Parque El Prado,parking,,,,Puente Alto,-70.5617775,-33.5547847,parking,25,30,0,,406
+,,,,,,,,0,Trampoline Park,parking,,,,Puente Alto,-70.5781888,-33.59943809999999,parking,25,30,0,,406
+,,,,,,,,0,Tottus,,supermarket,,,Puente Alto,-70.556305,-33.570420000000006,supermarket,10,18,0,,468
+,,,,,,,,0,SuperBodega Acuenta,,supermarket,,,Puente Alto,-70.6059498,-33.582202399999986,supermarket,10,18,0,,468
+,,,,,,,,0,Jumbo,,supermarket,,,Puente Alto,-70.5848348,-33.5711986,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5838416,-33.59903200000001,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5701627,-33.5803599,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5692213,-33.580972200000005,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5225658,-33.58232389999999,parking,25,30,0,,406
+,,,,,,,,0,Almacen Ancud,,supermarket,,,Puente Alto,-70.6265035,-33.6284883,supermarket,10,18,0,,468
+,,,,,,,,0,Lavado a Vapor Mia,car_wash,,,,Puente Alto,-70.5744566,-33.607614299999995,car_wash,2,10,0,,125
+,,,,,,,,0,Lavado de Autos,car_wash,,,,Puente Alto,-70.5729158,-33.6107939,car_wash,2,10,0,,125
+,,,,,,,,0,Zona de Quesos,,supermarket,,,Puente Alto,-70.6016103,-33.5819987,supermarket,10,18,0,,468
+,,,,,,,,0,,car_wash,,,,Puente Alto,-70.5960982,-33.58129949999999,car_wash,2,10,0,,125
+,,,,,,,,0,Catalina,,supermarket,,,Puente Alto,-70.5712142,-33.593348199999994,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5779207,-33.59443829999999,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5296192,-33.6001126,parking,25,30,0,,406
+,,,,,,,,0,Shell,fuel,,,,Puente Alto,-70.5521808,-33.5595571,fuel,10,20,0,,437
+,,,,,,,,0,Petrobras,fuel,,,,Puente Alto,-70.5551571,-33.56723629999999,fuel,10,20,0,,437
+,,,,,,,,0,Shell,fuel,,,,Puente Alto,-70.5913628,-33.614663699999994,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5564339,-33.56958279999999,parking,25,30,0,,406
+,,,,,,,,0,Electroterminal Juanita,charging_station,,,,Puente Alto,-70.61067220000001,-33.63317720000001,charging_station,30,40,0,,624
+,,,,,,,,0,Copec,fuel,,,,Puente Alto,-70.5831698,-33.5698982,fuel,10,20,0,,437
+,,,,,,,,0,Fesicor,fuel,,,,Puente Alto,-70.580391,-33.614214999999994,fuel,10,20,0,,437
+,,,,,,,,0,Copec Voltex,charging_station,,,,Puente Alto,-70.58294180000001,-33.57019679999999,charging_station,30,40,0,,624
+,,,,,,,,0,Terpel,fuel,,,,Puente Alto,-70.5535053,-33.6040462,fuel,10,20,0,,437
+,,,,,,,,0,Mall Plaza Tobalaba,,,retail,,Puente Alto,-70.55765275370892,-33.56928166837579,retail,6,12,0,,187
+,,,,,,,,0,,,,,stadium,Puente Alto,-70.55743843094218,-33.60905653490259,stadium,20,60,0,,343
+,,,,,,,,0,Complejo Hospitalario Sótero del Río,hospital,,,,Puente Alto,-70.57960465733765,-33.57707429868704,hospital,6,25,0,,312
+,,,,,,,,0,Lider Express,,supermarket,,,Puente Alto,-70.55891699099776,-33.593962152533386,supermarket,10,18,0,,468
+,,,,,,,,0,Lider,parking,,,,Puente Alto,-70.57725635961565,-33.59928900005502,parking,25,30,0,,406
+,,,,,,,,0,Lider,parking,,,,Puente Alto,-70.57643572095593,-33.60051150036774,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57758842878881,-33.59724437555179,parking,25,30,0,,406
+,,,,,,,,0,Espacio Urbano,,,commercial,,Puente Alto,-70.57552256700662,-33.59944980137393,commercial,10,15,0,,218
+,,,,,,,,0,Plazuela Puente Alto,parking,,,,Puente Alto,-70.57823826219641,-33.60146318590466,parking,25,30,0,,406
+,,,,,,,,0,Mayorista 10,,supermarket,yes,,Puente Alto,-70.5829417125182,-33.56830755580713,supermarket,10,18,0,,468
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.5765828335806,-33.609531921134234,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62085330016988,-33.60809597027973,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62239320860849,-33.60819043426299,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62262541719328,-33.607866059361065,parking,25,30,0,,406
+,,,,,,,,0,Vega Mercado,,supermarket,yes,,Puente Alto,-70.5661186101133,-33.54905859959824,supermarket,10,18,0,,468
+,,,,,,,,0,Vega Mercado,parking,,,,Puente Alto,-70.56631371784377,-33.54925829620457,parking,25,30,0,,406
+,,,,,,,,0,Lider,parking,,,,Puente Alto,-70.55190476580626,-33.559883338972966,parking,25,30,0,,406
+,,,,,,,,0,,,mall,yes,,Puente Alto,-70.5852934853213,-33.57150811714727,mall,20,50,0,,562
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56648289346288,-33.548600160386094,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58302758701763,-33.569153362527025,parking,25,30,0,,406
+,,,,,,,,0,El Carnicero,,butcher,commercial,,Puente Alto,-70.57565327198232,-33.60852963789612,butcher,13,10,0,,156
+,,,,,,,,0,Homecenter Sodimac Puente Alto,parking,,,,Puente Alto,-70.57666696989459,-33.60167161568711,parking,25,30,0,,406
+,,,,,,,,0,Nike Factory Store,,clothes,retail,,Puente Alto,-70.5779289783661,-33.59653639678873,clothes,13,10,0,,156
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57371443427131,-33.612855486552284,commercial,10,15,0,,218
+,,,,,,,,0,Estadio Municipal de Puente Alto,,,,stadium,Puente Alto,-70.57193139175207,-33.60617454877238,stadium,20,60,0,,343
+,,,,,,,,0,Barraca de Fierros DRO2,,,commercial,,Puente Alto,-70.56057804784719,-33.59252923353559,commercial,10,15,0,,218
+,,,,,,,,0,Barraca de Fierros Dro2,,,commercial,,Puente Alto,-70.56372860022934,-33.60668039976715,commercial,10,15,0,,218
+,,,,,,,,0,Unimarc,,supermarket,supermarket,,Puente Alto,-70.55594450948679,-33.59024998778838,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58055987975781,-33.57554332357085,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58181258630208,-33.577239149051856,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57847901494856,-33.57741933882574,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58135493153765,-33.577608205610645,parking,25,30,0,,406
+,,,,,,,,0,Lider Express,,supermarket,commercial,,Puente Alto,-70.56946597236177,-33.58056713386199,supermarket,10,18,0,,468
+,,,,,,,,0,Supermercado Mayorista 10,,supermarket,yes,,Puente Alto,-70.57364106507089,-33.5776877928647,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,yes,,Puente Alto,-70.55807583149331,-33.57068604359297,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55887105663167,-33.56975318622553,parking,25,30,0,,406
+,,,,,,,,0,Mall Plaza Tobalaba,parking,,,,Puente Alto,-70.55602978572348,-33.56848467963176,parking,25,30,0,,406
+,,,,,,,,0,Estacionamiento Lider,parking,,,,Puente Alto,-70.55659882087816,-33.567184386033944,parking,25,30,0,,406
+,,,,,,,,0,,,supermarket,yes,,Puente Alto,-70.55900262700511,-33.59379585896418,supermarket,10,18,0,,468
+,,,,,,,,0,Lider Express,parking,,,,Puente Alto,-70.55880485742178,-33.594306643679566,parking,25,30,0,,406
+,,,,,,,,0,Mayorista 10,,supermarket,yes,,Puente Alto,-70.55917900026105,-33.5928931842969,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55965630772087,-33.59293875836641,parking,25,30,0,,406
+,,,,,,,,0,Tottus,,supermarket,yes,,Puente Alto,-70.57672704897603,-33.59670493298085,supermarket,10,18,0,,468
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58086961725812,-33.580978944813346,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58100709781546,-33.580979900445186,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.5808656477666,-33.5815068761451,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58074421251791,-33.58194819428628,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58071611623673,-33.582232483458704,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58058365185607,-33.582128674874646,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58417845348517,-33.57808493394599,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58339825179002,-33.577820585183275,parking,25,30,0,,406
+,,,,,,,,0,Municipalidad de Puente Alto,parking,,,,Puente Alto,-70.57966296298827,-33.596603349384935,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57907748527167,-33.59038790950354,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58322676758524,-33.568508725058486,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58262113454646,-33.573173324868705,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5795677521397,-33.577429303059404,parking,25,30,0,,406
+,,,,,,,,0,Aramco,fuel,,roof,,Puente Alto,-70.5683966707245,-33.58216968304379,fuel,10,20,0,,437
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56796541688419,-33.58528080315524,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56788888893426,-33.585726011404375,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56617012648485,-33.5883588474509,commercial,10,15,0,,218
+,,,,,,,,0,Copec,fuel,,roof,,Puente Alto,-70.56326454577324,-33.58020307371914,fuel,10,20,0,,437
+,,,,,,,,0,Shell,fuel,,roof,,Puente Alto,-70.55553915083237,-33.57113398241797,fuel,10,20,0,,437
+,,,,,,,,0,Upita,,convenience,commercial,,Puente Alto,-70.55557594992116,-33.57147818065035,convenience,13,10,0,,156
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.54377652595603,-33.58770922641137,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55531940947402,-33.56593350076319,parking,25,30,0,,406
+,,,,,,,,0,Supermercado Alvi,,supermarket,yes,,Puente Alto,-70.58259764044404,-33.58159417675225,supermarket,10,18,0,,468
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57656275001459,-33.57638799999066,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57863107094208,-33.59373506307701,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57590862150052,-33.57097489742561,commercial,10,15,0,,218
+,,,,,,,,0,Auto Gasco,fuel,,roof,,Puente Alto,-70.5871650499814,-33.6142360000517,fuel,10,20,0,,437
+,,,,,,,,0,Centro Comercial Plaza,,,commercial,,Puente Alto,-70.5762477230878,-33.60948616784749,commercial,10,15,0,,218
+,,,,,,,,0,Pan Pablo,,,commercial,,Puente Alto,-70.58421921432698,-33.56947776209851,commercial,10,15,0,,218
+,,,,,,,,0,Centro Comercial Artesanal,,,commercial,,Puente Alto,-70.57542435198931,-33.60646084687098,commercial,10,15,0,,218
+,,,,,,,,0,Puertocenter,,,commercial,,Puente Alto,-70.57605089140243,-33.605538355343164,commercial,10,15,0,,218
+,,,,,,,,0,Terpel,fuel,,roof,,Puente Alto,-70.62631849748429,-33.61118520845177,fuel,10,20,0,,437
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58751532835569,-33.58020284715453,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.58760546717896,-33.57985487777922,commercial,10,15,0,,218
+,,,,,,,,0,Lider Express,,supermarket,yes,,Puente Alto,-70.57402459414013,-33.608715333879225,supermarket,10,18,0,,468
+,,,,,,,,0,Shell,fuel,,roof,,Puente Alto,-70.57710954714732,-33.60508382583087,fuel,10,20,0,,437
+,,,,,,,,0,Ekono,,supermarket,yes,,Puente Alto,-70.60013695003624,-33.588436499953644,supermarket,10,18,0,,468
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.59062336622468,-33.59532564073544,commercial,10,15,0,,218
+,,,,,,,,0,Copec,fuel,,roof,,Puente Alto,-70.57546504974093,-33.6125118715024,fuel,10,20,0,,437
+,,,,,,,,0,Galería Concha y Toro,,,commercial,,Puente Alto,-70.57556469077952,-33.61283274222776,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57464801634916,-33.61181334602225,commercial,10,15,0,,218
+,,,,,,,,0,Galería Oasis,,,commercial,,Puente Alto,-70.57506059545416,-33.61021585451042,commercial,10,15,0,,218
+,,,,,,,,0,Paseo Concha y Toro,,mall,yes,,Puente Alto,-70.57535053105279,-33.61120503943047,mall,20,50,0,,562
+,,,,,,,,0,Copec,fuel,,roof,,Puente Alto,-70.57419019907772,-33.61677624548087,fuel,10,20,0,,437
+,,,,,,,,0,Estacionamiento Chequén,parking,,,,Puente Alto,-70.5457351536097,-33.55509651519054,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54056898921702,-33.55291685397491,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54753780335687,-33.55688865114498,parking,25,30,0,,406
+,,,,,,,,0,Estacionamiento Chequén,parking,,,,Puente Alto,-70.5445951703388,-33.555060670720266,parking,25,30,0,,406
+,,,,,,,,0,,,supermarket,yes,,Puente Alto,-70.56939673978357,-33.59143385166386,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57241997803742,-33.59377561838323,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56878944826322,-33.59313781507575,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.5724069652241,-33.59385410625135,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57295307047602,-33.59391060124462,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57296230018461,-33.59382496681712,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.573526449985,-33.59396790007796,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57353459998262,-33.59386330009853,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57388738605765,-33.59398439796815,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58211892856923,-33.59482772907825,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5824794863256,-33.585308593630835,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57425704998238,-33.59401805008785,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57391584998514,-33.59389865008296,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57427234998468,-33.59393070008363,parking,25,30,0,,406
+,,,,,,,,0,Ashley,,houseware,retail,,Puente Alto,-70.57746778064012,-33.5965392968535,houseware,13,10,0,,156
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57796565667054,-33.59212194316326,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.50992993588206,-33.59729904432276,parking,25,30,0,,406
+,,,,,,,,0,Santa Isabel,,supermarket,yes,,Puente Alto,-70.50956031167713,-33.597227942696,supermarket,10,18,0,,468
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56016053928914,-33.575953698700985,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56571999988643,-33.5883269959651,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56392106655737,-33.58816340424139,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.52878206139644,-33.59968498115485,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56238552807834,-33.57545809775103,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55634529058237,-33.59686943991735,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5688527365846,-33.61289957224508,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58219913411574,-33.6062682506168,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5722141883579,-33.607747111441725,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58104630036982,-33.58136313265201,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5809086651533,-33.5821093120868,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58853598286093,-33.623143216220626,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58858737759199,-33.62367740057784,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59420154117984,-33.62707313634712,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5944958549728,-33.62811446236635,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58632012338752,-33.62756865319924,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58084502683369,-33.59285822509193,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59206329871563,-33.62526001762778,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59217801408202,-33.63194628385116,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59204241177086,-33.63283573004171,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58204258314572,-33.593923656258134,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.60111187687798,-33.63146687054541,parking,25,30,0,,406
+,,,,,,,,0,Locales Comerciales,,,commercial,,Puente Alto,-70.59143027738104,-33.588019755896966,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62484289128555,-33.617924013384126,parking,25,30,0,,406
+,,,,,,,,0,,,mall,yes,,Puente Alto,-70.53127416246407,-33.60807123110592,mall,20,50,0,,562
+,,,,,,,,0,,parking,,,,Puente Alto,-70.52451940359661,-33.59862826308433,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.52615698322697,-33.598974392258604,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61757495314369,-33.62485180860063,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58005628451238,-33.59565827679133,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57924465144754,-33.59589942336419,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5814855783711,-33.595757948040514,parking,25,30,0,,406
+,,,,,,,,0,,,,office,,Puente Alto,-70.58097739999099,-33.59573015005489,office,8,14,0,,250
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59037302988114,-33.59543389138394,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.56848181649188,-33.58056707427557,commercial,10,15,0,,218
+,,,,,,,,0,Bull Energy,fuel,,yes,,Puente Alto,-70.56865778395414,-33.580426660433965,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55799996698339,-33.560888283830984,parking,25,30,0,,406
+,,,,,,,,0,Fotocopias Laser Color,,,commercial,,Puente Alto,-70.58702522274324,-33.59097685281001,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61290342380623,-33.61629142148901,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61286698365504,-33.61721264151743,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61416951913994,-33.6182001814304,parking,25,30,0,,406
+,,,,,,,,0,Tu Hogar,,supermarket,yes,,Puente Alto,-70.61561325013902,-33.61783029985062,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.53127820007106,-33.60701250116737,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.55959661502848,-33.571194528437935,commercial,10,15,0,,218
+,,,,,,,,0,"Edificio Alto Maipo ""El Lustrín""",,,commercial,,Puente Alto,-70.57734599498306,-33.605456860067264,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57547412821597,-33.579544218464804,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59384428857719,-33.57675050392311,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59414878682398,-33.57561583084973,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59419614998592,-33.575402400043,parking,25,30,0,,406
+,,,,,,,,0,Shell,fuel,,,,Puente Alto,-70.54554154678827,-33.61141300888612,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57662772931968,-33.60405930430185,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58663364128273,-33.596047329480704,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5777659431543,-33.605860071220974,parking,25,30,0,,406
+,,,,,,,,0,Open Plaza Puente Alto,,mall,,,Puente Alto,-70.57707743241097,-33.597018851057825,mall,20,50,0,,562
+,,,,,,,,0,Super Bodega Acuenta,,supermarket,industrial,,Puente Alto,-70.59755677982358,-33.6137861603787,supermarket,10,18,0,,468
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55998343986955,-33.58052652850204,parking,25,30,0,,406
+,,,,,,,,0,Copec,fuel,,,,Puente Alto,-70.6261201467626,-33.61830885278078,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57666523842583,-33.57849776804477,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57758349624487,-33.57901140539331,parking,25,30,0,,406
+,,,,,,,,0,Alvi,,supermarket,,,Puente Alto,-70.60963567490363,-33.61601290405622,supermarket,10,18,0,,468
+,,,,,,,,0,Copec,fuel,,,,Puente Alto,-70.60300084655678,-33.61586173815139,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56788481230599,-33.585448030515074,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56786905697413,-33.585573310875745,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57378647973408,-33.60107694092799,parking,25,30,0,,406
+,,,,,,,,0,,,supermarket,yes,,Puente Alto,-70.49628279645515,-33.598205820602736,supermarket,10,18,0,,468
+,,,,,,,,0,Colegio Manquecura Puente Alto,parking,,,,Puente Alto,-70.54237916830128,-33.56343132200746,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54192844442017,-33.56159872174817,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57474058850651,-33.607743086422936,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57572834426264,-33.608059292500855,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57573540422015,-33.60816535781473,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57568564766324,-33.60827843772526,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57304862260342,-33.60736130837477,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59997926605298,-33.58839377212393,parking,25,30,0,,406
+,,,,,,,,0,Complejo Hospitalario Sótero del Río,parking,,,,Puente Alto,-70.58109592642705,-33.57989879714921,parking,25,30,0,,406
+,,,,,,,,0,Centro de Innovación en Salud Ancora San Francisco,hospital,,,,Puente Alto,-70.58387478680531,-33.57294496009449,hospital,6,25,0,,312
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54120901191857,-33.59104218327927,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57694159999915,-33.58682005005228,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57738496848161,-33.58569127386619,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57525280229622,-33.5857948754844,parking,25,30,0,,406
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57709634360953,-33.58512668759172,commercial,10,15,0,,218
+,,,,,,,,0,,,,commercial,,Puente Alto,-70.57696723761264,-33.58510545312506,commercial,10,15,0,,218
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5760800152368,-33.586556531367926,parking,25,30,0,,406
+,,,,,,,,0,Copec,fuel,,,,Puente Alto,-70.57670898928133,-33.60249000592091,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57555178322689,-33.585587606340304,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61578154742362,-33.614123169180125,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61561050939729,-33.61743911391148,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57408978624832,-33.57745947157847,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54128218915535,-33.56065445027965,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5433259352394,-33.57279897234616,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54317176032937,-33.57217944499845,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54345464448244,-33.573531289680155,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54377989304288,-33.574044371080696,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56359330893551,-33.59230723801671,parking,25,30,0,,406
+,,,,,,,,0,Lider Express,,supermarket,yes,,Puente Alto,-70.54172763180622,-33.590893206933565,supermarket,10,18,0,,468
+,,,,,,,,0,Shell,fuel,,,,Puente Alto,-70.6073908718977,-33.583115868767415,fuel,10,20,0,,437
+,,,,,,,,0,Consultorio (CESFAM-SAR) Padre Manuel Villaseca,hospital,,,,Puente Alto,-70.55630601470297,-33.58388295455789,hospital,6,25,0,,312
+,,,,,,,,0,,parking,,,,Puente Alto,-70.54961556041152,-33.61059478163701,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59986640653173,-33.591371688821006,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.59980178395432,-33.592016930708816,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62829430886897,-33.62901484147869,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58391158401406,-33.576433616980886,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5552807111187,-33.567372822402994,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62392918636334,-33.640338553801136,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62397699991337,-33.64027205017473,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56802473134567,-33.58578994398466,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56810693555177,-33.585276166283755,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56618267207513,-33.588427845525274,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56568594557365,-33.58840423403727,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56388578397653,-33.588270332529945,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55976995323142,-33.58796554343934,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62613232804041,-33.61214505688886,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62630571578178,-33.61251582818438,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62632101574114,-33.61465373858184,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61868490001439,-33.61394580020433,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61871725003664,-33.61280265005194,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61864914100664,-33.61581682475573,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.62073872608539,-33.61717647811817,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61949019947367,-33.61696624405928,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.61939790063634,-33.61730801418718,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.6189075898608,-33.61648986393068,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.6192653860219,-33.615936801194046,parking,25,30,0,,406
+,,,,,,,,0,A mano,car_wash,,yes,,Puente Alto,-70.62341111832217,-33.61607351556528,car_wash,2,10,0,,125
+,,,,,,,,0,Unimarc,,supermarket,yes,,Puente Alto,-70.51794024868924,-33.59883036942448,supermarket,10,18,0,,468
+,,,,,,,,0,,,,retail,,Puente Alto,-70.51877062821586,-33.598802586892745,retail,6,12,0,,187
+,,,,,,,,0,Estacionamientos Mampato,parking,,,,Puente Alto,-70.51855716754787,-33.596611288468104,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5769168585558,-33.610124326621325,parking,25,30,0,,406
+,,,,,,,,0,Hospital Josefina Martínez,hospital,,,,Puente Alto,-70.55396060128001,-33.56954393603595,hospital,6,25,0,,312
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56236844118878,-33.57556934935393,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55993470972955,-33.575918430502846,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56711413887716,-33.576261028988306,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55459456647121,-33.58373461458095,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55971474378048,-33.583491358810285,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55787443435086,-33.579698129277794,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.556127783919,-33.59232943852905,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55698330758953,-33.59265814889563,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55414570635654,-33.59319504216705,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57090661665984,-33.58739035051972,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55717288127839,-33.58588030866062,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57144268635427,-33.57990435202149,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55617304615798,-33.58986901823019,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55613215642009,-33.5843188366175,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55451159727515,-33.57009924890256,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55424702809226,-33.57396410194637,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57742780662028,-33.603954006396805,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57862350445161,-33.60370552535854,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.57823448646195,-33.60328820752389,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.5744902332184,-33.613101927487385,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.58595757917519,-33.60594143803057,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55786241445907,-33.575232679414725,parking,25,30,0,,406
+,,,,,,,,0,,,mall,yes,,Puente Alto,-70.55618375452607,-33.56115564946487,mall,20,50,0,,562
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55175837924548,-33.56905756239976,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.49663791932964,-33.59824817832898,parking,25,30,0,,406
+,,,,,,,,0,Petroprix,fuel,,roof,,Puente Alto,-70.5193058407833,-33.59847992636306,fuel,10,20,0,,437
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56574884944433,-33.601894592492314,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.56555853209501,-33.60158792103577,parking,25,30,0,,406
+,,,,,,,,0,,parking,,,,Puente Alto,-70.55429095656847,-33.603719401328846,parking,25,30,0,,406
+,,,,,,,,0,Casa de Piedra,,,commercial,,Puente Alto,-70.577027511457,-33.60641732804876,commercial,10,15,0,,218
