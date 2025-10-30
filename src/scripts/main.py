@@ -112,6 +112,7 @@ def definir_parametros(M=144):
         # ============================================================
         "k_slow": 6_500_000,   # CLP - Costo fijo activación carga lenta
         "k_fast": 20_000_000,  # CLP - Costo fijo activación carga rápida
+        "k": (6_500_000 + 20_000_000)/2,  # CLP - Costo fijo activación (promedio)
         
         # ============================================================
         # CARGADORES
@@ -120,6 +121,7 @@ def definir_parametros(M=144):
         "c_fast": 49_000_000,  # CLP - Costo instalación cargador rápido
         "h_slow": 63_000,      # CLP/mes - Mantenimiento cargador lento
         "h_fast": 119_000,     # CLP/mes - Mantenimiento cargador rápido
+        "h": (63_000 + 119_000)/2,  # CLP/mes - Mantenimiento cargador (promedio)
         "beta_slow": 1_188,    # kWh/mes - Capacidad energética cargador lento
         "beta_fast": 2_700,    # kWh/mes - Capacidad energética cargador rápido
         "C": 180,              # clientes/mes - Clientes por cargador
@@ -226,6 +228,30 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     g_max_ij = {}  # Límite importación red
     d_ijm = {}     # Demanda de clientes por sitio y mes
     
+    # --- Ajuste de demanda base por tipo de estación ---
+    g = 0.08  # 8% crecimiento anual
+    # Factores de ajuste de demanda por tipo OSM
+    factor_tipo_dict = {
+        # amenity
+        "parking": 1.0,
+        "fuel": 1.2,
+        "charging_station": 1.1,
+        "car_wash": 0.8,
+        "hospital": 1.8,
+        "university": 1.6,
+        # shop
+        "supermarket": 1.3,
+        "mall": 1.5,
+        # building
+        "retail": 1.2,
+        "commercial": 1.1,
+        "office": 1.0,
+        # leisure
+        "stadium": 2.0,
+        # Otros
+        "otros": 1.0
+    }
+    Dmax_ij = {}  # Demanda máxima por sitio (opcional)
     for j in J:
         df = datos_comunas[j]
         for i in I[j]:
@@ -250,11 +276,16 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
             
             # Límite importación red
             g_max_ij[i, j] = params["g_max_default"]
-            
-            # Demanda mensual de clientes
-            demanda_base = row.get('demand_estimated', 0)
+            # --- Demanda base ajustada por tipo de estación ---
+            tipo = row.get('dpc_tipo_osm', 'otros')
+            factor_tipo = factor_tipo_dict.get(tipo, 1.0)
+            demanda_base = row.get('demand_estimated', 0) * factor_tipo
+            # --- Demanda mensual con crecimiento compuesto ---
             for m in meses:
-                d_ijm[i, j, m] = max(0, int(demanda_base))
+                factor = (1 + g) ** ((m-1)/12)
+                d_ijm[i, j, m] = int(demanda_base * factor)
+            # --- Dmax por sitio (opcional, margen de crecimiento 30%) ---
+            Dmax_ij[i, j] = demanda_base * 1.3
     
     # ========================================================================
     # CALCULAR DEMANDA AGREGADA POR COMUNA (para McCormick)
@@ -554,14 +585,14 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     for j in J:
         for i in I[j]:
             for m in meses:
-                # Activación infraestructura (asumir carga lenta)
-                costo_total += params["k_slow"] * y[i, j, m] / SCALE
+                # Activación infraestructura (asumir promedio)
+                costo_total += params["k"] * y[i, j, m] / SCALE
                 
-                # Instalación cargadores (asumir lentos)
+                # Instalación cargadores (asumir promedio)
                 costo_total += params["c_slow"] * x[i, j, m] / SCALE
                 
-                # Mantenimiento cargadores
-                costo_total += params["h_slow"] * X[i, j, m] / SCALE
+                # Mantenimiento cargadores (asumir promedio)
+                costo_total += params["h"] * X[i, j, m] / SCALE
                 
                 # Instalación paneles
                 costo_total += params["v"] * z[i, j, m] / SCALE

@@ -69,7 +69,7 @@ def load_sites_for_comuna(file_path):
     
     if is_combinado:
         # Archivo combinado: usar columnas dpc_ para candidatas y cargadores_iniciales para epsilon
-        expected = ["dpc_tipo_osm", "Pcap", "dpc_lon", "dpc_lat", "dpc_name", "cargadores_iniciales", "distancia_m"]
+        expected = ["dpc_tipo_osm", "dpc_Pcap", "dpc_lon", "dpc_lat", "dpc_name", "cargadores_iniciales", "distancia_m"]
         for c in expected:
             if c not in df.columns:
                 if c == "cargadores_iniciales":
