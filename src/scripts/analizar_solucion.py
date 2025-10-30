@@ -19,14 +19,19 @@ import pandas as pd
 import gurobipy as gp
 from gurobipy import GRB
 
+# ============================================================================
+# CONFIGURACIÓN DE RUTAS
+# ============================================================================
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+RESULTADOS_DIR = os.path.join(ROOT, "resultados")
+
 # Importar funciones del modelo principal
 sys.path.insert(0, os.path.dirname(__file__))
 from main import descubrir_comunas, cargar_sitios_comuna, definir_parametros
 
 
 
-def extraer_solucion_gurobi(archivo_sol="solucion_completo_latex.sol", 
-                             archivo_modelo="modelo_completo_latex.lp"):
+def extraer_solucion_gurobi(archivo_sol=None, archivo_modelo=None):
     """
     Carga el modelo y la solución de Gurobi para extraer variables.
     
@@ -37,10 +42,16 @@ def extraer_solucion_gurobi(archivo_sol="solucion_completo_latex.sol",
     print("CARGANDO SOLUCIÓN DE GUROBI")
     print("="*70)
     
+    # Usar rutas absolutas dentro de resultados/
+    if archivo_sol is None:
+        archivo_sol = os.path.join(RESULTADOS_DIR, "solucion_completo_latex.sol")
+    if archivo_modelo is None:
+        archivo_modelo = os.path.join(RESULTADOS_DIR, "modelo_completo_latex.lp")
+    
     # Verificar que existan los archivos
     if not os.path.exists(archivo_sol):
         print(f"✗ Error: No se encontró {archivo_sol}")
-        print("  Ejecuta primero: python3 src/scripts/modelo_completo_latex.py")
+        print("  Ejecuta primero: python3 src/scripts/main.py")
         return None
     
     if not os.path.exists(archivo_modelo):
@@ -362,8 +373,11 @@ def main():
     # Analizar por comuna
     df_comunas = analizar_por_comuna(variables, comunas, datos_comunas, params)
     
+    # Crear carpeta resultados si no existe
+    os.makedirs(RESULTADOS_DIR, exist_ok=True)
+    
     # Guardar en CSV
-    archivo_salida = "resumen_solucion_por_comuna.csv"
+    archivo_salida = os.path.join(RESULTADOS_DIR, "resumen_solucion_por_comuna.csv")
     df_comunas.to_csv(archivo_salida, index=False, encoding='utf-8')
     print(f"\n✓ Resumen guardado en: {archivo_salida}")
     
@@ -372,9 +386,10 @@ def main():
     
     # Guardar resumen global en archivo separado
     df_global = pd.DataFrame([resumen_global])
-    df_global.to_csv("resumen_global.csv", index=False)
-    print(f"✓ Resumen global guardado en: resumen_global.csv")
-    
+    archivo_global = os.path.join(RESULTADOS_DIR, "resumen_global.csv")
+    df_global.to_csv(archivo_global, index=False)
+    print(f"✓ Resumen global guardado en: {archivo_global}")
+
     print("\n" + "="*70)
     print("✓ ANÁLISIS COMPLETADO")
     print("="*70)

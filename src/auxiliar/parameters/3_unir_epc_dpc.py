@@ -7,11 +7,10 @@ CRS_GEOGRAFICO = "EPSG:4326"
 CRS_METRICO = "EPSG:32719"
 RADIOS_METROS = [500, 1000, 1500, 2000, 3000, 5000]
 
-
-
 # Rutas actualizadas
-DIR_COMBINADO = "combinado_epc_dpc"
-DIR_EPC = "epc"
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+DIR_COMBINADO = os.path.join(ROOT, "combinado_epc_dpc")
+DIR_EPC = os.path.join(ROOT, "raw_data", "epc")
 
 
 def combinar_electrolineras_dpc(df_candidatas, df_electro):

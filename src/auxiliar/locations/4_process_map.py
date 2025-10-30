@@ -4,15 +4,16 @@ import os
 
 # --- Configuración ---
 
-# --- RUTA LOCAL DE WSL ---
-project_folder = "/home/marti/opti/" # Tu carpeta de trabajo en WSL
+# --- RUTA RELATIVA AL PROYECTO ---
+project_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+raw_data_folder = os.path.join(project_folder, "raw_data")
 
 # --- Carpeta de ENTRADA ---
 # Esta es la carpeta donde el Script 3A guardó los archivos
-input_folder = os.path.join(project_folder, "dpc_gpkg") 
+input_folder = os.path.join(raw_data_folder, "dpc_gpkg")
 
 # --- Archivo de SALIDA ---
-mapa_file = os.path.join(project_folder, "mapa_completo_final.html") # Mapa de salida
+mapa_file = os.path.join(raw_data_folder, "mapa_completo_final.html")  # Mapa de salida
 
 print(f"--- SCRIPT 3B: GENERANDO MAPA INTERACTIVO ---")
 

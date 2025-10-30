@@ -37,6 +37,7 @@ except Exception:
 # ============================================================================
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 COMBINADO_DIR = os.path.join(ROOT, "combinado_epc_dpc")
+RESULTADOS_DIR = os.path.join(ROOT, "resultados")
 
 
 # ============================================================================
@@ -633,7 +634,7 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     if model.Status == GRB.INF_OR_UNBD or model.Status == GRB.INFEASIBLE:
         print("\n⚠ MODELO INFACTIBLE - EJECUTANDO DIAGNÓSTICO...")
         model.computeIIS()
-        ilp_file = "modelo_completo_latex_conflictos.ilp"
+        ilp_file = os.path.join(RESULTADOS_DIR, "modelo_completo_latex_conflictos.ilp")
         model.write(ilp_file)
         print(f"\n✓ Restricciones conflictivas guardadas en: {ilp_file}")
         
@@ -676,8 +677,9 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
         print("\n✗ MODELO INFACTIBLE")
         resumen["status"] = "INFEASIBLE"
         model.computeIIS()
-        model.write("modelo_infactible.ilp")
-        print("  - Sistema de restricciones irreducible guardado en modelo_infactible.ilp")
+        ilp_file = os.path.join(RESULTADOS_DIR, "modelo_infactible.ilp")
+        model.write(ilp_file)
+        print(f"  - Sistema de restricciones irreducible guardado en: {ilp_file}")
         return model, resumen
         
     else:
@@ -792,14 +794,19 @@ def main():
     try:
         modelo, resumen = construir_y_resolver_modelo(comunas, datos_comunas, params)
         
-        # Guardar modelo
-        modelo.write("modelo_completo_latex.lp")
-        print(f"\n✓ Modelo guardado en: modelo_completo_latex.lp")
+        # Crear carpeta resultados si no existe
+        os.makedirs(os.path.join(ROOT, "resultados"), exist_ok=True)
         
+        # Guardar modelo
+        modelo_file = os.path.join(ROOT, "resultados", "modelo_completo_latex.lp")
+        modelo.write(modelo_file)
+        print(f"\n✓ Modelo guardado en: {modelo_file}")
+
         # Guardar solución si existe
         if modelo.SolCount > 0:
-            modelo.write("solucion_completo_latex.sol")
-            print(f"✓ Solución guardada en: solucion_completo_latex.sol")
+            sol_file = os.path.join(ROOT, "resultados", "solucion_completo_latex.sol")
+            modelo.write(sol_file)
+            print(f"✓ Solución guardada en: {sol_file}")
         
     except Exception as e:
         print(f"\n✗ Error durante la optimización: {e}")

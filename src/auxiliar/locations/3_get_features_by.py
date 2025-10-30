@@ -4,15 +4,16 @@ import os
 
 # --- Configuración ---
 
-# --- RUTA LOCAL DE WSL ---
-project_folder = "/home/marti/opti/" # Tu carpeta de trabajo en WSL
+# --- RUTA RELATIVA AL PROYECTO ---
+project_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+raw_data_folder = os.path.join(project_folder, "raw_data")
 
 # --- Archivos de ENTRADA ---
-comunas_file = os.path.join(project_folder, "comunas_rm_limpias.gpkg")
-features_file = os.path.join(project_folder, "features_rm_total.gpkg")
+comunas_file = os.path.join(raw_data_folder, "comunas_rm_limpias.gpkg")
+features_file = os.path.join(raw_data_folder, "features_rm_total.gpkg")
 
 # --- Carpeta de SALIDA ---
-output_folder = os.path.join(project_folder, "datos_por_comuna") # Carpeta de salida
+output_folder = os.path.join(raw_data_folder, "dpc_gpkg")  # Carpeta de salida
 
 os.makedirs(output_folder, exist_ok=True) 
 

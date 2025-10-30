@@ -3,9 +3,10 @@ import geopandas as gpd
 import os
 
 # --- Configuración ---
-project_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-csv_file = os.path.join(project_folder, "estaciones_activadas_coordenadas.csv")
-mapa_file = os.path.join(project_folder, "mapa_estaciones_activas.html")
+project_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+resultados_dir = os.path.join(project_folder, "resultados")
+csv_file = os.path.join(resultados_dir, "estaciones_activadas_coordenadas.csv")
+mapa_file = os.path.join(resultados_dir, "mapa_estaciones_activas.html")
 
 def main():
     print("--- Generando mapa de estaciones activas desde CSV ---")

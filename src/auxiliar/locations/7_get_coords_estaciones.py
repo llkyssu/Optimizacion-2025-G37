@@ -21,8 +21,9 @@ import pandas as pd
 import glob
 
 # Configurar rutas
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 COMBINADO_DIR = os.path.join(ROOT, "combinado_epc_dpc")
+RESULTADOS_DIR = os.path.join(ROOT, "resultados")
 
 # Funciones auxiliares (copiadas del modelo original)
 def descubrir_comunas():
@@ -55,7 +56,7 @@ def definir_parametros(M=1):
     }
 
 
-def extraer_coordenadas_solucion(archivo_sol="solucion_completo_latex.sol"):
+def extraer_coordenadas_solucion(archivo_sol=None):
     """
     Extrae coordenadas de estaciones activadas desde la solución de Gurobi.
     
@@ -66,10 +67,14 @@ def extraer_coordenadas_solucion(archivo_sol="solucion_completo_latex.sol"):
     print("EXTRAYENDO COORDENADAS DE ESTACIONES ACTIVADAS")
     print("="*70)
     
+    # Usar ruta absoluta si no se proporciona
+    if archivo_sol is None:
+        archivo_sol = os.path.join(RESULTADOS_DIR, "solucion_completo_latex.sol")
+    
     # Verificar que existe el archivo de solución
     if not os.path.exists(archivo_sol):
         print(f"✗ Error: No se encontró {archivo_sol}")
-        print("  Ejecuta primero: python3 src/scripts/modelo_completo_latex.py")
+        print("  Ejecuta primero: python3 src/scripts/main.py")
         return None
     
     # Cargar solución parseando el archivo .sol
@@ -279,18 +284,23 @@ def main():
     if df_estaciones is None:
         return
     
+    # Crear carpeta resultados si no existe
+    os.makedirs(RESULTADOS_DIR, exist_ok=True)
+    
     # Guardar CSV principal
-    archivo_csv = "estaciones_activadas_coordenadas.csv"
+    archivo_csv = os.path.join(RESULTADOS_DIR, "estaciones_activadas_coordenadas.csv")
     df_estaciones.to_csv(archivo_csv, index=False, encoding='utf-8')
     print(f"\n✓ Archivo CSV guardado: {archivo_csv}")
     
     # Generar resumen por comuna
     resumen = generar_resumen_geografico(df_estaciones)
-    resumen.to_csv("resumen_geografico_por_comuna.csv")
-    print(f"✓ Resumen por comuna guardado: resumen_geografico_por_comuna.csv")
+    archivo_resumen = os.path.join(RESULTADOS_DIR, "resumen_geografico_por_comuna.csv")
+    resumen.to_csv(archivo_resumen)
+    print(f"✓ Resumen por comuna guardado: {archivo_resumen}")
     
     # Generar GeoJSON para visualización
-    generar_archivo_geojson(df_estaciones)
+    archivo_geojson = os.path.join(RESULTADOS_DIR, "estaciones_activadas.geojson")
+    generar_archivo_geojson(df_estaciones, archivo_geojson)
     
     # Estadísticas finales
     print("\n" + "="*70)

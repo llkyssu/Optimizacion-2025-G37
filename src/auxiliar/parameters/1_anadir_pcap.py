@@ -49,9 +49,10 @@ PCAPS = {
 # Si no hay match, asignar el promedio de todos los promedios
 default_zcap = int(round(sum(PCAPS.values()) / len(PCAPS)))
 
-
-input_folder = 'dpc_csv'
-output_folder = 'combinado_epc_dpc'
+# Rutas
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+input_folder = os.path.join(ROOT, 'raw_data', 'dpc_csv')
+output_folder = os.path.join(ROOT, 'combinado_epc_dpc')
 os.makedirs(output_folder, exist_ok=True)
 
 for path in glob.glob(f"{input_folder}/*.csv"):
