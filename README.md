@@ -6,28 +6,51 @@ Este proyecto contiene scripts de Python para el procesamiento, análisis y opti
 ## Estructura del proyecto
 
 ```
-opti/
-├── autos_demanda/
-├── combinado_epc_dpc/
-├── dpc_csv/
-├── dpc_gpkg/
-├── epc/
-├── src/
-│   ├── auxiliar/
-│   │   ├── 1_anadir_pcap.py
-│   │   ├── 2_añadir_zmax_zinit.py
-│   │   ├── 3_unir_epc_dpc.py
-│   │   ├── 4_añadir_demanda.py
-│   │   └── 5_run_all_preprocessing.py
-│   └── scripts/
-│       ├── 1_get_boundaries.py
-│       ├── 2_get_features.py
-│       ├── 3_get_features_by.py
-│       ├── 4_process_map.py
-│       └── main.py
-├── features_rm_total.gpkg
-├── mapa_completo_final.html
-├── results_optimization.csv
+Optimizacion-2025-G37/
+├── raw_data/                          # Datos originales
+│   ├── dpc_csv/                      # Sitios candidatos (CSV)
+│   ├── dpc_gpkg/                     # Sitios candidatos (GeoPackage)
+│   ├── epc/                          # Electrolineras existentes
+│   ├── autos_demanda.csv
+│   ├── electrolineras_rm.csv
+│   ├── comunas_rm_limpias.gpkg
+│   ├── features_rm_total.gpkg
+│   └── mapa_completo_final.html
+│
+├── combinado_epc_dpc/                # Datos procesados por comuna
+│   ├── cerrillos.csv
+│   ├── santiago.csv
+│   └── ... (40 archivos)
+│
+├── resultados/                        # Resultados de optimización
+│   ├── modelo_completo_latex.lp
+│   ├── solucion_completo_latex.sol
+│   ├── resumen_solucion_por_comuna.csv
+│   ├── resumen_global.csv
+│   ├── estaciones_activadas_coordenadas.csv
+│   ├── estaciones_activadas.geojson
+│   └── mapa_estaciones_activas.html
+│
+├── src/                               # Código fuente
+│   ├── scripts/
+│   │   ├── main.py                   # Modelo de optimización principal
+│   │   └── analizar_solucion.py      # Análisis de resultados
+│   └── auxiliar/
+│       ├── locations/
+│       │   ├── 1_get_boundaries.py
+│       │   ├── 2_get_features.py
+│       │   ├── 3_get_features_by.py
+│       │   ├── 4_process_map.py
+│       │   ├── 6_mapa_estaciones_activas.py
+│       │   └── 7_get_coords_estaciones.py
+│       └── parameters/
+│           ├── 1_anadir_pcap.py
+│           ├── 2_añadir_zmax_zinit.py
+│           ├── 3_unir_epc_dpc.py
+│           ├── 4_añadir_demanda.py
+│           └── 5_run_all_preprocessing.py
+│
+├── requirements.txt
 └── README.md
 ```
 
@@ -65,26 +88,48 @@ python src/scripts/main.py
 
 ### Preprocesamiento y análisis de datos
 
-Los scripts de las carpetas `src/auxiliar/` y `src/scripts/` permiten preparar y analizar los datos geoespaciales:
+**Scripts de preprocesamiento (`src/auxiliar/parameters/`):**
 
-- **src/auxiliar/1_anadir_pcap.py**: Añade la capacidad máxima de cargadores a los datos base.
-- **src/auxiliar/2_añadir_zmax_zinit.py**: Añade información de paneles solares.
-- **src/auxiliar/3_unir_epc_dpc.py**: Une datos de EPC y DPC.
-- **src/auxiliar/4_añadir_demanda.py**: Añade estimaciones de demanda.
-- **src/auxiliar/5_run_all_preprocessing.py**: Ejecuta todo el preprocesamiento en orden.
+- **1_anadir_pcap.py**: Añade la capacidad máxima de cargadores a los datos base.
+- **2_añadir_zmax_zinit.py**: Añade información de paneles solares.
+- **3_unir_epc_dpc.py**: Une datos de EPC y DPC.
+- **4_añadir_demanda.py**: Añade estimaciones de demanda.
+- **5_run_all_preprocessing.py**: Ejecuta todo el preprocesamiento en orden.
 
-En `src/scripts/`:
+Para ejecutar el preprocesamiento completo:
+```bash
+python src/auxiliar/parameters/5_run_all_preprocessing.py
+```
+
+**Scripts de análisis (`src/scripts/`):**
+
+- **analizar_solucion.py**: Analiza la solución del modelo y genera resúmenes por comuna.
+
+```bash
+python src/scripts/analizar_solucion.py
+```
+
+**Scripts de procesamiento geoespacial (`src/auxiliar/locations/`):**
+
 - **1_get_boundaries.py**: Procesa los límites de las comunas.
 - **2_get_features.py**: Extrae características geoespaciales.
-- **3_get_features_by.py**: Agrupa características por criterio.
-- **4_process_map.py**: Genera el mapa final.
+- **3_get_features_by.py**: Agrupa características por comuna.
+- **4_process_map.py**: Genera el mapa de sitios candidatos.
+- **6_mapa_estaciones_activas.py**: Genera mapa de estaciones seleccionadas.
+- **7_get_coords_estaciones.py**: Extrae coordenadas de estaciones activadas.
 
 ## 3. Notas y resultados
 
-- Los archivos `.gpkg` contienen datos geoespaciales procesados.
-- El archivo `mapa_completo_final.html` es el resultado visual del procesamiento.
-- Los datos por comuna están en la carpeta `combinado_epc_dpc/`.
-- El archivo `results_optimization.csv` almacena los resultados de la optimización.
+- Los archivos `.gpkg` en `raw_data/` contienen datos geoespaciales procesados.
+- El archivo `raw_data/mapa_completo_final.html` muestra todos los sitios candidatos.
+- Los datos procesados por comuna están en la carpeta `combinado_epc_dpc/`.
+- Los resultados de la optimización se guardan en la carpeta `resultados/`:
+  - `modelo_completo_latex.lp` - Modelo en formato LP
+  - `solucion_completo_latex.sol` - Solución óptima
+  - `resumen_solucion_por_comuna.csv` - Resumen por comuna
+  - `resumen_global.csv` - Resumen global
+  - `estaciones_activadas_coordenadas.csv` - Coordenadas de estaciones
+  - `mapa_estaciones_activas.html` - Mapa interactivo de la solución
 
 ---
 
