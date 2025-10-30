@@ -150,7 +150,7 @@ def definir_parametros(M=144):
         # DEMANDA Y SERVICIO
         # ============================================================
         "alpha_min": 0.30,     # Objetivo cobertura mínima (φ ≤ 0.30)
-        "V_cliente": 12_000,   # CLP - Valor social por cliente atendido
+        "V_cliente": 1_200,   # CLP - Valor social por cliente atendido
         
         # ============================================================
         # BENEFICIOS AMBIENTALES
