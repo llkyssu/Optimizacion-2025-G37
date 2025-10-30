@@ -1,6 +1,35 @@
+
 # Proyecto Opti
 
-Este proyecto contiene scripts de Python para procesar y analizar datos geoespaciales de comunas de la Región Metropolitana.
+Este proyecto contiene scripts de Python para el procesamiento, análisis y optimización de infraestructura de carga de vehículos eléctricos en la Región Metropolitana de Santiago.
+
+## Estructura del proyecto
+
+```
+opti/
+├── autos_demanda/
+├── combinado_epc_dpc/
+├── dpc_csv/
+├── dpc_gpkg/
+├── epc/
+├── src/
+│   ├── auxiliar/
+│   │   ├── 1_anadir_pcap.py
+│   │   ├── 2_añadir_zmax_zinit.py
+│   │   ├── 3_unir_epc_dpc.py
+│   │   ├── 4_añadir_demanda.py
+│   │   └── 5_run_all_preprocessing.py
+│   └── scripts/
+│       ├── 1_get_boundaries.py
+│       ├── 2_get_features.py
+│       ├── 3_get_features_by.py
+│       ├── 4_process_map.py
+│       └── main.py
+├── features_rm_total.gpkg
+├── mapa_completo_final.html
+├── results_optimization.csv
+└── README.md
+```
 
 ## 1. Configuración del entorno virtual (venv)
 
@@ -18,33 +47,44 @@ Este proyecto contiene scripts de Python para procesar y analizar datos geoespac
      ```bash
      .venv\Scripts\activate
      ```
-4. Instala las dependencias necesarias (si tienes un requirements.txt):
+4. Instala las dependencias necesarias:
    ```bash
    pip install -r requirements.txt
    ```
 
-## 2. Ejecución de los scripts
+## 2. Scripts principales
 
-Cada archivo Python realiza una tarea específica:
+### Optimización (Gurobi)
 
-- **1_get_boundaries.py**: Obtiene y procesa los límites de las comunas.
-- **2_get_features.py**: Extrae características geoespaciales de los datos.
-- **3_get_features_by.py**: Extrae características agrupadas por algún criterio (por ejemplo, por comuna).
-- **4_process_map.py**: Procesa y genera el mapa final a partir de los datos obtenidos.
+- **src/scripts/main.py**: Script principal que implementa el modelo de optimización MILP para la localización y dimensionamiento de infraestructura de carga de vehículos eléctricos usando Gurobi. Ejecuta la solución completa y genera archivos de salida con el modelo y la solución óptima.
 
-Para ejecutar un script, usa:
+Para ejecutar el modelo de optimización:
 ```bash
-python nombre_del_script.py
-```
-Por ejemplo:
-```bash
-python 1_get_boundaries.py
+python src/scripts/main.py
 ```
 
-## 3. Notas
+### Preprocesamiento y análisis de datos
+
+Los scripts de las carpetas `src/auxiliar/` y `src/scripts/` permiten preparar y analizar los datos geoespaciales:
+
+- **src/auxiliar/1_anadir_pcap.py**: Añade la capacidad máxima de cargadores a los datos base.
+- **src/auxiliar/2_añadir_zmax_zinit.py**: Añade información de paneles solares.
+- **src/auxiliar/3_unir_epc_dpc.py**: Une datos de EPC y DPC.
+- **src/auxiliar/4_añadir_demanda.py**: Añade estimaciones de demanda.
+- **src/auxiliar/5_run_all_preprocessing.py**: Ejecuta todo el preprocesamiento en orden.
+
+En `src/scripts/`:
+- **1_get_boundaries.py**: Procesa los límites de las comunas.
+- **2_get_features.py**: Extrae características geoespaciales.
+- **3_get_features_by.py**: Agrupa características por criterio.
+- **4_process_map.py**: Genera el mapa final.
+
+## 3. Notas y resultados
+
 - Los archivos `.gpkg` contienen datos geoespaciales procesados.
 - El archivo `mapa_completo_final.html` es el resultado visual del procesamiento.
-- Los datos por comuna están en la carpeta `datos_por_comuna/`.
+- Los datos por comuna están en la carpeta `combinado_epc_dpc/`.
+- El archivo `results_optimization.csv` almacena los resultados de la optimización.
 
 ---
 
