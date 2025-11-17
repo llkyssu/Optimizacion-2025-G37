@@ -161,7 +161,7 @@ def definir_parametros(M=144):
         # ============================================================
         # PRESUPUESTO TOTAL
         # ============================================================
-        "B": 50_000_000_000,  # CLP - Presupuesto total (500 mil millones)
+        "B": 100_000_000_000,  # CLP - Presupuesto total (500 mil millones)
         
         # ============================================================
         # ESCALAMIENTO NUMÉRICO
@@ -408,6 +408,7 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
             )
     
     # R3: Total cargadores acumulados
+    # X_ijm = ε_ij + Σ(m'≤m) x_ijm'
     for j in J:
         for i in I[j]:
             for m in meses:
@@ -419,6 +420,7 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
                 )
     
     # R4: Total paneles acumulados
+    # Z_ijm = δ_ij + Σ(m'≤m) z_ijm'
     for j in J:
         for i in I[j]:
             for m in meses:
@@ -429,22 +431,49 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
                     name=f"R4_{i}_{j}_{m}"
                 )
     
-    # R5: Estado operativo
+    # R5: Estado operativo por mes
+    # a_ijm ≥ q_ij + Σ(m'≤m) y_ijm', a_ijm ∈ {0,1}
+    # La estación está activa si existía o se activó en algún periodo anterior
     for j in J:
         for i in I[j]:
             for m in meses:
                 model.addConstr(
-                    a[i, j, m] >= q_ij[i, j] + gp.quicksum(
+                    a[i, j, m] == q_ij[i, j] + gp.quicksum(
                         y[i, j, mp] for mp in range(1, m + 1)
                     ),
                     name=f"R5_{i}_{j}_{m}"
                 )
-                
-                # Si ya existe infraestructura O cargadores, la estación debe estar activa
-                if q_ij[i, j] == 1 or epsilon_ij[i, j] > 0:
-                    model.addConstr(a[i, j, m] == 1, name=f"R5_force_active_{i}_{j}_{m}")
+
+
+    # R5b: Si hay cargadores o paneles nuevos, debe haber activación previa
+    # x[i,j,m] > 0 ⟹ Σ(m'≤m) y[i,j,m'] + q_ij ≥ 1
+    # Linearización: x[i,j,m] ≤ M_big * (q_ij + Σ(m'≤m) y[i,j,m'])
+    M_big = 1000  # Cota superior razonable para cargadores
     
-    # R6: Capacidad máxima de cargadores y paneles
+    for j in J:
+        for i in I[j]:
+            for m in meses:
+                # Si se instalan cargadores, debe haber infraestructura
+                model.addConstr(
+                    x[i, j, m] <= M_big * (q_ij[i, j] + gp.quicksum(
+                        y[i, j, mp] for mp in range(1, m + 1)
+                    )),
+                    name=f"R5b_instalacion_requiere_activacion_{i}_{j}_{m}"
+                )
+                
+                # Si se instalan paneles, debe haber infraestructura
+                model.addConstr(
+                    z[i, j, m] <= M_big * (q_ij[i, j] + gp.quicksum(
+                        y[i, j, mp] for mp in range(1, m + 1)
+                    )),
+                    name=f"R5b_paneles_requieren_activacion_{i}_{j}_{m}"
+                )
+
+    # ELIMINAR R5c, R5d, R5e - ya no son necesarias con R5b
+    # ...existing code... (ir directo a R6)
+    
+    # R6: Cotas superiores de capacidad y operación (SIN modificar)
+    # X_ijm ≤ P^cap_ij, Z_ijm ≤ Z^max_ij
     for j in J:
         for i in I[j]:
             for m in meses:
@@ -503,7 +532,9 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
                     name=f"R11_{i}_{j}_{m}"
                 )
     
-    # R12: Demanda satisfecha limitada por capacidad
+    # R12: Demanda de cargadores por mes
+    # d^sat_ijm ≤ C·X_ijm
+    # La demanda satisfecha depende de la cantidad de cargadores y su promedio de clientes atendidos
     for j in J:
         for i in I[j]:
             for m in meses:
@@ -512,7 +543,9 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
                     name=f"R12_{i}_{j}_{m}"
                 )
     
-    # R13: Balance demanda satisfecha/insatisfecha
+    # R13: Demanda satisfecha e insatisfecha
+    # d^sat_ijm + d^unsat_ijm = d_ijm
+    # La demanda total se reparte entre clientes atendidos y no atendidos
     for j in J:
         for i in I[j]:
             for m in meses:
@@ -788,7 +821,7 @@ def main():
     print(f"  - Comunas con datos: {len(datos_comunas)}")
     
     # Definir parámetros (comenzar con M=1 para prueba)
-    params = definir_parametros(M=1)
+    params = definir_parametros(M=144)
     
     # Construir y resolver modelo
     try:
