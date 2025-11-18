@@ -365,6 +365,51 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     print(f"  - Variables totales: {model.NumVars:,}")
     
     # ========================================================================
+    # PRE-CÁLCULO: Expresiones acumuladas (REDUCIR TIEMPO)
+    # ========================================================================
+    print("\n✓ Pre-calculando expresiones acumuladas...")
+    import time
+    t_start = time.time()
+    
+    # Diccionarios para almacenar expresiones
+    suma_y = {}
+    activacion_acum = {}
+    cargadores_acum = {}
+    paneles_acum = {}
+    
+    for j in J:
+        for i in I[j]:
+            # Suma total de activaciones (para R1, R2)
+            suma_y[i, j] = gp.quicksum(y[i, j, m] for m in meses)
+            
+            # Cálculo progresivo de acumulados
+            for idx_m, m in enumerate(meses, start=1):
+                # Activación acumulada
+                if idx_m == 1:
+                    activacion_acum[i, j, m] = q_ij[i, j] + y[i, j, m]
+                else:
+                    m_prev = meses[idx_m - 2]
+                    activacion_acum[i, j, m] = activacion_acum[i, j, m_prev] + y[i, j, m]
+                
+                # Cargadores acumulados
+                if idx_m == 1:
+                    cargadores_acum[i, j, m] = epsilon_ij[i, j] + x[i, j, m]
+                else:
+                    m_prev = meses[idx_m - 2]
+                    cargadores_acum[i, j, m] = cargadores_acum[i, j, m_prev] + x[i, j, m]
+                
+                # Paneles acumulados
+                if idx_m == 1:
+                    paneles_acum[i, j, m] = delta_ij[i, j] + z[i, j, m]
+                else:
+                    m_prev = meses[idx_m - 2]
+                    paneles_acum[i, j, m] = paneles_acum[i, j, m_prev] + z[i, j, m]
+    
+    t_end = time.time()
+    print(f"  - Tiempo: {t_end - t_start:.1f} segundos")
+    print(f"  - Expresiones creadas: {len(suma_y) + len(activacion_acum):,}")
+    
+    # ========================================================================
     # FUNCIÓN OBJETIVO
     # ========================================================================
     print("\n✓ Definiendo función objetivo...")
@@ -387,90 +432,66 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     print(f"  - Objetivo: MAXIMIZAR bienestar social")
     
     # ========================================================================
-    # RESTRICCIONES
+    # RESTRICCIONES (USANDO EXPRESIONES PRE-CALCULADAS)
     # ========================================================================
     print("\n✓ Agregando restricciones...")
     
-    # R1: Infraestructura final
+    # R1: OPTIMIZADO
     for j in J:
         for i in I[j]:
             model.addConstr(
-                w[i, j] == q_ij[i, j] + gp.quicksum(y[i, j, m] for m in meses),
+                w[i, j] == q_ij[i, j] + suma_y[i, j],  # ✅ Pre-calculado
                 name=f"R1_{i}_{j}"
             )
     
-    # R2: Activación única
+    # R2: OPTIMIZADO
     for j in J:
         for i in I[j]:
             model.addConstr(
-                gp.quicksum(y[i, j, m] for m in meses) <= 1 - q_ij[i, j],
+                suma_y[i, j] <= 1 - q_ij[i, j],  # ✅ Pre-calculado
                 name=f"R2_{i}_{j}"
             )
     
-    # R3: Total cargadores acumulados
-    # X_ijm = ε_ij + Σ(m'≤m) x_ijm'
+    # R3: OPTIMIZADO
     for j in J:
         for i in I[j]:
             for m in meses:
                 model.addConstr(
-                    X[i, j, m] == epsilon_ij[i, j] + gp.quicksum(
-                        x[i, j, mp] for mp in range(1, m + 1)
-                    ),
+                    X[i, j, m] == cargadores_acum[i, j, m],  # ✅ Pre-calculado
                     name=f"R3_{i}_{j}_{m}"
                 )
     
-    # R4: Total paneles acumulados
-    # Z_ijm = δ_ij + Σ(m'≤m) z_ijm'
+    # R4: OPTIMIZADO
     for j in J:
         for i in I[j]:
             for m in meses:
                 model.addConstr(
-                    Z[i, j, m] == delta_ij[i, j] + gp.quicksum(
-                        z[i, j, mp] for mp in range(1, m + 1)
-                    ),
+                    Z[i, j, m] == paneles_acum[i, j, m],  # ✅ Pre-calculado
                     name=f"R4_{i}_{j}_{m}"
                 )
     
-    # R5: Estado operativo por mes
-    # a_ijm ≥ q_ij + Σ(m'≤m) y_ijm', a_ijm ∈ {0,1}
-    # La estación está activa si existía o se activó en algún periodo anterior
+    # R5: OPTIMIZADO (CAMBIAR == por >=)
     for j in J:
         for i in I[j]:
             for m in meses:
                 model.addConstr(
-                    a[i, j, m] == q_ij[i, j] + gp.quicksum(
-                        y[i, j, mp] for mp in range(1, m + 1)
-                    ),
+                    a[i, j, m] >= activacion_acum[i, j, m],  # ✅ Pre-calculado + >=
                     name=f"R5_{i}_{j}_{m}"
                 )
-
-
-    # R5b: Si hay cargadores o paneles nuevos, debe haber activación previa
-    # x[i,j,m] > 0 ⟹ Σ(m'≤m) y[i,j,m'] + q_ij ≥ 1
-    # Linearización: x[i,j,m] ≤ M_big * (q_ij + Σ(m'≤m) y[i,j,m'])
-    M_big = 1000  # Cota superior razonable para cargadores
     
+    # R5b: OPTIMIZADO
+    M_big = 1000
     for j in J:
         for i in I[j]:
             for m in meses:
-                # Si se instalan cargadores, debe haber infraestructura
                 model.addConstr(
-                    x[i, j, m] <= M_big * (q_ij[i, j] + gp.quicksum(
-                        y[i, j, mp] for mp in range(1, m + 1)
-                    )),
-                    name=f"R5b_instalacion_requiere_activacion_{i}_{j}_{m}"
+                    x[i, j, m] <= M_big * activacion_acum[i, j, m],  # ✅ Pre-calculado
+                    name=f"R5b_cargadores_{i}_{j}_{m}"
                 )
-                
-                # Si se instalan paneles, debe haber infraestructura
                 model.addConstr(
-                    z[i, j, m] <= M_big * (q_ij[i, j] + gp.quicksum(
-                        y[i, j, mp] for mp in range(1, m + 1)
-                    )),
-                    name=f"R5b_paneles_requieren_activacion_{i}_{j}_{m}"
+                    z[i, j, m] <= M_big * activacion_acum[i, j, m],  # ✅ Pre-calculado
+                    name=f"R5b_paneles_{i}_{j}_{m}"
                 )
-
-    # ELIMINAR R5c, R5d, R5e - ya no son necesarias con R5b
-    # ...existing code... (ir directo a R6)
     
     # R6: Cotas superiores de capacidad y operación (SIN modificar)
     # X_ijm ≤ P^cap_ij, Z_ijm ≤ Z^max_ij
