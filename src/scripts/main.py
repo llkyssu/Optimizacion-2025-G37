@@ -150,7 +150,7 @@ def definir_parametros(M=12):
         # ============================================================
         # DEMANDA Y SERVICIO
         # ============================================================
-        "alpha_min": 0.4,     # Objetivo cobertura mínima (φ ≤ 0.30)
+        "alpha_min": 0.3,     # Objetivo cobertura mínima (φ ≤ 0.30)
         "V_cliente": 1_200,   # CLP - Valor social por cliente atendido
         "mu_prom": 30,        # kWh - Consumo promedio por sesión de carga
         "Delta_eq": 0.15,     # Umbral máximo de inequidad entre comunas (15%)
@@ -163,7 +163,7 @@ def definir_parametros(M=12):
         # ============================================================
         # PRESUPUESTO TOTAL
         # ============================================================
-        "B": 500_000_000_000,  # CLP - Presupuesto total (500 mil millones)
+        "B": 500_000_000_000,  # CLP - Presupuesto total (750 mil millones)
         
         # ============================================================
         # ESCALAMIENTO NUMÉRICO
@@ -788,6 +788,140 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     print(f"  % Renovable: {(energia_solar/(energia_solar+energia_red)*100) if (energia_solar+energia_red) > 0 else 0:.1f}%")
     print("="*70)
     
+    # ========================================================================
+    # VERIFICACIÓN RESTRICCIONES R17 Y R18 (PERÍODO FINAL M)
+    # ========================================================================
+    print("\n" + "="*70)
+    print("VERIFICACIÓN RESTRICCIONES DE EQUIDAD Y COBERTURA (AÑO FINAL)")
+    print("="*70)
+    
+    # Extraer phi del período final M
+    phi_final = {}
+    cobertura_final = {}
+    
+    for j in J:
+        phi_final[j] = phi_jm[j, M].X
+        cobertura_final[j] = (1 - phi_final[j]) * 100  # Convertir a porcentaje
+    
+    # ========================================================================
+    # VERIFICAR R18: Cobertura Mínima (φ_j,M ≤ α_min)
+    # ========================================================================
+    print(f"\n✓ R18: COBERTURA MÍNIMA (φ ≤ {params['alpha_min']:.2f} → Cobertura ≥ {(1-params['alpha_min'])*100:.0f}%)")
+    print("-" * 70)
+    
+    comunas_no_cumplen_r18 = []
+    
+    for j in J:
+        cumple = phi_final[j] <= params["alpha_min"] + 1e-6  # Tolerancia numérica
+        simbolo = "✅" if cumple else "❌"
+        
+        if not cumple:
+            comunas_no_cumplen_r18.append((j, phi_final[j], cobertura_final[j]))
+        
+        print(f"  {simbolo} {j:25s}: φ={phi_final[j]:.4f} → Cobertura={cobertura_final[j]:.2f}%")
+    
+    if comunas_no_cumplen_r18:
+        print(f"\n❌ R18 NO CUMPLIDA - {len(comunas_no_cumplen_r18)} comunas por debajo del mínimo:")
+        for j, phi, cob in comunas_no_cumplen_r18:
+            gap = phi - params["alpha_min"]
+            print(f"   • {j}: φ={phi:.4f} (excede en {gap:.4f}) → Cobertura={cob:.2f}%")
+    else:
+        print(f"\n✅ R18 CUMPLIDA - Todas las comunas tienen cobertura ≥{(1-params['alpha_min'])*100:.0f}%")
+    
+    # ========================================================================
+    # VERIFICAR R17: Equidad entre Comunas (|φ_j - φ_l| ≤ Δ_eq)
+    # ========================================================================
+    print(f"\n✓ R17: EQUIDAD ENTRE COMUNAS (Brecha máxima ≤ {params['Delta_eq']:.2f} → {params['Delta_eq']*100:.0f}%)")
+    print("-" * 70)
+    
+    phi_min = min(phi_final.values())
+    phi_max = max(phi_final.values())
+    comuna_min = [j for j in J if abs(phi_final[j] - phi_min) < 1e-6][0]
+    comuna_max = [j for j in J if abs(phi_final[j] - phi_max) < 1e-6][0]
+    brecha_maxima = phi_max - phi_min
+    
+    print(f"\n  Mejor comuna:  {comuna_min:20s} → φ={phi_min:.4f} (Cobertura={cobertura_final[comuna_min]:.2f}%)")
+    print(f"  Peor comuna:   {comuna_max:20s} → φ={phi_max:.4f} (Cobertura={cobertura_final[comuna_max]:.2f}%)")
+    print(f"  Brecha máxima: {brecha_maxima:.4f} ({brecha_maxima*100:.2f}%)")
+    
+    cumple_r17 = brecha_maxima <= params["Delta_eq"] + 1e-6
+    
+    if cumple_r17:
+        print(f"\n✅ R17 CUMPLIDA - Brecha ({brecha_maxima:.4f}) ≤ Δ_eq ({params['Delta_eq']:.2f})")
+    else:
+        gap_equidad = brecha_maxima - params["Delta_eq"]
+        print(f"\n❌ R17 NO CUMPLIDA - Brecha ({brecha_maxima:.4f}) > Δ_eq ({params['Delta_eq']:.2f})")
+        print(f"   Excede en: {gap_equidad:.4f} ({gap_equidad*100:.2f}%)")
+    
+    # Identificar pares de comunas que violan R17
+    print(f"\n  Verificando restricciones por pares de comunas:")
+    violaciones_r17 = []
+    
+    for j in J:
+        for l in J:
+            if j < l:  # Evitar duplicados
+                diff = abs(phi_final[j] - phi_final[l])
+                if diff > params["Delta_eq"] + 1e-6:
+                    violaciones_r17.append((j, l, phi_final[j], phi_final[l], diff))
+    
+    if violaciones_r17:
+        print(f"\n  ❌ {len(violaciones_r17)} pares violan R17:")
+        # Mostrar los 10 peores
+        violaciones_r17.sort(key=lambda x: x[4], reverse=True)
+        for j, l, phi_j, phi_l, diff in violaciones_r17[:10]:
+            print(f"     • {j:20s} - {l:20s}: |φ|={diff:.4f} (excede {params['Delta_eq']:.2f})")
+        if len(violaciones_r17) > 10:
+            print(f"     ... y {len(violaciones_r17)-10} pares más")
+    else:
+        print(f"  ✅ Todos los pares de comunas cumplen R17")
+    
+    # ========================================================================
+    # ESTADÍSTICAS GENERALES DE EQUIDAD
+    # ========================================================================
+    print(f"\n✓ ESTADÍSTICAS GENERALES (AÑO {M}):")
+    print("-" * 70)
+    
+    phi_promedio = sum(phi_final.values()) / len(phi_final)
+    cobertura_promedio = (1 - phi_promedio) * 100
+    
+    print(f"  φ promedio:        {phi_promedio:.4f} → Cobertura promedio: {cobertura_promedio:.2f}%")
+    print(f"  φ mínimo:          {phi_min:.4f} → Mejor cobertura: {cobertura_final[comuna_min]:.2f}%")
+    print(f"  φ máximo:          {phi_max:.4f} → Peor cobertura: {cobertura_final[comuna_max]:.2f}%")
+    print(f"  Rango (φ_max-φ_min): {brecha_maxima:.4f} ({brecha_maxima*100:.2f}%)")
+    
+    # Calcular desviación estándar de phi
+    import math
+    varianza = sum((phi_final[j] - phi_promedio)**2 for j in J) / len(J)
+    desv_std = math.sqrt(varianza)
+    print(f"  Desviación estándar φ: {desv_std:.4f}")
+    
+    # Top 5 y Bottom 5
+    comunas_ordenadas = sorted(J, key=lambda j: cobertura_final[j], reverse=True)
+    
+    print(f"\n  🏆 TOP 5 COMUNAS POR COBERTURA:")
+    for idx, j in enumerate(comunas_ordenadas[:5], 1):
+        # Contar estaciones y cargadores en el año M
+        estaciones_j = sum(1 for i in I[j] if w[i, j].X > 0.5)
+        cargadores_j = sum(X[i, j, M].X for i in I[j])
+        print(f"  {idx}. {j:25s}: {cobertura_final[j]:6.2f}% ({estaciones_j} estaciones, {int(cargadores_j)} cargadores)")
+    
+    print(f"\n  ⚠️  BOTTOM 5 COMUNAS POR COBERTURA:")
+    for idx, j in enumerate(comunas_ordenadas[-5:], 1):
+        estaciones_j = sum(1 for i in I[j] if w[i, j].X > 0.5)
+        cargadores_j = sum(X[i, j, M].X for i in I[j])
+        print(f"  {idx}. {j:25s}: {cobertura_final[j]:6.2f}% ({estaciones_j} estaciones, {int(cargadores_j)} cargadores)")
+    
+    print("="*70)
+    
+    # Guardar en resumen
+    resumen["r18_cumplida"] = len(comunas_no_cumplen_r18) == 0
+    resumen["r17_cumplida"] = cumple_r17
+    resumen["phi_min"] = phi_min
+    resumen["phi_max"] = phi_max
+    resumen["brecha_maxima"] = brecha_maxima
+    resumen["comunas_incumplen_r18"] = len(comunas_no_cumplen_r18)
+    resumen["pares_violan_r17"] = len(violaciones_r17)
+    
     return model, resumen
 
 
@@ -826,7 +960,7 @@ def main():
     
     # Definir parámetros - AHORA M ES EN AÑOS
     # M=3 significa 3 años (antes era 3 meses)
-    params = definir_parametros(M=6)
+    params = definir_parametros(M=12)
     
     print(f"\n✓ Parámetros definidos (horizonte: {params['M']} años)")
     
@@ -847,6 +981,11 @@ def main():
             sol_file = os.path.join(ROOT, "resultados", "solucion_completo_latex.sol")
             modelo.write(sol_file)
             print(f"✓ Solución guardada en: {sol_file}")
+        print("\n" + "="*70)
+        print("VERIFICACIÓN RESTRICCIONES DE EQUIDAD Y COBERTURA (AÑO FINAL)")
+        print("="*70)
+        
+        
         
     except Exception as e:
         print(f"\n✗ Error durante la optimización: {e}")
