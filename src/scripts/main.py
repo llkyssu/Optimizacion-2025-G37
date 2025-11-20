@@ -91,22 +91,22 @@ def cargar_sitios_comuna(comuna):
 # PARÁMETROS DEL MODELO (según documento LaTeX)
 # ============================================================================
 
-def definir_parametros(M=144):
+def definir_parametros(M=12):
     """
     Define todos los parámetros del modelo según la especificación LaTeX.
     
     Parámetros:
-        M: Horizonte de planificación en meses (default: 12)
+        M: Horizonte de planificación en AÑOS (default: 12 años)
     
     Retorna:
-        dict con todos los parámetros del modelo
+        dict con todos los parámetros del modelo (todos anualizados)
     """
     
     params = {
         # ============================================================
         # HORIZONTE TEMPORAL
         # ============================================================
-        "M": M,  # Número de meses del proyecto
+        "M": M,  # Número de AÑOS del proyecto
         
         # ============================================================
         # INFRAESTRUCTURA
@@ -116,30 +116,30 @@ def definir_parametros(M=144):
         "k": (6_500_000 + 20_000_000)/2,  # CLP - Costo fijo activación (promedio)
         
         # ============================================================
-        # CARGADORES
+        # CARGADORES (VALORES ANUALIZADOS: mensual × 12)
         # ============================================================
         "c_slow": 2_000_000,   # CLP - Costo instalación cargador lento
         "c_fast": 49_000_000,  # CLP - Costo instalación cargador rápido
-        "h_slow": 63_000,      # CLP/mes - Mantenimiento cargador lento
-        "h_fast": 119_000,     # CLP/mes - Mantenimiento cargador rápido
-        "h": (63_000 + 119_000)/2,  # CLP/mes - Mantenimiento cargador (promedio)
-        "beta_slow": 1_188,    # kWh/mes - Capacidad energética cargador lento
-        "beta_fast": 2_700,    # kWh/mes - Capacidad energética cargador rápido
-        "C": 180,              # clientes/mes - Clientes por cargador
+        "h_slow": 63_000 * 12,      # CLP/año - Mantenimiento cargador lento
+        "h_fast": 119_000 * 12,     # CLP/año - Mantenimiento cargador rápido
+        "h": (63_000 + 119_000)/2 * 12,  # CLP/año - Mantenimiento cargador (promedio)
+        "beta_slow": 1_188 * 12,    # kWh/año - Capacidad energética cargador lento
+        "beta_fast": 2_700 * 12,    # kWh/año - Capacidad energética cargador rápido
+        "C": 7200,              # clientes/año - Clientes por cargador
         
         # ============================================================
-        # PANELES FOTOVOLTAICOS
+        # PANELES FOTOVOLTAICOS (VALORES ANUALIZADOS)
         # ============================================================
         "v": 900_000,          # CLP - Costo instalación panel FV
-        "m": 625,              # CLP/mes - Mantenimiento panel FV
-        "p": 56.25,            # kWh/panel/mes - Producción panel FV
+        "m": 625 * 12,         # CLP/año - Mantenimiento panel FV
+        "p": 56.25 * 12,       # kWh/panel/año - Producción panel FV
         
         # ============================================================
         # ENERGÍA
         # ============================================================
         "p_red": 180,          # CLP/kWh - Precio energía de la red
         "CI": 18.07,           # CLP/kWh - Costo emisiones red
-        "g_max_default": 50000, # kWh/mes - Límite importación red (default)
+        "g_max_default": 50000 * 12, # kWh/año - Límite importación red (default)
         
         # ============================================================
         # CAPACIDADES FÍSICAS (defaults si no están en CSV)
@@ -150,8 +150,10 @@ def definir_parametros(M=144):
         # ============================================================
         # DEMANDA Y SERVICIO
         # ============================================================
-        "alpha_min": 0.30,     # Objetivo cobertura mínima (φ ≤ 0.30)
+        "alpha_min": 0.4,     # Objetivo cobertura mínima (φ ≤ 0.30)
         "V_cliente": 1_200,   # CLP - Valor social por cliente atendido
+        "mu_prom": 30,        # kWh - Consumo promedio por sesión de carga
+        "Delta_eq": 0.15,     # Umbral máximo de inequidad entre comunas (15%)
         
         # ============================================================
         # BENEFICIOS AMBIENTALES
@@ -161,7 +163,7 @@ def definir_parametros(M=144):
         # ============================================================
         # PRESUPUESTO TOTAL
         # ============================================================
-        "B": 100_000_000_000,  # CLP - Presupuesto total (500 mil millones)
+        "B": 500_000_000_000,  # CLP - Presupuesto total (500 mil millones)
         
         # ============================================================
         # ESCALAMIENTO NUMÉRICO
@@ -211,12 +213,12 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
         df = datos_comunas[j]
         I[j] = list(range(len(df)))
     
-    meses = range(1, M + 1)
+    periodos = range(1, M + 1)  # Períodos anuales (años)
     
     print(f"\n✓ Conjuntos definidos:")
     print(f"  - Comunas (J): {len(J)}")
     print(f"  - Sitios totales: {sum(len(I[j]) for j in J)}")
-    print(f"  - Horizonte temporal (M): {M} meses")
+    print(f"  - Horizonte temporal: {M} años")
     
     # ========================================================================
     # PARÁMETROS POR SITIO
@@ -227,7 +229,7 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     Pcap_ij = {}   # Capacidad máxima cargadores
     Zmax_ij = {}   # Capacidad máxima paneles
     g_max_ij = {}  # Límite importación red
-    d_ijm = {}     # Demanda de clientes por sitio y mes
+    d_ijm = {}     # Demanda de clientes por sitio y período (año)
     
     # --- Ajuste de demanda base por tipo de estación ---
     g = 0.08  # 8% crecimiento anual
@@ -280,22 +282,22 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
             # --- Demanda base ajustada por tipo de estación ---
             tipo = row.get('dpc_tipo_osm', 'otros')
             factor_tipo = factor_tipo_dict.get(tipo, 1.0)
-            demanda_base = row.get('demand_estimated', 0) * factor_tipo
-            # --- Demanda mensual con crecimiento compuesto ---
-            for m in meses:
-                factor = (1 + g) ** ((m-1)/12)
-                d_ijm[i, j, m] = int(demanda_base * factor)
+            demanda_base_anual = row.get('demand_estimated', 0) * 12 * factor_tipo  # Anualizar demanda
+            # --- Demanda por período (año) con crecimiento compuesto ---
+            for periodo in periodos:
+                factor = (1 + g) ** (periodo - 1)  # Crecimiento anual directo
+                d_ijm[i, j, periodo] = int(demanda_base_anual * factor)
             # --- Dmax por sitio (opcional, margen de crecimiento 30%) ---
-            Dmax_ij[i, j] = demanda_base * 1.3
+            Dmax_ij[i, j] = demanda_base_anual * 1.3
     
     # ========================================================================
     # CALCULAR DEMANDA AGREGADA POR COMUNA (para McCormick)
     # ========================================================================
-    D_jm = {}  # Demanda total por comuna y mes
+    D_jm = {}  # Demanda total por comuna y período
     
     for j in J:
-        for m in meses:
-            D_jm[j, m] = sum(d_ijm.get((i, j, m), 0) for i in I[j])
+        for periodo in periodos:
+            D_jm[j, periodo] = sum(d_ijm.get((i, j, periodo), 0) for i in I[j])
     
     print(f"\n✓ Parámetros por sitio calculados")
     print(f"  - Demanda total: {sum(D_jm.values()):,} clientes")
@@ -330,333 +332,314 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
             # Infraestructura (una vez por sitio)
             w[i, j] = model.addVar(vtype=GRB.BINARY, name=f"w[{i},{j}]")
             
-            for m in meses:
-                # Infraestructura (por mes)
-                y[i, j, m] = model.addVar(vtype=GRB.BINARY, name=f"y[{i},{j},{m}]")
-                a[i, j, m] = model.addVar(vtype=GRB.BINARY, name=f"a[{i},{j},{m}]")
+            for periodo in periodos:
+                # Infraestructura (por período)
+                y[i, j, periodo] = model.addVar(vtype=GRB.BINARY, name=f"y[{i},{j},{periodo}]")
+                a[i, j, periodo] = model.addVar(vtype=GRB.BINARY, name=f"a[{i},{j},{periodo}]")
                 
                 # Cargadores
-                x[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"x[{i},{j},{m}]")
-                X[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"X[{i},{j},{m}]")
-                n_fast[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"n_fast[{i},{j},{m}]")
-                n_slow[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"n_slow[{i},{j},{m}]")
+                x[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"x[{i},{j},{periodo}]")
+                X[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"X[{i},{j},{periodo}]")
+                n_fast[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"n_fast[{i},{j},{periodo}]")
+                n_slow[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"n_slow[{i},{j},{periodo}]")
                 
                 # Paneles
-                z[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"z[{i},{j},{m}]")
-                Z[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"Z[{i},{j},{m}]")
+                z[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"z[{i},{j},{periodo}]")
+                Z[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"Z[{i},{j},{periodo}]")
                 
                 # Energía
-                r[i, j, m] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"r[{i},{j},{m}]")
-                s[i, j, m] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"s[{i},{j},{m}]")
-                e[i, j, m] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"e[{i},{j},{m}]")
+                r[i, j, periodo] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"r[{i},{j},{periodo}]")
+                s[i, j, periodo] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"s[{i},{j},{periodo}]")
+                e[i, j, periodo] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"e[{i},{j},{periodo}]")
                 
                 # Demanda
-                d_sat[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"d_sat[{i},{j},{m}]")
-                d_unsat[i, j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"d_unsat[{i},{j},{m}]")
+                d_sat[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"d_sat[{i},{j},{periodo}]")
+                d_unsat[i, j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"d_unsat[{i},{j},{periodo}]")
     
     # Variables agregadas por comuna
     for j in J:
-        for m in meses:
-            S_jm[j, m] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"S_jm[{j},{m}]")
-            phi_jm[j, m] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, ub=1, name=f"phi_jm[{j},{m}]")
-            psi_jm[j, m] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, name=f"psi_jm[{j},{m}]")
+        for periodo in periodos:
+            S_jm[j, periodo] = model.addVar(vtype=GRB.INTEGER, lb=0, name=f"S_jm[{j},{periodo}]")
+            phi_jm[j, periodo] = model.addVar(vtype=GRB.CONTINUOUS, lb=0, ub=1, name=f"phi_jm[{j},{periodo}]")
     
     model.update()
     print(f"  - Variables totales: {model.NumVars:,}")
     
     # ========================================================================
-    # PRE-CÁLCULO: Expresiones acumuladas (REDUCIR TIEMPO)
-    # ========================================================================
-    print("\n✓ Pre-calculando expresiones acumuladas...")
-    import time
-    t_start = time.time()
-    
-    # Diccionarios para almacenar expresiones
-    suma_y = {}
-    activacion_acum = {}
-    cargadores_acum = {}
-    paneles_acum = {}
-    
-    for j in J:
-        for i in I[j]:
-            # Suma total de activaciones (para R1, R2)
-            suma_y[i, j] = gp.quicksum(y[i, j, m] for m in meses)
-            
-            # Cálculo progresivo de acumulados
-            for idx_m, m in enumerate(meses, start=1):
-                # Activación acumulada
-                if idx_m == 1:
-                    activacion_acum[i, j, m] = q_ij[i, j] + y[i, j, m]
-                else:
-                    m_prev = meses[idx_m - 2]
-                    activacion_acum[i, j, m] = activacion_acum[i, j, m_prev] + y[i, j, m]
-                
-                # Cargadores acumulados
-                if idx_m == 1:
-                    cargadores_acum[i, j, m] = epsilon_ij[i, j] + x[i, j, m]
-                else:
-                    m_prev = meses[idx_m - 2]
-                    cargadores_acum[i, j, m] = cargadores_acum[i, j, m_prev] + x[i, j, m]
-                
-                # Paneles acumulados
-                if idx_m == 1:
-                    paneles_acum[i, j, m] = delta_ij[i, j] + z[i, j, m]
-                else:
-                    m_prev = meses[idx_m - 2]
-                    paneles_acum[i, j, m] = paneles_acum[i, j, m_prev] + z[i, j, m]
-    
-    t_end = time.time()
-    print(f"  - Tiempo: {t_end - t_start:.1f} segundos")
-    print(f"  - Expresiones creadas: {len(suma_y) + len(activacion_acum):,}")
-    
-    # ========================================================================
-    # FUNCIÓN OBJETIVO
+    # FUNCIÓN OBJETIVO (SIMPLIFICADA: S × V_cliente)
     # ========================================================================
     print("\n✓ Definiendo función objetivo...")
     
-    # Beneficio ponderado por equidad y servicio
+    # Beneficio social (demanda satisfecha directa)
+    # Maximizar: Σ S_jt × V_cliente
+    # Interpretación: cada cliente atendido vale V_cliente = 1,200 CLP
     beneficio_social = gp.quicksum(
-        psi_jm[j, m] * params["V_cliente"] / SCALE
-        for j in J for m in meses
+        S_jm[j, periodo] * params["V_cliente"] / SCALE
+        for j in J for periodo in periodos
     )
     
     # Beneficio ambiental (energía solar)
     beneficio_ambiental = gp.quicksum(
-        params["B_CO2"] * s[i, j, m] / SCALE
-        for j in J for i in I[j] for m in meses
+        params["B_CO2"] * s[i, j, periodo] / SCALE
+        for j in J for i in I[j] for periodo in periodos
     )
     
     objetivo = beneficio_social + beneficio_ambiental
     
     model.setObjective(objetivo, GRB.MAXIMIZE)
-    print(f"  - Objetivo: MAXIMIZAR bienestar social")
+    print(f"  - Objetivo: MAXIMIZAR demanda satisfecha + energía solar")
     
     # ========================================================================
-    # RESTRICCIONES (USANDO EXPRESIONES PRE-CALCULADAS)
+    # RESTRICCIONES
     # ========================================================================
     print("\n✓ Agregando restricciones...")
     
-    # R1: OPTIMIZADO
+    # R1: Infraestructura final
     for j in J:
         for i in I[j]:
             model.addConstr(
-                w[i, j] == q_ij[i, j] + suma_y[i, j],  # ✅ Pre-calculado
+                w[i, j] == q_ij[i, j] + gp.quicksum(y[i, j, periodo] for periodo in periodos),
                 name=f"R1_{i}_{j}"
             )
     
-    # R2: OPTIMIZADO
+    # R2: Activación única
     for j in J:
         for i in I[j]:
             model.addConstr(
-                suma_y[i, j] <= 1 - q_ij[i, j],  # ✅ Pre-calculado
+                gp.quicksum(y[i, j, periodo] for periodo in periodos) <= 1 - q_ij[i, j],
                 name=f"R2_{i}_{j}"
             )
     
-    # R3: OPTIMIZADO
+    # R3: Total cargadores acumulados
+    # X_ijt = ε_ij + Σ(t'≤t) x_ijt' (t = período en años)
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    X[i, j, m] == cargadores_acum[i, j, m],  # ✅ Pre-calculado
-                    name=f"R3_{i}_{j}_{m}"
+                    X[i, j, periodo] == epsilon_ij[i, j] + gp.quicksum(
+                        x[i, j, p] for p in range(1, periodo + 1)
+                    ),
+                    name=f"R3_{i}_{j}_{periodo}"
                 )
     
-    # R4: OPTIMIZADO
+    # R4: Total paneles acumulados
+    # Z_ijt = δ_ij + Σ(t'≤t) z_ijt' 
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    Z[i, j, m] == paneles_acum[i, j, m],  # ✅ Pre-calculado
-                    name=f"R4_{i}_{j}_{m}"
+                    Z[i, j, periodo] == delta_ij[i, j] + gp.quicksum(
+                        z[i, j, p] for p in range(1, periodo + 1)
+                    ),
+                    name=f"R4_{i}_{j}_{periodo}"
                 )
     
-    # R5: OPTIMIZADO (CAMBIAR == por >=)
+    # R4b: Instalación de estación requiere cargadores (LaTeX)
+    # y_ijt ≤ X_ijt (si activas, debe haber al menos 1 cargador)
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    a[i, j, m] >= activacion_acum[i, j, m],  # ✅ Pre-calculado + >=
-                    name=f"R5_{i}_{j}_{m}"
+                    y[i, j, periodo] <= X[i, j, periodo],
+                    name=f"R4b_{i}_{j}_{periodo}"
                 )
     
-    # R5b: OPTIMIZADO
-    M_big = 1000
+    # R4c: NUEVA - Instalar cargadores requiere estación activa
+    # x_ijt ≤ M_big × a_ijt (solo puedes instalar si la estación opera)
+    M_big = 1000  # Suficientemente grande
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    x[i, j, m] <= M_big * activacion_acum[i, j, m],  # ✅ Pre-calculado
-                    name=f"R5b_cargadores_{i}_{j}_{m}"
-                )
-                model.addConstr(
-                    z[i, j, m] <= M_big * activacion_acum[i, j, m],  # ✅ Pre-calculado
-                    name=f"R5b_paneles_{i}_{j}_{m}"
+                    x[i, j, periodo] <= M_big * a[i, j, periodo],
+                    name=f"R4c_instalar_requiere_activa_{i}_{j}_{periodo}"
                 )
     
-    # R6: Cotas superiores de capacidad y operación (SIN modificar)
-    # X_ijm ≤ P^cap_ij, Z_ijm ≤ Z^max_ij
+    # R4d: NUEVA - Tener cargadores finales requiere estación abierta
+    # X_ijM ≤ M_big × w_ij (si hay cargadores al final, estación abierta)
     for j in J:
         for i in I[j]:
-            for m in meses:
+            model.addConstr(
+                X[i, j, M] <= M_big * w[i, j],
+                name=f"R4d_cargadores_requieren_estacion_{i}_{j}"
+            )
+    
+    
+    # R5: Estado operativo por período
+    # a_ijt ≥ q_ij + Σ(t'≤t) y_ijt', a_ijt ∈ {0,1}
+    # La estación está activa si existía o se activó en algún período anterior
+    for j in J:
+        for i in I[j]:
+            for periodo in periodos:
                 model.addConstr(
-                    X[i, j, m] <= Pcap_ij[i, j],
-                    name=f"R6a_{i}_{j}_{m}"
+                    a[i, j, periodo] >= q_ij[i, j] + gp.quicksum(  # ✅ >= no ==
+                        y[i, j, p] for p in range(1, periodo + 1)
+                    ),
+                    name=f"R5_{i}_{j}_{periodo}"
+                )
+
+
+    # R6: Cotas superiores de capacidad y operación
+    # X_ijt ≤ P^cap_ij * a_ijt, Z_ijt ≤ Z^max_ij * a_ijt (stock = 0 si no está activa)
+    for j in J:
+        for i in I[j]:
+            for periodo in periodos:
+                model.addConstr(
+                    X[i, j, periodo] <= Pcap_ij[i, j] * a[i, j, periodo],
+                    name=f"R6a_{i}_{j}_{periodo}"
                 )
                 model.addConstr(
-                    Z[i, j, m] <= Zmax_ij[i, j],
-                    name=f"R6b_{i}_{j}_{m}"
+                    Z[i, j, periodo] <= Zmax_ij[i, j] * a[i, j, periodo],
+                    name=f"R6b_{i}_{j}_{periodo}"
                 )
     
     # R7: Cargadores rápidos y lentos
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    n_slow[i, j, m] + n_fast[i, j, m] == X[i, j, m],
-                    name=f"R7_{i}_{j}_{m}"
+                    n_slow[i, j, periodo] + n_fast[i, j, periodo] == X[i, j, periodo],
+                    name=f"R7_{i}_{j}_{periodo}"
                 )
     
     # R8: Balance energético
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    e[i, j, m] == s[i, j, m] + r[i, j, m],
-                    name=f"R8_{i}_{j}_{m}"
+                    e[i, j, periodo] == s[i, j, periodo] + r[i, j, periodo],
+                    name=f"R8_{i}_{j}_{periodo}"
                 )
     
     # R9: Producción máxima paneles
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    s[i, j, m] <= params["p"] * Z[i, j, m],
-                    name=f"R9_{i}_{j}_{m}"
+                    s[i, j, periodo] <= params["p"] * Z[i, j, periodo],
+                    name=f"R9_{i}_{j}_{periodo}"
                 )
     
     # R10: Importación máxima red
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    r[i, j, m] <= g_max_ij[i, j] * a[i, j, m],
-                    name=f"R10_{i}_{j}_{m}"
+                    r[i, j, periodo] <= g_max_ij[i, j] * a[i, j, periodo],
+                    name=f"R10_{i}_{j}_{periodo}"
                 )
     
     # R11: Límite energético por cargador
+    # e_ijt ≤ n^fast_ijt * β^fast + n^slow_ijt * β^slow
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    n_fast[i, j, m] * params["beta_fast"] + 
-                    n_slow[i, j, m] * params["beta_slow"] <= e[i, j, m],
-                    name=f"R11_{i}_{j}_{m}"
+                    e[i, j, periodo] <= n_fast[i, j, periodo] * params["beta_fast"] + 
+                                        n_slow[i, j, periodo] * params["beta_slow"],
+                    name=f"R11_{i}_{j}_{periodo}"
                 )
     
-    # R12: Demanda de cargadores por mes
-    # d^sat_ijm ≤ C·X_ijm
+    # R12: Vinculación demanda-energía
+    # e_ijt ≥ d^sat_ijt * μ_prom
+    for j in J:
+        for i in I[j]:
+            for periodo in periodos:
+                model.addConstr(
+                    e[i, j, periodo] >= d_sat[i, j, periodo] * params["mu_prom"],
+                    name=f"R12_{i}_{j}_{periodo}"
+                )
+    
+    # R13: Demanda de cargadores por período (era R12)
+    # d^sat_ijt ≤ C·X_ijt
     # La demanda satisfecha depende de la cantidad de cargadores y su promedio de clientes atendidos
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    d_sat[i, j, m] <= params["C"] * X[i, j, m],
-                    name=f"R12_{i}_{j}_{m}"
+                    d_sat[i, j, periodo] <= params["C"] * X[i, j, periodo],
+                    name=f"R13_{i}_{j}_{periodo}"
                 )
     
-    # R13: Demanda satisfecha e insatisfecha
-    # d^sat_ijm + d^unsat_ijm = d_ijm
+    # R14: Demanda satisfecha e insatisfecha (era R13)
+    # d^sat_ijt + d^unsat_ijt = d_ijt
     # La demanda total se reparte entre clientes atendidos y no atendidos
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 model.addConstr(
-                    d_sat[i, j, m] + d_unsat[i, j, m] == d_ijm[i, j, m],
-                    name=f"R13_{i}_{j}_{m}"
+                    d_sat[i, j, periodo] + d_unsat[i, j, periodo] == d_ijm[i, j, periodo],
+                    name=f"R14_{i}_{j}_{periodo}"
                 )
     
-    # R14: Agregación demanda por comuna
+    # R15: Agregación demanda por comuna (era R14)
     for j in J:
-        for m in meses:
+        for periodo in periodos:
             model.addConstr(
-                S_jm[j, m] == gp.quicksum(d_sat[i, j, m] for i in I[j]),
-                name=f"R14_{j}_{m}"
+                S_jm[j, periodo] == gp.quicksum(d_sat[i, j, periodo] for i in I[j]),
+                name=f"R15_{j}_{periodo}"
             )
     
-    # R15: Definición de phi (linearización de φ = 1 - S/D)
+    # R16: Definición de phi (linearización de φ = 1 - S/D) (era R15)
     for j in J:
-        for m in meses:
-            D_total = D_jm[j, m]
+        for periodo in periodos:
+            D_total = D_jm[j, periodo]
             if D_total > 0:
                 # D_total * φ = D_total - S
                 model.addConstr(
-                    D_total * phi_jm[j, m] == D_total - S_jm[j, m],
-                    name=f"R15_{j}_{m}"
+                    D_total * phi_jm[j, periodo] == D_total - S_jm[j, periodo],
+                    name=f"R16_{j}_{periodo}"
                 )
             else:
                 model.addConstr(
-                    phi_jm[j, m] == 0,
-                    name=f"R15_zero_{j}_{m}"
+                    phi_jm[j, periodo] == 0,
+                    name=f"R16_zero_{j}_{periodo}"
                 )
     
-    # R16: Equidad entre comunas (solo mes final M)
+    # R17: Equidad entre comunas (solo período final M) (era R16)
+    # φ_j,M - φ_l,M ≤ Δ_eq (la diferencia no puede exceder el umbral)
     for j in J:
         for l in J:
             if j < l:  # Evitar duplicados
                 model.addConstr(
-                    phi_jm[j, M] <= 2.0 * phi_jm[l, M],
-                    name=f"R16_{j}_{l}"
+                    phi_jm[j, M] - phi_jm[l, M] <= params["Delta_eq"],
+                    name=f"R17a_{j}_{l}"
+                )
+                model.addConstr(
+                    phi_jm[l, M] - phi_jm[j, M] <= params["Delta_eq"],
+                    name=f"R17b_{j}_{l}"
                 )
     
-    # R17: Cobertura mínima (φ ≤ α_min significa al menos 70% cubierto)
+    # R18: Cobertura mínima (φ ≤ α_min significa al menos 70% cubierto) (era R17)
     for j in J:
         model.addConstr(
             phi_jm[j, M] <= params["alpha_min"],
-            name=f"R17_{j}"
+            name=f"R18_{j}"
         )
     
-    # R18: McCormick para ψ = φ * S
-    for j in J:
-        for m in meses:
-            S_max = D_jm[j, m]
-            if S_max > 0:
-                model.addConstr(psi_jm[j, m] >= 0, 
-                               name=f"R18a_{j}_{m}")
-                model.addConstr(
-                    psi_jm[j, m] >= S_jm[j, m] + phi_jm[j, m] * S_max - S_max,
-                    name=f"R18b_{j}_{m}"
-                )
-                model.addConstr(psi_jm[j, m] <= S_jm[j, m], 
-                               name=f"R18c_{j}_{m}")
-                model.addConstr(psi_jm[j, m] <= phi_jm[j, m] * S_max, 
-                               name=f"R18d_{j}_{m}")
-            else:
-                model.addConstr(psi_jm[j, m] == 0, 
-                               name=f"R18_zero_{j}_{m}")
-    
-    # R19: Restricción presupuestaria
+    # R19: Restricción presupuestaria (era R20)
     costo_total = gp.LinExpr()
     
     for j in J:
         for i in I[j]:
-            for m in meses:
+            for periodo in periodos:
                 # Activación infraestructura (asumir promedio)
-                costo_total += params["k"] * y[i, j, m] / SCALE
+                costo_total += params["k"] * y[i, j, periodo] / SCALE
                 
                 # Instalación cargadores (asumir promedio)
-                costo_total += params["c_slow"] * x[i, j, m] / SCALE
+                costo_total += params["c_slow"] * x[i, j, periodo] / SCALE
                 
                 # Mantenimiento cargadores (asumir promedio)
-                costo_total += params["h"] * X[i, j, m] / SCALE
+                costo_total += params["h"] * X[i, j, periodo] / SCALE
                 
                 # Instalación paneles
-                costo_total += params["v"] * z[i, j, m] / SCALE
+                costo_total += params["v"] * z[i, j, periodo] / SCALE
                 
                 # Mantenimiento paneles
-                costo_total += params["m"] * Z[i, j, m] / SCALE
+                costo_total += params["m"] * Z[i, j, periodo] / SCALE
                 
                 # Energía de la red
-                costo_total += params["p_red"] * r[i, j, m] / SCALE
+                costo_total += params["p_red"] * r[i, j, periodo] / SCALE
     
     model.addConstr(
         costo_total <= params["B"] / SCALE,
@@ -756,28 +739,28 @@ def construir_y_resolver_modelo(comunas, datos_comunas, params):
     
     cargadores_nuevos = sum(
         x[i, j, m].X 
-        for j in J for i in I[j] for m in meses
+        for j in J for i in I[j] for m in periodos
     )
     
     paneles_nuevos = sum(
         z[i, j, m].X 
-        for j in J for i in I[j] for m in meses
+        for j in J for i in I[j] for m in periodos
     )
     
     demanda_total = sum(d_ijm.values())
     demanda_satisfecha = sum(
         d_sat[i, j, m].X 
-        for j in J for i in I[j] for m in meses
+        for j in J for i in I[j] for m in periodos
     )
     
     energia_solar = sum(
         s[i, j, m].X 
-        for j in J for i in I[j] for m in meses
+        for j in J for i in I[j] for m in periodos
     )
     
     energia_red = sum(
         r[i, j, m].X 
-        for j in J for i in I[j] for m in meses
+        for j in J for i in I[j] for m in periodos
     )
     
     resumen["estaciones_activadas"] = estaciones_activadas
@@ -841,8 +824,11 @@ def main():
     
     print(f"  - Comunas con datos: {len(datos_comunas)}")
     
-    # Definir parámetros (comenzar con M=1 para prueba)
-    params = definir_parametros(M=144)
+    # Definir parámetros - AHORA M ES EN AÑOS
+    # M=3 significa 3 años (antes era 3 meses)
+    params = definir_parametros(M=6)
+    
+    print(f"\n✓ Parámetros definidos (horizonte: {params['M']} años)")
     
     # Construir y resolver modelo
     try:
